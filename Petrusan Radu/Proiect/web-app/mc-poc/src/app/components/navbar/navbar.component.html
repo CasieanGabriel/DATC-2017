@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default no-radius">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand brand-light" href="#">
+                <!-- <img src="/assets/images/brand-light.png" width="265" height="42" class="d-inline-block align-top" alt=""> -->
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">Acasă</a></li>
+                
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <!-- <li *ngIf="authService.loggedIn() && (authService.isCeo() || authService.isTeamLeader())" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/utilizatori']">Utilizatori</a></li>
+                <li *ngIf="authService.loggedIn() && (authService.isCeo() || authService.isTeamLeader())" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/divizii']">Divizii</a></li>
+                <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/profile']">Profil</a></li>
+                <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/logs']">Loguri Acces</a></li> -->
+
+                <li *ngIf="!(authService.afAuth.authState | async); let user;" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/login']">Login</a></li>
+                <li *ngIf="!(authService.afAuth.authState | async); let user;" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/register']">Înregistrare</a></li>
+
+                <li *ngIf="authService.afAuth.authState | async; let user;" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/comenzi']">Comenzi</a>
+                <li *ngIf="authService.afAuth.authState | async; let user;"><a href="#">{{user.displayName || user.email}}</a>
+                <li *ngIf="authService.afAuth.authState | async; let user;"><a (click)="logout()" href="#">Delogare</a>
+                </li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>

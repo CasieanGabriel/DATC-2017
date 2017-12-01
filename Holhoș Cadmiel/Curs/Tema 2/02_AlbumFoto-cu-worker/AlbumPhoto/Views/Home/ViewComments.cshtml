@@ -1,0 +1,49 @@
+﻿@model List<AlbumPhoto.Models.Comments>
+    
+    @{
+        ViewBag.Title = "Comments";
+        string pic_name = "";
+        
+        }
+
+    <!DOCTYPE html>
+    <html style="background-color:slategray">
+    <head style="background-color:slategrey">
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+    </head>
+    <body style="background-color:slategray">
+    <div align="center">
+        @{
+            try
+           {
+                pic_name = Model[0].Poza;
+                <h1 > Comments for @pic_name </h1 >
+            }
+            catch (Exception)
+            {
+                <h1> No comments available</h1>
+            }
+         }
+
+        <table border="2" width="500" style="background-color:black">
+                <thead>
+                    <tr style="background-color:dodgerblue">
+                        <td style="color:white">User</td>
+                        <td style="color:white">Comentariu</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                @foreach (var comment in Model)
+                {
+                   <tr style = "background-color: sienna" >
+                        <td > @comment.User </td >
+                        <td > @comment.Comentariu </td >
+                    </tr >
+                }
+               </tbody>
+            </table>
+         </div>
+    </body>
+</html>

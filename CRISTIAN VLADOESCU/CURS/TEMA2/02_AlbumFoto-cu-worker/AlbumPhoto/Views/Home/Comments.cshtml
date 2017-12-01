@@ -1,0 +1,27 @@
+﻿@model IEnumerable<AlbumPhoto.Models.Comment> 
+@{
+    ViewBag.Title = "Comments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Comments</h2>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PostBy)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostBy)
+            </td>
+        </tr>
+    }
+</table>

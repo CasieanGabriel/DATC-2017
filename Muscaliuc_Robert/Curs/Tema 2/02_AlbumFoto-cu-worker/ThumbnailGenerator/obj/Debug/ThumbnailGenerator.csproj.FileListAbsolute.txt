@@ -1,0 +1,3 @@
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\ThumbnailGenerator\obj\Debug\ThumbnailGenerator.csprojResolveAssemblyReference.cache
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\ThumbnailGenerator\bin\Debug\ThumbnailGenerator.exe.config
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\ThumbnailGenerator\obj\Debug\ThumbnailGenerator.csprojResolveAssemblyReference.cache

@@ -1,0 +1,64 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h1 class="title">@ViewBag.Title</h1>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+
+    <table style="width:80%">
+        <tr>
+            <td>
+                <div class="thumbnail">
+                    @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+                    {
+                        <img src="@poza.ThumbnailUrl" />
+                        <div class="details">
+                            <h3 class="description">@poza.Description</h3>
+
+                            @if (!string.IsNullOrWhiteSpace(poza.Url))
+                            {
+                                <a href="@poza.Url">Descarca</a>
+                            }
+                            else
+                            {
+                                <span>no download URL</span>
+                            }
+
+                        </div>
+                    }
+                    else
+                    {
+                        <span>no thumbnail</span>
+                    }
+                </div>
+            </td>
+            <td>
+                    <td style="width:20%">
+                        <h2><b>Comentarii:</b></h2>
+                        <div class="comments">
+                            @foreach (KeyValuePair<string, string> kvp in @poza.Comments)
+                            {
+                                <asp:Label id="madeByLabel" runat="server"><b>@kvp.Value</b>: <i>@kvp.Key</i></asp:Label><br />
+                            }
+                        </div>        
+                    </td>
+            </td>
+            <td>
+                <br />
+            </td>
+        </tr>
+
+    </table>
+
+}

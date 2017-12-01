@@ -1,0 +1,30 @@
+﻿@model IEnumerable<AlbumPhoto.Models.Comment>
+
+@{
+    ViewBag.Title = "Comentariu";
+}
+
+<h2>Comentariu</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.comment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.author)
+        </th>
+    </tr>
+
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.comment)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.author)
+                </td>
+            </tr>
+    }
+
+    </table>

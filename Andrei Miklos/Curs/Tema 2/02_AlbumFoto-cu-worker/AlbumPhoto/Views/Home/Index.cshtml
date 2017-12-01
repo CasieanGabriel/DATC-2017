@@ -1,0 +1,76 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h1 class="title">@ViewBag.Title</h1>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+
+    <table style="width:80%">
+        <tr>
+            <td>
+                <div class="thumbnail">
+                    @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+                    {
+                        <img src="@poza.ThumbnailUrl" />
+                        using (Html.BeginForm("GetLink", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+                            <input type="hidden" value="poza.Description" name="titlu_poza" />
+                            <input type="submit" value="Link catre poza" />
+                        }
+                        <div class="details">
+                            <h3 class="description">@poza.Description</h3>
+
+                            @if (!string.IsNullOrWhiteSpace(poza.Url))
+                            {
+                                <a href="@poza.Url">Descarca</a>
+                            }
+                            else
+                            {
+                                <span>no download URL</span>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <span>no thumbnail</span>
+                    }
+                </div>
+            </td>
+            
+            <td style="width:20%">
+                <h2><b>Comentarii:</b></h2>
+                <div class="comments">
+                    @foreach (KeyValuePair<string, string> kvp in @poza.Comments)
+                {
+                        <asp:Label id="madeByLabel" runat="server"><b>@kvp.Value</b>: <i>@kvp.Key</i></asp:Label><br />
+                    }
+                </div>
+                @using (Html.BeginForm("AdaugaComentariu", "Home", FormMethod.Post))
+                {
+                    <input type="hidden" value="@poza.Description" name="nume_poza" />
+                    <input type="hidden" value="@System.Environment.MachineName" name="madeBy" />
+                    <input type="text" name="comment_textBox" placeholder="Comment text" />
+                    <input type="submit" value="Adauga comment" />
+                }
+            </td> 
+
+            <td style="20%">
+                <input type="submit" style="color: transparent; background-color: transparent; border-color: transparent; cursor: default;" disabled>
+            </td>
+
+        </tr>
+
+    </table>
+
+}

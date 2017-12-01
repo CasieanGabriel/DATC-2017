@@ -1,0 +1,44 @@
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.deps.json
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.json
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.dev.json
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.dll
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.pdb
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csprojResolveAssemblyReference.cache
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csproj.CoreCompileInputs.cache
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfoInputs.cache
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfo.cs
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.dll
+c:\users\silviu\source\repos\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.pdb
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.deps.json
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.json
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.dev.json
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.dll
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.pdb
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csprojResolveAssemblyReference.cache
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csproj.CoreCompileInputs.cache
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfoInputs.cache
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfo.cs
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.dll
+C:\Users\Silviu\Documents\Visual Studio 2017\Projects\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.pdb
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.deps.json
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.json
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.dev.json
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.dll
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.pdb
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csprojResolveAssemblyReference.cache
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csproj.CoreCompileInputs.cache
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfoInputs.cache
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfo.cs
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.dll
+C:\Users\Silviu\Desktop\ProiectDatc\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.pdb
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.deps.json
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.json
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.runtimeconfig.dev.json
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.dll
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\bin\Debug\netcoreapp2.0\GenerareDateApi.pdb
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csprojResolveAssemblyReference.cache
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.csproj.CoreCompileInputs.cache
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfoInputs.cache
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.AssemblyInfo.cs
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.dll
+C:\Users\Silviu\Desktop\ProiectDatc\V3\GenerareDateApi\GenerareDateApi\obj\Debug\netcoreapp2.0\GenerareDateApi.pdb

@@ -1,0 +1,26 @@
+﻿@model AlbumPhoto.Models.Link
+
+@{
+    ViewBag.Title = "Link";
+}
+
+<h2>Link</h2>
+
+<table>
+    <tr>
+        <td>
+            @Html.DisplayNameFor(model => model.NumePoza)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.NumePoza)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.DisplayNameFor(model => model.LinkPoza)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.LinkPoza)
+        </td>
+    </tr>
+</table>

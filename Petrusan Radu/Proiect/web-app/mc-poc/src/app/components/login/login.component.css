@@ -1,0 +1,65 @@
+.loginButton {
+    display: list-item;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#lock {
+    width:40%;
+    margin: 1.5em auto 4em auto;
+    display:block;
+}
+
+#fb {
+    background:#3B5998 url('../../../assets/images/facebook.png') no-repeat 10px 6px;
+    background-size: 25px;
+    background-position-y: center;
+    background-position-x: 25px;
+    color:#fff;
+}
+
+#google {
+    border: 1px solid #95989A;
+    background: #fff  url('../../../assets/images/google.svg') no-repeat 25px;
+    background-size: 25px;
+    color: black;
+}
+
+#email {
+    background: #ECECEC  url('../../../assets/images/email.svg') no-repeat 25px;
+    background-size: 25px;
+    color: black;
+}
+
+/* 
+@media (max-width: 600px) {
+    #page {
+        padding:1em;
+    }
+    #toolbar {
+        width:90%;
+        margin-left: -45%;
+    }
+    #fb {
+        background:#3B5998;
+    }
+
+    #google {
+        background: #fff;
+    }
+
+    #email {
+        background: #ECECEC;
+    }
+} */
+
+#loginContainer {
+    text-align: center;
+    align-content: center;
+    background: white;
+    width: fit-content;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}

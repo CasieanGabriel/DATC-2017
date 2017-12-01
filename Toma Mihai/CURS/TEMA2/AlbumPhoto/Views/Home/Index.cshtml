@@ -1,0 +1,160 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h2 class="title">@ViewBag.Title</h2>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+    <table style="width:100%">
+        <div class="poza">
+
+            <tr>
+                <div class="thumbnail">
+                    @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+                {
+                        <img src="@poza.ThumbnailUrl" />
+                    }
+                    else
+                    {
+                        <span>no thumbnail</span>
+                    }
+                </div>
+            </tr>
+            <tr>
+                <div class="container">
+                    <div class="tab tab-1">
+                        <table id="table" border="1">
+                           
+                            <tr>
+                                <th>Name</th>
+                                <th>Comment</th>
+                                <th>Nota</th>
+                            </tr>
+                        
+                    </div>
+                    <div class="tab tab-2">
+                        Name :<input type="text" name="fname" id="fname">
+                        Comment :<input type="text" name="lname" id="lname">
+                        Number of fotography :<input type="number" name="Nota" id="Nota">
+
+                        <button onclick="addHtmlTableRow();">Add</button>
+                        <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+                        <button onclick="removeSelectedRow();">Remove</button>
+                    </div>
+                </div>
+
+                <script>
+
+                    var rIndex,
+                        table = document.getElementById("table");
+
+                    // check the empty input
+                    function checkEmptyInput() {
+                        var isEmpty = false,
+                            fname = document.getElementById("fname").value,
+                            lname = document.getElementById("lname").value,
+                            Nota = document.getElementById("Nota").value;
+
+                        if (fname === "") {
+                            alert("First Name Connot Be Empty");
+                            isEmpty = true;
+                        }
+                        else if (lname === "") {
+                            alert("Comment Connot Be Empty");
+                            isEmpty = true;
+                        }
+                        else if (Nota === "") {
+                            alert("Nota Connot Be Empty");
+                            isEmpty = true;
+                        }
+                        return isEmpty;
+                    }
+
+                    // add Row
+                    function addHtmlTableRow() {
+                        // get the table by id
+                        // create a new row and cells
+                        // get value from input text
+                        // set the values into row cell's
+                        if (!checkEmptyInput()) {
+                            var newRow = table.insertRow(table.length),
+                                cell1 = newRow.insertCell(0),
+                                cell2 = newRow.insertCell(1),
+                                cell3 = newRow.insertCell(2),
+                                fname = document.getElementById("fname").value,
+                                lname = document.getElementById("lname").value,
+                                Nota = document.getElementById("Nota").value;
+
+                            cell1.innerHTML = fname;
+                            cell2.innerHTML = lname;
+                            cell3.innerHTML = Nota;
+                            // call the function to set the event to the new row
+                            selectedRowToInput();
+                        }
+                    }
+
+                    // display selected row data into input text
+                    function selectedRowToInput() {
+
+                        for (var i = 1; i < table.rows.length; i++) {
+                            table.rows[i].onclick = function () {
+                                // get the seected row index
+                                rIndex = this.rowIndex;
+                                document.getElementById("fname").value = this.cells[0].innerHTML;
+                                document.getElementById("lname").value = this.cells[1].innerHTML;
+                                document.getElementById("Nota").value = this.cells[2].innerHTML;
+                            };
+                        }
+                    }
+                    selectedRowToInput();
+
+                    function editHtmlTbleSelectedRow() {
+                        var fname = document.getElementById("fname").value,
+                            lname = document.getElementById("lname").value,
+                            Nota = document.getElementById("Nota").value;
+                        if (!checkEmptyInput()) {
+                            table.rows[rIndex].cells[0].innerHTML = fname;
+                            table.rows[rIndex].cells[1].innerHTML = lname;
+                            table.rows[rIndex].cells[2].innerHTML = Nota;
+                        }
+                    }
+
+                    function removeSelectedRow() {
+                        table.deleteRow(rIndex);
+                        // clear input text
+                        document.getElementById("fname").value = "";
+                        document.getElementById("lname").value = "";
+                        document.getElementById("Nota").value = "";
+                    }
+                </script>
+            </tr>
+            <tr>
+                <div class="details">
+                    <h3 class="description">@poza.Description</h3>
+
+                    @if (!string.IsNullOrWhiteSpace(poza.Url))
+                {
+                        <a href="@poza.Url">Descarca</a>
+                    }
+                    else
+                    {
+                        <span>no download URL</span>
+                    }
+
+                </div>
+            </tr>
+        </div>
+    </table>
+ 
+
+}

@@ -1,0 +1,23 @@
+﻿@model List<AlbumPhoto.Models.Poza.Comentarii>
+
+@{
+    ViewBag.Title = "Comentarii";
+}
+
+<h2>Comentarii</h2>
+ 
+    <div class="utilizator">
+        Utilizator
+    </div>
+    <div class="comentarii">
+        Comentarii
+    </div>
+        @foreach (var c in Model)
+        {
+            <div class="utilizator">
+               U: @c.MadeBy
+            </div>
+            <div class="comentarii">
+               C: @c.Text
+            </div>
+        }

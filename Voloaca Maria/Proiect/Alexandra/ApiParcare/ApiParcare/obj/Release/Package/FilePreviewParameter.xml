@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ApiParcare20171127012928" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\users\\alexandra\\documents\\visual\ studio\ 2015\\Projects\\ApiParcare\\ApiParcare\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\users\\alexandra\\documents\\visual\ studio\ 2015\\Projects\\ApiParcare\\ApiParcare\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=mynewserver-201711.database.windows.net,1433;Initial Catalog=MyDatabase;Persist Security Info=True;User ID=ServerAdmin;Password=Server1234;Application Name=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\alexandra\\documents\\visual\ studio\ 2015\\Projects\\ApiParcare\\ApiParcare\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="MyDatabaseEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Parcare.csdl|res://*/Models.Parcare.ssdl|res://*/Models.Parcare.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=mynewserver-201711.database.windows.net,1433;initial catalog=MyDatabase;persist security info=True;user id=ServerAdmin;password=Server1234;application name=EntityFramework;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\alexandra\\documents\\visual\ studio\ 2015\\Projects\\ApiParcare\\ApiParcare\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDatabaseEntities']/@connectionString" />
+  </parameter>
+</parameters>

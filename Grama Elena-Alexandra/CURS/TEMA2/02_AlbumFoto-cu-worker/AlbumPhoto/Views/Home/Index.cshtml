@@ -1,0 +1,54 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h2 class="title">@ViewBag.Title</h2>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+    <div class="poza">
+        <div class="thumbnail">
+            @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+            {
+                <img src="@poza.ThumbnailUrl"/>
+            }
+            else
+            {
+                <span>no thumbnail</span>
+            }
+        </div>
+        <div class="details">
+            <h3 class="description">@poza.Description</h3>
+            
+            @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+            {
+                <p><a href="@poza.ThumbnailUrl">Descarca</a></p>
+                using (Html.BeginForm("IncarcaComentarii", "Home", FormMethod.Post))
+                {
+                    
+                    <p>
+                        User:@Html.TextBox("userTxt")
+                        Comentariu:@Html.TextBox("commtxt") <input type="submit" value="Adauga" />
+                    </p>
+                    <a href="@Url.Action("ViewComm","Home", new {pictureName=poza.Description})"><button>Comentarii</button></a>
+                }
+
+                <a href="@Url.Action("Link","Home", new {pictureName=poza.Description})"><button>Link</button></a>
+            }
+            else
+            {
+                <span>no download URL</span>
+            }
+            
+        </div>
+    </div>
+}

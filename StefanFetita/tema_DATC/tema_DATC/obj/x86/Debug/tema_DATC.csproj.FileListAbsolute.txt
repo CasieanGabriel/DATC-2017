@@ -1,0 +1,9 @@
+C:\Users\uidq9909\AppData\Local\Temporary Projects\tema_DATC\bin\Debug\tema_DATC.exe
+C:\Users\uidq9909\AppData\Local\Temporary Projects\tema_DATC\bin\Debug\tema_DATC.pdb
+C:\Users\uidq9909\AppData\Local\Temporary Projects\tema_DATC\obj\x86\Debug\tema_DATC.Form1.resources
+C:\Users\uidq9909\AppData\Local\Temporary Projects\tema_DATC\obj\x86\Debug\tema_DATC.Properties.Resources.resources
+C:\Users\uidq9909\AppData\Local\Temporary Projects\tema_DATC\obj\x86\Debug\tema_DATC.csproj.GenerateResource.Cache
+C:\Users\uidq9909\AppData\Local\Temporary Projects\tema_DATC\obj\x86\Debug\tema_DATC.exe
+C:\Users\uidq9909\AppData\Local\Temporary Projects\tema_DATC\obj\x86\Debug\tema_DATC.pdb
+C:\Users\uidq9909\Desktop\tema_DATC\tema_DATC\obj\x86\Debug\tema_DATC.exe
+C:\Users\uidq9909\Desktop\tema_DATC\tema_DATC\obj\x86\Debug\tema_DATC.pdb

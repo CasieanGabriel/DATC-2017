@@ -1,0 +1,8 @@
+1. https://www.youtube.com/watch?v=ZjjiHJS8lL0 (Combining Arduino, Android, and the Cloud Part 1)
+2. https://www.youtube.com/watch?v=n6nHFuYxKKo (Combining Arduino, Android, and the Cloud Part 2)
+3. https://www.youtube.com/watch?v=tSFrl1Pj_UQ (Combining Arduino, Android, and the Cloud Part 3)
+4. https://www.youtube.com/watch?v=aq_UKK0egqY (Creating a Sensor Network that Connects to the Cloud Part 1 )
+5. https://www.youtube.com/watch?v=zSPhsBAnuTs (Creating a Sensor Network that Connects to the Cloud Part 2)
+6. https://www.youtube.com/watch?v=_lBD4O6jAxw (Creating a Sensor Network that Connects to the Cloud Part 3)
+7. https://www.youtube.com/watch?v=wDafTgoRatU (Using Arduino and ARTIK Cloud to send temperature readings to the cloud )
+Sa nu uit de API

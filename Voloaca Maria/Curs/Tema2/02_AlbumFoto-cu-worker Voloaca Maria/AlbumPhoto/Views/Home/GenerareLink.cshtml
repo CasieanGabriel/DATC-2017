@@ -1,0 +1,18 @@
+﻿@model AlbumPhoto.Models.Poza
+@{
+    ViewBag.Title = "GenerareLink";
+}
+
+<h2>GenerareLink</h2>
+<div>
+    <b><u> Nume poza</u></b>
+    <br/>
+    @Html.DisplayFor(model => model.Description)
+
+</div>
+<div>
+    <b><u>Linkul ce se poate utiliza</u></b>
+    <br />
+    @Html.DisplayFor(model => model.Link)
+</div>
+

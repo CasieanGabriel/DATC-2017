@@ -1,0 +1,251 @@
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll.config
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Antlr3.Runtime.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Optimization.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Providers.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\WebGrease.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll.config
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.pdb
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Antlr3.Runtime.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Optimization.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Providers.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\WebGrease.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csproj.CoreCompileInputs.cache
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.pdb
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\AlbumPhoto.dll.config
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\AlbumPhoto.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\AlbumPhoto.pdb
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Antlr3.Runtime.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\EntityFramework.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Data.OData.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Data.Services.Client.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Newtonsoft.Json.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Spatial.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Http.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Mvc.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Optimization.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Providers.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Razor.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.WebPages.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\WebGrease.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Data.OData.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.Data.Services.Client.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\Newtonsoft.Json.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Spatial.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\EntityFramework.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Http.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Mvc.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.Razor.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.WebPages.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\de\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\es\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\it\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\obj\Debug\AlbumPhoto.csproj.CoreCompileInputs.cache
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+C:\Users\gantu\Desktop\02_AlbumFoto-cu-worker\02_AlbumFoto-cu-worker - Copy\AlbumPhoto\obj\Debug\AlbumPhoto.pdb

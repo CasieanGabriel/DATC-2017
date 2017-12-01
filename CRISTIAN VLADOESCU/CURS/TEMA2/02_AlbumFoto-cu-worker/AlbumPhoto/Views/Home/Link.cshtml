@@ -1,0 +1,22 @@
+﻿@model AlbumPhoto.Models.Link
+@{
+ViewBag.Title = "Link";
+}
+<h2>Picture's Link</h2>
+<fieldset>
+    <legend>Link</legend>
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Picture)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Picture) 
+    </div>
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.PictureLink)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PictureLink)
+    </div>
+    <br />
+    <p> This link will be lost in 2 hours!</p>
+</fieldset>

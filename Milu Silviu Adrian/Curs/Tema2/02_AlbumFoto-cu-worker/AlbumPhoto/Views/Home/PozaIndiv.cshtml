@@ -1,0 +1,14 @@
+﻿@model AlbumPhoto.Models.Poza
+@using AlbumPhoto.Service
+@{
+    ViewBag.Title = "PozaIndiv";
+}
+
+@if (Model == null)
+{
+    <p>Nu putem arata poza(link expirat)</p>
+}
+else
+{
+    <h1>Url catre poza: </h1><p>@Model.Url</p>
+}

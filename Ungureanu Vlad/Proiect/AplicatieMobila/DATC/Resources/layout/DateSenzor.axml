@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1">
+      <Button
+          android:text="Temperatura"
+          android:id="@+id/btnTemp"
+          android:width="120dp"/>
+        <Button
+            android:text="Umiditate"
+            android:id="@+id/btnUmid"
+            android:width="120dp"/>
+        <Button
+            android:text="Presiune"
+            android:id="@+id/btnPres" 
+            android:width="120dp"/>
+    </GridLayout>
+    <OxyPlot.Xamarin.Android.PlotView
+        android:id="@+id/pltSenzor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

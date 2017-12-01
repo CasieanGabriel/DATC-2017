@@ -1,0 +1,34 @@
+﻿@model IEnumerable<AlbumPhoto.Models.Comentariu>
+
+@{
+    ViewBag.Title = "Comentarii";
+}
+
+@using (Html.BeginForm("IncarcaComentariu", "Home", FormMethod.Post))
+{
+    <input type="text" name="MadeBy" value="MadeBy" />
+    <input type="text" name="Comentariu" value="Comentariu" />
+    <input type="submit" value="Incarca" />
+}
+
+<table>
+    <tr>
+        <th>
+            Made By
+        </th>
+        <th>
+            Text
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MadeBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+        </tr>
+        }
+</table>

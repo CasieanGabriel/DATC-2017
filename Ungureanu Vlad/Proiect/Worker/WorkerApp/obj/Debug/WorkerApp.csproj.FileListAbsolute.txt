@@ -1,0 +1,6 @@
+E:\Facultate\An4\DATC\Proiect\WorkerVar1\WorkerApp\bin\Debug\WorkerApp.exe.config
+E:\Facultate\An4\DATC\Proiect\WorkerVar1\WorkerApp\bin\Debug\WorkerApp.exe
+E:\Facultate\An4\DATC\Proiect\WorkerVar1\WorkerApp\bin\Debug\WorkerApp.pdb
+E:\Facultate\An4\DATC\Proiect\WorkerVar1\WorkerApp\obj\Debug\WorkerApp.csprojResolveAssemblyReference.cache
+E:\Facultate\An4\DATC\Proiect\WorkerVar1\WorkerApp\obj\Debug\WorkerApp.exe
+E:\Facultate\An4\DATC\Proiect\WorkerVar1\WorkerApp\obj\Debug\WorkerApp.pdb
