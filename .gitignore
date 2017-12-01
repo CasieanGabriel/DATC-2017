@@ -185,6 +185,7 @@ _pkginfo.txt
 
 # Others
 ClientBin/
+[Ss]tyle[Cc]op.*
 ~$*
 *~
 *.dbmdl
@@ -242,6 +243,15 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 
+# LightSwitch generated files
+GeneratedArtifacts/
+ModelManifest.xml
+
+# Paket dependency manager
+.paket/paket.exe
+
+# FAKE - F# Make
+.fake/
 # Paket dependency manager
 .paket/paket.exe
 paket-files/

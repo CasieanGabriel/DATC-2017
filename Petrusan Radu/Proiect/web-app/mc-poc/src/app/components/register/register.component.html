@@ -1,0 +1,15 @@
+<div class="form-container">
+    <h2>Înregistrează-te acum!</h2>
+    <span class="error" *ngIf="error" [@fallIn]='state'>{{error}}</span>
+
+    <form #formdata='ngForm' (ngSubmit)="onSubmit(formdata)">
+        <input type="text" placeholder="Nume" (ngModel)="lastName" name="lastName" class="txt" required>
+        <input type="text" placeholder="Prenume" (ngModel)="firstName" name="firstName" class="txt" required>
+        <input type="text" placeholder="Adresă email" (ngModel)="email" name="email" class="txt" required>
+        <input type="password" placeholder="Parolă" (ngModel)="password" name="password" class="txt" required>
+
+
+
+        <button type="submit" class="basic-btn">Crează cont</button>
+    </form>
+</div>

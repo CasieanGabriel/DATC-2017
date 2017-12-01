@@ -1,0 +1,75 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h2 class="title">@ViewBag.Title</h2>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+    <div class="poza">
+        <div class="thumbnail">
+            @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+            {
+                <img src="@poza.ThumbnailUrl" />
+            }
+            else
+            {
+                <span>no thumbnail</span>
+            }
+        </div>
+        <div class="details">
+            <h3 class="description">@poza.Description</h3>
+
+            @if (!string.IsNullOrWhiteSpace(poza.Url))
+            {
+                <a href="@poza.Url">Descarca</a>
+            }
+            else
+            {
+                <span>no download URL</span>
+            }
+
+            @Html.ActionLink("Generare Link", "GenerareLink", new { url = poza.Url })
+
+            <div class="comments">
+
+                <h3>Comentarii</h3>
+
+                @if (poza.Comentarii.Count > 0)
+                {
+                    foreach (var comentariu in poza.Comentarii)
+                    {
+                        <div class="comment">
+                            <p><span class="comment-author">@comentariu.Autor</span> @comentariu.Text</p>
+                        </div>
+
+                    }
+                }
+                else
+                {
+                    <p>0 comentarii. Adaugă un comentariu...</p>
+                }
+
+                @using (Html.BeginForm("AdaugaComentariu", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <input type="hidden" name="rowKey" value="@poza.Description" />
+                    <label>Autor</label>
+                    <input type="text" name="Autor" />
+                        <label>Text</label>
+                        <input type="text" name="Text" />
+                        <input type="submit" value="Comenteaza" />
+                }
+            </div>
+
+        </div>
+    </div>
+}

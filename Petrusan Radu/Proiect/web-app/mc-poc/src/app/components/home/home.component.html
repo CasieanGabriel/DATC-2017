@@ -1,0 +1,11 @@
+<div class="jumbotron text-center" *ngIf="!(authService.afAuth.authState | async);">
+    <p class="lead">Bine ai venit!</p>
+    <div>
+        <a class="btn btn-primary" [routerLink]="['/register']">Înregistrare</a>
+        <a class="btn btn-default" [routerLink]="['/login']">Login</a>
+    </div>
+</div>
+
+<div class="jumbotron" *ngIf="authService.afAuth.authState | async; let user;">
+    <h1>Bine ai venit, {{user.displayName}}!</h1>
+</div>
