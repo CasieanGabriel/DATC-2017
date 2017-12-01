@@ -22,7 +22,7 @@ namespace AlbumPhoto.Controllers
         public ActionResult IncarcaPoza(HttpPostedFileBase file)
         {
             var service = new AlbumFotoService();
-            if (file!=null && file.ContentLength > 0)
+            if (file != null && file.ContentLength > 0)
             {
                 service.IncarcaPoza("guest", file.FileName, file.InputStream);
             }
@@ -31,15 +31,24 @@ namespace AlbumPhoto.Controllers
         }
 
         [HttpPost]
-        public ActionResult AdaugaComentariu(string text, string poza)
+        public ActionResult IncarcaComentariu(string fileName, string comment, string userName)
         {
             var service = new AlbumFotoService();
-            if (text != null && text.Length > 0)
+            if (comment != null && comment.Length > 0)
             {
-                service.AdaugaComentariu("guest", poza, text);
+                service.IncarcaComentariu(fileName, comment, userName);
             }
 
             return View("Index", service.GetPoze());
+        }
+
+        [HttpPost]
+        public ActionResult ArataCometarii(string fileName)
+        {
+            var service = new AlbumFotoService();
+            // fileName = Request["fileName"].ToString();
+            return View("Index", service.ArataCometarii(fileName));
+
         }
     }
 }
