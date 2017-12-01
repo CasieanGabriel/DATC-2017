@@ -8,3 +8,6 @@ C:\Users\Ana Gerber\Downloads\tema1\Hal.Client\Hal.Client\Hal.Client\bin\Debug\S
 C:\Users\Ana Gerber\Downloads\tema1\Hal.Client\Hal.Client\Hal.Client\obj\Debug\Hal.ClientBun.csprojResolveAssemblyReference.cache
 C:\Users\Ana Gerber\Downloads\tema1\Hal.Client\Hal.Client\Hal.Client\obj\Debug\Hal.Client.exe
 C:\Users\Ana Gerber\Downloads\tema1\Hal.Client\Hal.Client\Hal.Client\obj\Debug\Hal.Client.pdb
+d:\tmp\discipline\DATC-2017\Ana Gerber\CURS\TEMA1\Hal.Client\Hal.Client\Hal.Client\bin\Debug\Hal.Client.exe.config
+d:\tmp\discipline\DATC-2017\Ana Gerber\CURS\TEMA1\Hal.Client\Hal.Client\Hal.Client\obj\Debug\Hal.Client.exe
+d:\tmp\discipline\DATC-2017\Ana Gerber\CURS\TEMA1\Hal.Client\Hal.Client\Hal.Client\obj\Debug\Hal.Client.pdb

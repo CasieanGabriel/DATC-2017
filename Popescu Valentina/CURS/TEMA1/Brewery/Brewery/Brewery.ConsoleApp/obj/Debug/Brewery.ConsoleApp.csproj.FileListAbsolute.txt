@@ -1,0 +1,9 @@
+D:\Projects\Brewery\Brewery.ConsoleApp\obj\Debug\Brewery.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Projects\Brewery\Brewery.ConsoleApp\obj\Debug\Brewery.ConsoleApp.csprojResolveAssemblyReference.cache
+D:\Projects\Brewery\Brewery.ConsoleApp\bin\Debug\Brewery.ConsoleApp.exe
+D:\Projects\Brewery\Brewery.ConsoleApp\bin\Debug\Brewery.ConsoleApp.pdb
+D:\Projects\Brewery\Brewery.ConsoleApp\obj\Debug\Brewery.ConsoleApp.exe
+D:\Projects\Brewery\Brewery.ConsoleApp\obj\Debug\Brewery.ConsoleApp.pdb
+C:\Users\Lenove-notebook\Desktop\DATC_proiect\Brewery\Brewery\Brewery.ConsoleApp\obj\Debug\Brewery.ConsoleApp.exe
+C:\Users\Lenove-notebook\Desktop\DATC_proiect\Brewery\Brewery\Brewery.ConsoleApp\obj\Debug\Brewery.ConsoleApp.pdb
+C:\Users\Lenove-notebook\Desktop\DATC_proiect\Brewery\Brewery\Brewery.ConsoleApp\obj\Debug\Brewery.ConsoleApp.csprojResolveAssemblyReference.cache

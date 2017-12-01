@@ -8,3 +8,6 @@ E:\pgr\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 E:\pgr\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 E:\pgr\ConsoleApp1\ConsoleApp1\bin\Debug\System.Net.Http.Formatting.dll
 E:\pgr\ConsoleApp1\ConsoleApp1\bin\Debug\System.Net.Http.Formatting.xml
+d:\tmp\discipline\DATC-2017\Adela Elena Giurgiu\CURS\TEMA_1\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+d:\tmp\discipline\DATC-2017\Adela Elena Giurgiu\CURS\TEMA_1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+d:\tmp\discipline\DATC-2017\Adela Elena Giurgiu\CURS\TEMA_1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
