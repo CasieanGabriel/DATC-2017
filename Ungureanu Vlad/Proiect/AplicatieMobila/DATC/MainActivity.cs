@@ -7,6 +7,9 @@ using Android.Gms.Maps.Model;
 using System.Drawing;
 using System.Net.Http;
 using System.Text;
+using System.Collections.Generic;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace DATC
 {
@@ -18,14 +21,18 @@ namespace DATC
         Button btnTemp,btnUmid,btnPres;
         public void OnMapReady(GoogleMap googleMap)
         {
-            LatLng markerlatLng = new LatLng(45.740363, 21.244295);
+            LatLng cameralatLng = new LatLng(45.740363, 21.244295);
             mMap = googleMap;
-            CameraUpdate camera = CameraUpdateFactory.NewLatLngZoom(markerlatLng,17);
+            mMap.MapType = GoogleMap.MapTypeSatellite;
+            CameraUpdate camera = CameraUpdateFactory.NewLatLngZoom(cameralatLng,18);
             mMap.MoveCamera(camera);
-            Helper.AdaugareMarker(mMap, markerlatLng, "Senzor 1");
-            Helper.AdaugareMarker(mMap, new LatLng(45.740303, 21.244295), "Senzor 2");
-            Helper.AdaugareMarker(mMap, new LatLng(45.740493, 21.244295), "Senzor 3");
             mMap.MarkerClick += MMap_MarkerClick;
+
+            /*Helper.DesenarePoligon(mMap, new LatLng(45.740684, 21.244014), new LatLng(45.740687, 21.244037), new LatLng(45.740667, 21.244037), new LatLng(45.740663, 21.244003), Color.Red.ToArgb());
+             Helper.DesenarePoligon(mMap, latlnh[0], latlnh[5], latlnh[11], latlnh[6], Color.Red.ToArgb());*/
+            for (int index = 0; index < Helper.listaSenzori.Count; index++)
+                Helper.AdaugareMarker(mMap,Helper.listaSenzori[index].Coordonate, "Senzor " + Helper.listaSenzori[index].Idsenzor);
+
         }
 
         private void MMap_MarkerClick(object sender, GoogleMap.MarkerClickEventArgs e)
@@ -62,6 +69,17 @@ namespace DATC
             btnTemp.Click += BtnTemp_Click;
             btnUmid.Click += BtnUmid_Click;
             btnPres.Click += BtnPres_Click;
+            //Preluare lista senzori
+            client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
+            var Home = "http://datcapitmv.azurewebsites.net/api/values";
+            var response = client.GetAsync(Home).Result;
+            string data = response.Content.ReadAsStringAsync().Result;
+            Helper.listaSenzori = JsonConvert.DeserializeObject<List<Senzor>>(data);
+            for(int index=0;index<Helper.listaSenzori.Count;index++)
+            {
+                Helper.listaSenzori[index].Coordonate = new LatLng(double.Parse(Helper.listaSenzori[index].Latitudine), double.Parse(Helper.listaSenzori[index].Longitudine));
+            }
+
             if (Helper.vizualizareaCurenta == Helper.Vizualizare.Temperatura)
             {
                 //get heatmap
@@ -78,7 +96,7 @@ namespace DATC
 
         private void BtnPres_Click(object sender, EventArgs e)
         {
-            Helper.vizualizareaCurenta = Helper.Vizualizare.Presiune;          
+            Helper.vizualizareaCurenta = Helper.Vizualizare.Presiune;
         }
 
         private void BtnUmid_Click(object sender, EventArgs e)
@@ -94,14 +112,7 @@ namespace DATC
         private void BtnTempOrUmid_Click(object sender, EventArgs e)
         {
 
-                //Umiditate
                 Helper.vizualizareaCurenta = Helper.Vizualizare.Umiditate;
-                /*GET from API
-                 * client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
-                var Home = "http://localhost:50922/api/values";
-                var response = client.GetAsync(Home).Result;
-                string data = response.Content.ReadAsStringAsync().Result;
-                */         
         }
 
         private void SetupMap()

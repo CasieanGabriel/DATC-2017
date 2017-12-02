@@ -81,3 +81,5 @@ E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\drawable-xxh
 E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\drawable-xxxhdpi\ic_opacity_black_24dp.png
 E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\drawable-mdpi\ic_opacity_black_24dp.png
 E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\drawable\icon.png
+E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\bin\Debug\Newtonsoft.Json.dll
+E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\bin\Debug\Newtonsoft.Json.xml
