@@ -15,7 +15,7 @@
 </div>
 @foreach (var poza in Model)
 {
-    <div class="poza" style="overflow:auto">
+    <div class="poza">
         <div class="thumbnail">
             @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
             {
@@ -26,7 +26,6 @@
                 <span>no thumbnail</span>
             }
         </div>
-        
         <div class="details">
             <h3 class="description">@poza.Description</h3>
 
@@ -38,16 +37,21 @@
             {
                 <span>no download URL</span>
             }
-
-            <div class="comments">
-                <p> Comentarii </p>
-                @using (Html.BeginForm("AdaugaComentariu", "Home", FormMethod.Post, new { }))
+            <div class="Comentarii">
+                <p>Comments</p>
+                @using (Html.BeginForm("IncarcaComentariu", "Home", FormMethod.Post, new { }))
                 {
-                    <input type="text" name="text" />
-                    <input hidden name="poza" value="@poza.Description" />
-                    <input type="submit" value="IncarcaComentariul" />
+                    <center>
+                        UserName:
+                        <input type="text" name="userName">
+                        Comment:
+                        <input type="text" name="comment" />
+                        <input hidden name="fileName" value="@poza.Description" />
+                        <input type="submit" value="IncarcaComentariul" />
+                    </center>
                 }
             </div>
-        </div>     
+        </div>
+
     </div>
 }
