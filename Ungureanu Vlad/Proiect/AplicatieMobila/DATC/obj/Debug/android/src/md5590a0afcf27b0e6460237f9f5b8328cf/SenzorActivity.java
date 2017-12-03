@@ -16,7 +16,7 @@ public class SenzorActivity
 	}
 
 
-	public SenzorActivity () throws java.lang.Throwable
+	public SenzorActivity ()
 	{
 		super ();
 		if (getClass () == SenzorActivity.class)

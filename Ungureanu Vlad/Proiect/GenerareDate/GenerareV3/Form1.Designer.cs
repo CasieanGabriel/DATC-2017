@@ -30,20 +30,21 @@
         {
             this.components = new System.ComponentModel.Container();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.getSensors = new System.Windows.Forms.Button();
             this.IdSenzor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Latitudine = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Longitudine = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.getSensors = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.listView2 = new System.Windows.Forms.ListView();
-            this.btnInregistrari = new System.Windows.Forms.Button();
             this.senzor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.temperatura = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.umiditate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.presiune = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.data = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnInregistrari = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.GetSensorsNoInsert = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -58,16 +59,6 @@
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // getSensors
-            // 
-            this.getSensors.Location = new System.Drawing.Point(48, 67);
-            this.getSensors.Name = "getSensors";
-            this.getSensors.Size = new System.Drawing.Size(121, 31);
-            this.getSensors.TabIndex = 1;
-            this.getSensors.Text = "GenSensors";
-            this.getSensors.UseVisualStyleBackColor = true;
-            this.getSensors.Click += new System.EventHandler(this.getSensors_Click);
             // 
             // IdSenzor
             // 
@@ -84,6 +75,16 @@
             this.Longitudine.Text = "Longitudine";
             this.Longitudine.Width = 105;
             // 
+            // getSensors
+            // 
+            this.getSensors.Location = new System.Drawing.Point(48, 67);
+            this.getSensors.Name = "getSensors";
+            this.getSensors.Size = new System.Drawing.Size(121, 31);
+            this.getSensors.TabIndex = 1;
+            this.getSensors.Text = "GenSensors";
+            this.getSensors.UseVisualStyleBackColor = true;
+            this.getSensors.Click += new System.EventHandler(this.getSensors_Click);
+            // 
             // listView2
             // 
             this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -98,16 +99,6 @@
             this.listView2.TabIndex = 3;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
-            // 
-            // btnInregistrari
-            // 
-            this.btnInregistrari.Location = new System.Drawing.Point(23, 232);
-            this.btnInregistrari.Name = "btnInregistrari";
-            this.btnInregistrari.Size = new System.Drawing.Size(167, 35);
-            this.btnInregistrari.TabIndex = 4;
-            this.btnInregistrari.Text = "GenereazaInregistrari";
-            this.btnInregistrari.UseVisualStyleBackColor = true;
-            this.btnInregistrari.Click += new System.EventHandler(this.btnInregistrari_Click);
             // 
             // senzor
             // 
@@ -132,6 +123,16 @@
             // 
             this.data.Text = "data";
             // 
+            // btnInregistrari
+            // 
+            this.btnInregistrari.Location = new System.Drawing.Point(23, 232);
+            this.btnInregistrari.Name = "btnInregistrari";
+            this.btnInregistrari.Size = new System.Drawing.Size(167, 35);
+            this.btnInregistrari.TabIndex = 4;
+            this.btnInregistrari.Text = "GenereazaInregistrari";
+            this.btnInregistrari.UseVisualStyleBackColor = true;
+            this.btnInregistrari.Click += new System.EventHandler(this.btnInregistrari_Click);
+            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
@@ -140,11 +141,22 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // GetSensorsNoInsert
+            // 
+            this.GetSensorsNoInsert.Location = new System.Drawing.Point(48, 123);
+            this.GetSensorsNoInsert.Name = "GetSensorsNoInsert";
+            this.GetSensorsNoInsert.Size = new System.Drawing.Size(142, 30);
+            this.GetSensorsNoInsert.TabIndex = 5;
+            this.GetSensorsNoInsert.Text = "SensorsNoInsert";
+            this.GetSensorsNoInsert.UseVisualStyleBackColor = true;
+            this.GetSensorsNoInsert.Click += new System.EventHandler(this.GetSensorsNoInsert_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 522);
+            this.Controls.Add(this.GetSensorsNoInsert);
             this.Controls.Add(this.btnInregistrari);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.getSensors);
@@ -173,6 +185,7 @@
         private System.Windows.Forms.ColumnHeader data;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Button GetSensorsNoInsert;
     }
 }
 

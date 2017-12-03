@@ -33,7 +33,7 @@ namespace GenerareV3
             while((line = sr.ReadLine())!=null)
             {
                 string[] word = line.Split(' ');
-                Senzor s = new Senzor(Convert.ToInt32(word[1]), word[2], word[3]);
+                Senzor s = new Senzor(Convert.ToInt32(word[0]), word[1], word[2]);
                 l.Add(s);
             }
             foreach(Senzor s in l)
@@ -214,6 +214,28 @@ namespace GenerareV3
             catch
             {
                 MessageBox.Show("Nu se poate face Post, error problem");
+            }
+        }
+
+        private void GetSensorsNoInsert_Click(object sender, EventArgs e)
+        {
+
+            StreamReader sr = new StreamReader("senzori.txt");
+
+            string line = "";
+
+            while ((line = sr.ReadLine()) != null)
+            {
+                string[] word = line.Split(' ');
+                Senzor s = new Senzor(Convert.ToInt32(word[0]), word[1], word[2]);
+                l.Add(s);
+            }
+            foreach (Senzor s in l)
+            {
+                ListViewItem lv = new ListViewItem(Convert.ToString(s.idsenzor));
+                lv.SubItems.Add(s.latitudine);
+                lv.SubItems.Add(s.longitudine);
+                listView1.Items.Add(lv);
             }
         }
     }
