@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.SqlClient;
 
 namespace GenerareDateApi.Controllers
 {
@@ -11,9 +12,30 @@ namespace GenerareDateApi.Controllers
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Senzor> Get()
         {
-            return new string[] { "value1", "value2" };
+            List<Senzor> listaSenzori = new List<Senzor>();
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+            builder.DataSource = "silviu.database.windows.net";
+            builder.UserID = "silviumilu";
+            builder.Password = "!Silviu1";
+            builder.InitialCatalog = "proiect";
+            SqlConnection connection = new SqlConnection(builder.ConnectionString);
+            connection.Open();
+            string query = "SELECT * FROM [dbo].[TabelaSenzori]";
+            SqlCommand cmd = new SqlCommand(query);
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.Connection = connection;
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                string lat = reader[2].ToString().Substring(0, 9);
+                string lng = reader[3].ToString().Substring(0, 9);
+                listaSenzori.Add(new Senzor(int.Parse(reader[0].ToString()), reader[1].ToString(), lat, lng));
+            }
+
+            return listaSenzori.ToArray();
         }
 
         // GET api/values/5
