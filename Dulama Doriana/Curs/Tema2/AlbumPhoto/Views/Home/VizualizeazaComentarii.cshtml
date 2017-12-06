@@ -1,0 +1,23 @@
+﻿@model List<AlbumPhoto.Models.Comentariu>
+
+@{
+    ViewBag.Title = "VizualizeazaComentarii";
+}
+
+<h2>VizualizeazaComentarii</h2>
+
+
+@if (Model.Count() != 0)
+{
+
+        foreach (var comment in Model)
+        {
+          <span>  @comment.MadeBy : </span> <span>@comment.Text</span>
+           <br>
+        }
+
+}
+else
+{
+    <div>Nu exista comentarii.</div>
+}
