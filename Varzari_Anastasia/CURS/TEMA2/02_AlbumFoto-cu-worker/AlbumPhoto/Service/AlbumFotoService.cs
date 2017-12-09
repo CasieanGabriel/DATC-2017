@@ -5,6 +5,7 @@ using Microsoft.WindowsAzure.Storage.Blob;
 using Microsoft.WindowsAzure.Storage.Queue;
 using Microsoft.WindowsAzure.Storage.Table;
 using Microsoft.WindowsAzure.Storage.Table.DataServices;
+using Microsoft.WindowsAzure.Storage.Auth;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -24,7 +25,8 @@ namespace AlbumPhoto.Service
         private CloudTable _commentsTable;
         private TableServiceContext _ctx;
         private static List<Poza> poze = new List<Poza>();
-        bool arataComentariile = false;
+        private static string sas;
+
         public AlbumFotoService()
         {
             //_account = CloudStorageAccount.Parse(RoleEnvironment.GetConfigurationSettingValue("PhotoStorage"));
@@ -36,6 +38,18 @@ namespace AlbumPhoto.Service
                 _photoContainer.SetPermissions(new BlobContainerPermissions() { PublicAccess = BlobContainerPublicAccessType.Blob });
             }
 
+            BlobContainerPermissions containerPermissions = new BlobContainerPermissions();
+            containerPermissions.SharedAccessPolicies.Add(
+              "twohourspolicy", new SharedAccessBlobPolicy()
+              {
+                  SharedAccessStartTime = DateTime.UtcNow.AddHours(-1),
+                  SharedAccessExpiryTime = DateTime.UtcNow.AddHours(2),
+                  Permissions = SharedAccessBlobPermissions.Write | SharedAccessBlobPermissions.Read
+              });
+            containerPermissions.PublicAccess = BlobContainerPublicAccessType.Off;
+            _photoContainer.SetPermissions(containerPermissions);
+            sas = _photoContainer.GetSharedAccessSignature(new SharedAccessBlobPolicy(), "twohourspolicy");
+
             _tableClient = _account.CreateCloudTableClient();
             _filesTable = _tableClient.GetTableReference("files");
             _filesTable.CreateIfNotExists();
@@ -44,6 +58,14 @@ namespace AlbumPhoto.Service
             _ctx = _tableClient.GetTableServiceContext();
         }
 
+        public static string GetSasBlobUrl(string fileName)
+        {
+            var storageAccount = CloudStorageAccount.Parse(ConfigurationManager.AppSettings["StorageConnectionString"]);
+            CloudBlobClient sasBlobClient = new CloudBlobClient(storageAccount.BlobEndpoint, new StorageCredentials(sas));
+            ICloudBlob blob = (ICloudBlob)sasBlobClient.GetBlobReferenceFromServer(new Uri(fileName));
+            return blob.Uri.AbsoluteUri + sas;
+        }
+               
         public List<Poza> GetPoze()
         {
             poze.Clear();
@@ -56,13 +78,8 @@ namespace AlbumPhoto.Service
                 {
                     Description = file.RowKey,
                     ThumbnailUrl = file.ThumbnailUrl,
-                    Url = file.Url
+                    Url = GetSasBlobUrl(file.Url)
                 });
-
-                if (arataComentariile)
-                {
-                    ArataCometarii(file.RowKey);
-                }
             }
 
             return poze;
@@ -89,14 +106,16 @@ namespace AlbumPhoto.Service
             {
                 MadeBy = userName,
                 Text = text,
+                RowKey = fileName,
+                PartitionKey = userName
             });
 
             _ctx.SaveChangesWithRetries();
         }
 
-        public List<Comentarii> ArataCometarii(string fileName)
+        public List<Comentarii> ArataCometarii(string fileName, string userName, string comentariu)
         {
-            var Comments = new List<Comentarii>();
+            var Comments = new List<Comentarii>(); 
             var query = (from comment in _ctx.CreateQuery<CommentEntity>(_commentsTable.Name)
                          select comment).AsTableServiceQuery<CommentEntity>(_ctx).ToList().Where(ce => ce.RowKey == fileName);
 
@@ -104,17 +123,11 @@ namespace AlbumPhoto.Service
             {
                 Comments.Add(new Comentarii()
                 {
+                    RowKey = comm.RowKey,
                     UserName = comm.MadeBy,
                     Comment = comm.Text,
-                    PublishDate = comm.Timestamp
                 });
-
-                foreach (var poza in poze)
-                {
-                    if (poza.Description == comm.RowKey)
-                        poza.Comentariu = Comments;
-                }
-            }
+            }          
             return Comments;
         }
 

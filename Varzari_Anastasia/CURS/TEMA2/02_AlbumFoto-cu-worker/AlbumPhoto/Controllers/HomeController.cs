@@ -43,12 +43,17 @@ namespace AlbumPhoto.Controllers
         }
 
         [HttpPost]
-        public ActionResult ArataCometarii(string fileName)
+        public ActionResult ArataCometarii(string fileName, string userName, string comentariu)
         {
             var service = new AlbumFotoService();
-            // fileName = Request["fileName"].ToString();
-            return View("Index", service.ArataCometarii(fileName));
+            return View("Comentarii", service.ArataCometarii(fileName, userName, comentariu));
+        }
 
+        [HttpPost]
+        public ActionResult SharedLink(string fileName, string URL)
+        {
+            var service = new AlbumFotoService();
+            return View("Index", service.GetPoze());
         }
     }
 }

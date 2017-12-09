@@ -28,19 +28,11 @@
         </div>
         <div class="details">
             <h3 class="description">@poza.Description</h3>
-
-            @if (!string.IsNullOrWhiteSpace(poza.Url))
-            {
-                <a href="@poza.Url">Descarca</a>
-            }
-            else
-            {
-                <span>no download URL</span>
-            }
             <div class="Comentarii">
-                <p>Comments</p>
+
                 @using (Html.BeginForm("IncarcaComentariu", "Home", FormMethod.Post, new { }))
                 {
+                    <br />
                     <center>
                         UserName:
                         <input type="text" name="userName">
@@ -50,7 +42,21 @@
                         <input type="submit" value="IncarcaComentariul" />
                     </center>
                 }
+                @using (Html.BeginForm("ArataCometarii", "Home", FormMethod.Post, new { }))
+                {
+                    <br />
+                    <input hidden name="fileName" value="@poza.Description" />
+                    <input type="submit" value="Vezi toate comentariile" />
+                }
+                @using (Html.BeginForm("SharedLink", "Home", FormMethod.Post, new { }))
+                {
+                    <center>
+                        SharedLink:
+                        <input name="URL" type="text" value="@poza.Url" />
+                    </center>
+                }
             </div>
+           
         </div>
 
     </div>
