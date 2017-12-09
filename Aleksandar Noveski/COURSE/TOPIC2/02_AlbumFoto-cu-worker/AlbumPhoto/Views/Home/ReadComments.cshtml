@@ -1,0 +1,32 @@
+﻿@model List<AlbumPhoto.Models.Comment>
+@{
+    ViewBag.Title = "ReadComments";
+}
+
+<h2 align="center">Comments for the picture</h2>
+
+
+    <table align="center" cellspacing="15">
+        <tr>
+            <th>
+                User
+            </th>
+            <th>
+                Comment
+            </th>
+        </tr>
+       @foreach (var coment in Model)
+       {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelComment => coment.MadeBy)
+                </td>
+                <td >
+                    @Html.DisplayFor(modelComment => coment.Text)
+                </td>
+            </tr>
+       }
+    </table>
+
+\
+
