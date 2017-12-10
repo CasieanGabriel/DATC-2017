@@ -13,15 +13,17 @@ using OxyPlot.Xamarin.Android;
 using OxyPlot;
 using OxyPlot.Axes;
 using OxyPlot.Series;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace DATC
 {
     [Activity(Label = "Date senzor")]
     public class SenzorActivity : Activity
     {
+        static HttpClient client = new HttpClient();
         Button btnTemp, btnUmid, btnPres;
         PlotView pltSenzor;
-        public static List<int> dateSenzor = new List<int>();
         string axisTitle;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -33,12 +35,12 @@ namespace DATC
             btnTemp.Click += BtnTemp_Click;
             btnUmid.Click += BtnUmid_Click;
             btnPres.Click += BtnPres_Click;
-
+            Helper.listaDateSenzor.Clear();
             if (Helper.vizualizareaCurenta == Helper.Vizualizare.Temperatura)
             {
                 axisTitle = "Temperatura (C)";
             }
-            else if(Helper.vizualizareaCurenta == Helper.Vizualizare.Umiditate)
+            else if (Helper.vizualizareaCurenta == Helper.Vizualizare.Umiditate)
             {
                 axisTitle = "Umiditatea (%)";
             }
@@ -47,9 +49,16 @@ namespace DATC
                 axisTitle = "Presiune (Pa)";
             }
             pltSenzor = FindViewById<PlotView>(Resource.Id.pltSenzor);
-            dateSenzor.Add(34);
-            dateSenzor.Add(32);
-            dateSenzor.Add(36);
+
+            try
+            {
+                client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
+                var Home = "http://datcapitmv.azurewebsites.net/api/values/"+Helper.senzorCurent.Substring(7);
+                var response = client.GetAsync(Home).Result;
+                string data = response.Content.ReadAsStringAsync().Result;
+                Helper.listaDateSenzor = JsonConvert.DeserializeObject<List<DateSenzor>>(data);
+            }
+            catch (Exception e) { }
             ActualizareGrafic();
         }
 
@@ -76,17 +85,34 @@ namespace DATC
 
         void ActualizareGrafic()
         {
-                pltSenzor.Model = CreatePlotModel();
+            pltSenzor.Model = CreatePlotModel();
         }
 
         private PlotModel CreatePlotModel()
         {
             LineSeries series1 = new LineSeries();
-            PlotModel plotModel = new PlotModel { Title = "Date " + Helper.senzorCurent, TitleColor= OxyColors.White };
-            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 50, Minimum = -20, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White,Title= axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
-            plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom,TextColor= OxyColors.White, MajorGridlineColor = OxyColors.White,AxislineColor= OxyColors.White, Title ="Timp (s)", TitleColor= OxyColor.FromRgb(255,255,255)});
-            for (int i = 0; i < dateSenzor.Count; i++)
-                series1.Points.Add(new DataPoint(0.1 * i, dateSenzor[i]));
+            PlotModel plotModel = new PlotModel { Title = "Date " + Helper.senzorCurent, TitleColor = OxyColors.White };
+            if (Helper.vizualizareaCurenta == Helper.Vizualizare.Temperatura)
+            {
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 50, Minimum = -20, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, TextColor = OxyColors.White, MajorGridlineColor = OxyColors.White, AxislineColor = OxyColors.White, Title = "Timp (min)", TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                for (int index = 0; index < Helper.listaDateSenzor.Count; index++)
+                    series1.Points.Add(new DataPoint(1 * index, double.Parse(Helper.listaDateSenzor[index].Temperatura)));
+            }
+            else if (Helper.vizualizareaCurenta == Helper.Vizualizare.Umiditate)
+            {
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 100, Minimum = 0, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, TextColor = OxyColors.White, MajorGridlineColor = OxyColors.White, AxislineColor = OxyColors.White, Title = "Timp (min)", TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                for (int index = 0; index < Helper.listaDateSenzor.Count; index++)
+                    series1.Points.Add(new DataPoint(1 * index, double.Parse(Helper.listaDateSenzor[index].Umiditate)));
+            }
+            else
+            {
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 1300, Minimum = 800, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, TextColor = OxyColors.White, MajorGridlineColor = OxyColors.White, AxislineColor = OxyColors.White, Title = "Timp (min)", TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                for (int index = 0; index < Helper.listaDateSenzor.Count; index++)
+                    series1.Points.Add(new DataPoint(1 * index, double.Parse(Helper.listaDateSenzor[index].Presiune)));
+            }
             plotModel.DefaultColors = new List<OxyColor> { OxyColors.White };
             plotModel.Series.Add(series1);
             return plotModel;

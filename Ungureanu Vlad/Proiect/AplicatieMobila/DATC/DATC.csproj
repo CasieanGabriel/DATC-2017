@@ -99,6 +99,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateSenzor.cs" />
+    <Compile Include="HeatMap.cs" />
     <Compile Include="HeatMapPart.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="MainActivity.cs" />
