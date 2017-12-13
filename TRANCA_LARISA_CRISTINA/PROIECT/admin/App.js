@@ -23,7 +23,7 @@ import Main from './src/components/Main';
 //   animationEnabled: false
 // });
 // export default Stack;
-
+console.disableYellowBox = true;
 export default class App extends React.Component  {
   render() {
     return (

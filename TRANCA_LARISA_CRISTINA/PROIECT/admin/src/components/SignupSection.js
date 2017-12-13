@@ -47,14 +47,14 @@ export default class SignupSection extends Component {
 
 		setTimeout(() => {
 			this._onGrow();
-		}, 2000);
+		}, 200);
 
 		setTimeout(() => {
 			Actions.createAccount();
 			this.setState({ isLoading: false });
 			this.buttonAnimated.setValue(0);
 			this.growAnimated.setValue(0);
-		}, 2300);
+		}, 200);
 	}
 
 	_onPressForgotPass() {
@@ -72,14 +72,14 @@ export default class SignupSection extends Component {
 
 		setTimeout(() => {
 			this._onGrow();
-		}, 2000);
+		}, 200);
 
 		setTimeout(() => {
 			Actions.forgotPassword();
 			this.setState({ isLoading: false });
 			this.buttonAnimated.setValue(0);
 			this.growAnimated.setValue(0);
-		}, 2300);
+		}, 200);
 	}
 
 	render() {

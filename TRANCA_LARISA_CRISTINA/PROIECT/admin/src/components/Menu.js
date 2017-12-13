@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, ScrollView, Text, TouchableOpacity, 	Animated, Easing, } from 'react-native';
+import { View, ScrollView, Text, TouchableOpacity, 	Animated, Easing,StyleSheet, Image } from 'react-native';
 import Logo from './Logo';
 import Wallpaper from './Wallpaper';
 import { Actions, ActionConst } from 'react-native-router-flux';
@@ -22,7 +22,8 @@ export default class Menu extends Component {
                 key={item.index}
                 onPress={this._onPress}
               >
-                <Text style={{color: 'white', fontSize: 16, paddingLeft: 20, paddingTop: 16}}>{item.name}</Text>
+                <Image source={item.image} style={styles.inlineIcon} />
+                <Text style={{color: 'white', fontSize: 16, paddingLeft: 40, paddingTop: 16}}>{item.name}</Text>
               </TouchableOpacity>
             ))}
           </ScrollView>
@@ -31,3 +32,15 @@ export default class Menu extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  inlineIcon: {
+    position: 'absolute',
+    zIndex: 99,
+    width: 22,
+    height: 22,
+    left: 15,
+    top: 15,
+    paddingLeft: 20, paddingTop: 16
+  },
+});

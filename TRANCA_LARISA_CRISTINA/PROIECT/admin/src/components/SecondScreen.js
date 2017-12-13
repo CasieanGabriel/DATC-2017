@@ -34,14 +34,14 @@ export default class SecondScreen extends Component {
 			this.growAnimated,
 			{
 				toValue: 1,
-				duration: 300,
+				duration: 200,
 				easing: Easing.linear,
 			}
 		).start();
 
 		setTimeout(() => {
 			Actions.pop();
-		}, 500);
+		}, 200);
 	}
 
 	render() {

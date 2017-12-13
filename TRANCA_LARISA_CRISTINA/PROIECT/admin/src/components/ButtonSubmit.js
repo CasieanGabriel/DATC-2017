@@ -9,6 +9,7 @@ import {
 	Image,
 	Alert,
 	View,
+	Keyboard,
 } from 'react-native';
 import { Actions, ActionConst } from 'react-native-router-flux';
 import '../../shim.js';
@@ -35,6 +36,7 @@ export default class SubmitCreateAccount extends Component {
 	}
 
 	_onPress() {
+		Keyboard.dismiss();
 		var crypto = require('crypto')
 		var hashedPass = crypto.createHash('sha1').update(this.props.password).digest('hex')
 		console.log({username: this.props.username, password:hashedPass});
@@ -53,15 +55,15 @@ export default class SubmitCreateAccount extends Component {
 			}
 		).start();
 
-		setTimeout(() => {
-			this._onGrow();
-		}, 2000);
+		// setTimeout(() => {
+		// 	this._onGrow();
+		// }, 2000);
 
 		setTimeout(() => {
 			Actions.mapScreen();
 			this.setState({ isLoading: false });
 			this.buttonAnimated.setValue(0);
-			this.growAnimated.setValue(0);
+			// this.growAnimated.setValue(0);
 		}, 2300);
 	}
 

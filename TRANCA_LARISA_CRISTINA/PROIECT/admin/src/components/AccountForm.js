@@ -9,6 +9,7 @@ import {
 	Image,
 	Animated,
 	Easing,
+	Keyboard,
 } from 'react-native';
 import { Actions, ActionConst } from 'react-native-router-flux';
 import UserInput from './UserInput';
@@ -25,51 +26,72 @@ export default class AccountForm extends Component {
     super(props);
     this.state = {
 			showPass: true,
+			showConfirmPass: true,
 			press: false,
+			pressConfirm:false,
 			isLoading: false,
+			visibleHeight: Dimensions.get('window').height -450
 		};
 		this.showPass = this.showPass.bind(this);
+		this.showConfirmPass = this.showConfirmPass.bind(this);
 	}
 	showPass() {
-  this.state.press === false ? this.setState({ showPass: false, press: true }) :this.setState({ showPass: true, press: false });
+  	this.state.press === false ? this.setState({ showPass: false, press: true }) :this.setState({ showPass: true, press: false });
   }
+	showConfirmPass(){
+		this.state.pressConfirm === false ? this.setState({ showConfirmPass: false, pressConfirm: true }) :this.setState({ showConfirmPass: true, pressConfirm: false });
+	}
+	componentWillMount () {
+		Keyboard.addListener('keyboardWillShow', this.keyboardWillShow.bind(this))
+		Keyboard.addListener('keyboardWillHide', this.keyboardWillHide.bind(this))
+	}
+	keyboardWillShow (e) {
+		 let newSize = Dimensions.get('window').height - e.endCoordinates.height
+		 this.setState({visibleHeight: newSize})
+	 }
+
+	 keyboardWillHide (e) {
+		 this.setState({visibleHeight: Dimensions.get('window').height})
+	 }
 
 	render() {
 		return (
-			<KeyboardAvoidingView behavior='padding'
-				style={styles.container}>
-				<UserInput source={usernameImg}
-					placeholder='Username or Email'
-					autoCapitalize={'none'}
-					returnKeyType={'done'}
-					autoCorrect={false} />
-				<UserInput source={passwordImg}
-					secureTextEntry={this.state.showPass}
-					placeholder='Password'
-					returnKeyType={'done'}
-					autoCapitalize={'none'}
-					autoCorrect={false} />
-					<TouchableOpacity
-						activeOpacity={0.7}
-						style={styles.btnEye}
-						onPress={this.showPass}
-					>
-						<Image source={eyeImg} style={styles.iconEye} />
-					</TouchableOpacity>
-          <UserInput source={passwordImg}
-            secureTextEntry={this.state.showPass}
-            placeholder='Confirm Password'
-            returnKeyType={'done'}
-            autoCapitalize={'none'}
-            autoCorrect={false} />
-            <TouchableOpacity
-              activeOpacity={0.7}
-              style={styles.btnEye}
-              onPress={this.showPass}
-            >
-              <Image source={eyeImg} style={styles.iconEye} />
-            </TouchableOpacity>
-			</KeyboardAvoidingView>
+			<View style={{height: this.state.visibleHeight}}>
+				<KeyboardAvoidingView behavior='padding'
+					style={styles.container}>
+					<UserInput source={usernameImg}
+						placeholder='Email'
+						autoCapitalize={'none'}
+						returnKeyType={'done'}
+						autoCorrect={false} />
+					<UserInput source={passwordImg}
+						secureTextEntry={this.state.showPass}
+						placeholder='Password'
+						returnKeyType={'done'}
+						autoCapitalize={'none'}
+						autoCorrect={false} />
+						<TouchableOpacity
+							activeOpacity={0.7}
+							style={styles.btnEye}
+							onPress={this.showPass}
+						>
+							<Image source={eyeImg} style={styles.iconEye} />
+						</TouchableOpacity>
+	          <UserInput source={passwordImg}
+	            secureTextEntry={this.state.showConfirmPass}
+	            placeholder='Confirm Password'
+	            returnKeyType={'done'}
+	            autoCapitalize={'none'}
+	            autoCorrect={false} />
+	            <TouchableOpacity
+							activeOpacity={0.7}
+	              style={styles.btnEyeConfirm}
+	              onPress={this.showConfirmPass}
+	            >
+	              <Image source={eyeImg} style={styles.iconEye} />
+	            </TouchableOpacity>
+				</KeyboardAvoidingView>
+			</View>
 		);
 	}
 }
@@ -87,6 +109,11 @@ const styles = StyleSheet.create({
     top: 55,
     right: 28,
   },
+	btnEyeConfirm: {
+		position: 'absolute',
+		top: 100,
+		right: 28,
+	},
   iconEye: {
     width: 25,
     height: 25,

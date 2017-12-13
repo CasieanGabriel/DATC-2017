@@ -7,6 +7,7 @@ import {
 	ActivityIndicator,
 	TouchableOpacity,
 	Image,
+	Keyboard,
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
@@ -17,7 +18,6 @@ import SignupSection from './SignupSection';
 import usernameImg from '../images/username.png';
 import passwordImg from '../images/password.png';
 import eyeImg  from '../images/eye_black.png';
-
 export default class Form extends Component {
 	constructor(props) {
     super(props);
@@ -26,6 +26,7 @@ export default class Form extends Component {
 			press: false,
 			username: '',
 			password: '',
+			visibleHeight: Dimensions.get('window').height -450
 		};
 		this.showPass = this.showPass.bind(this);
 	}
@@ -34,8 +35,22 @@ export default class Form extends Component {
   this.state.press === false ? this.setState({ showPass: false, press: true }) :this.setState({ showPass: true, press: false });
   }
 
+	componentWillMount () {
+    Keyboard.addListener('keyboardWillShow', this.keyboardWillShow.bind(this))
+    Keyboard.addListener('keyboardWillHide', this.keyboardWillHide.bind(this))
+  }
+	keyboardWillShow (e) {
+     let newSize = Dimensions.get('window').height - e.endCoordinates.height
+     this.setState({visibleHeight: newSize})
+   }
+
+   keyboardWillHide (e) {
+     this.setState({visibleHeight: Dimensions.get('window').height})
+   }
+
 	render() {
 		return (
+			 <View style={{height: this.state.visibleHeight}}>
 			<KeyboardAvoidingView behavior='padding'
 				style={styles.container}>
 				<UserInput source={usernameImg}
@@ -60,6 +75,7 @@ export default class Form extends Component {
 					</TouchableOpacity>
 					<ButtonSubmit username={this.state.username} password={this.state.password}/>
 			</KeyboardAvoidingView>
+			</View>
 		);
 	}
 }
@@ -74,7 +90,7 @@ const styles = StyleSheet.create({
 	},
 	btnEye: {
     position: 'absolute',
-    top: 80,
+    top: 60,
     right: 28,
   },
   iconEye: {

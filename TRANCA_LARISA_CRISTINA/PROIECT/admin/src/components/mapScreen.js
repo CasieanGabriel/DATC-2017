@@ -4,8 +4,7 @@ import { Container, Header, Content, Form, Item, Input, Label, Button, Text, Tit
 import MapView from 'react-native-maps';
 import ActionBar from 'react-native-action-bar';
 import DrawerLayout from 'react-native-drawer-layout';
-// import MapView from 'react-native-map-clustering';
-// import { Marker } from 'react-native-maps';
+
 import api from './api';
 import coordinateImg from '../images/coordinate.png';
 import regionImg from '../images/region.png';
