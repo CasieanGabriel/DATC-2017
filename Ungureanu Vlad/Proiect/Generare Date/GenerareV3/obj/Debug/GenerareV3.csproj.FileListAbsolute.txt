@@ -22,3 +22,15 @@ C:\Users\Silviu\Desktop\ProiectDatc\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV
 C:\Users\Silviu\Desktop\ProiectDatc\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.csproj.CoreCompileInputs.cache
 C:\Users\Silviu\Desktop\ProiectDatc\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.exe
 C:\Users\Silviu\Desktop\ProiectDatc\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.pdb
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\bin\Debug\GenerareV3.exe.config
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\bin\Debug\GenerareV3.exe
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\bin\Debug\GenerareV3.pdb
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.csprojResolveAssemblyReference.cache
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.Form1.resources
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.Properties.Resources.resources
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.csproj.GenerateResource.Cache
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.csproj.CoreCompileInputs.cache
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.exe
+C:\Users\Silviu\Desktop\ProiectDatc\V5\V4\GenerareV3\GenerareV3\obj\Debug\GenerareV3.pdb

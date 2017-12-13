@@ -45,6 +45,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.GetSensorsNoInsert = new System.Windows.Forms.Button();
+            this.btnDeleteAll = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -151,11 +152,22 @@
             this.GetSensorsNoInsert.UseVisualStyleBackColor = true;
             this.GetSensorsNoInsert.Click += new System.EventHandler(this.GetSensorsNoInsert_Click);
             // 
+            // btnDeleteAll
+            // 
+            this.btnDeleteAll.Location = new System.Drawing.Point(771, 104);
+            this.btnDeleteAll.Name = "btnDeleteAll";
+            this.btnDeleteAll.Size = new System.Drawing.Size(75, 23);
+            this.btnDeleteAll.TabIndex = 6;
+            this.btnDeleteAll.Text = "DeleteAll";
+            this.btnDeleteAll.UseVisualStyleBackColor = true;
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(958, 522);
+            this.Controls.Add(this.btnDeleteAll);
             this.Controls.Add(this.GetSensorsNoInsert);
             this.Controls.Add(this.btnInregistrari);
             this.Controls.Add(this.listView2);
@@ -186,6 +198,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Button GetSensorsNoInsert;
+        private System.Windows.Forms.Button btnDeleteAll;
     }
 }
 
