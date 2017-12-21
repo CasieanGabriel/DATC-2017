@@ -1,0 +1,11 @@
+c:\users\jurjr\source\repos\Senzori\Senzori\bin\Debug\Senzori.exe.config
+c:\users\jurjr\source\repos\Senzori\Senzori\bin\Debug\Senzori.exe
+c:\users\jurjr\source\repos\Senzori\Senzori\bin\Debug\Senzori.pdb
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.csprojResolveAssemblyReference.cache
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.Sensors_Control.resources
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.Properties.Resources.resources
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.csproj.GenerateResource.Cache
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.csproj.CoreCompileInputs.cache
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.exe
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.pdb
+c:\users\jurjr\source\repos\Senzori\Senzori\obj\Debug\Senzori.Settings.resources
