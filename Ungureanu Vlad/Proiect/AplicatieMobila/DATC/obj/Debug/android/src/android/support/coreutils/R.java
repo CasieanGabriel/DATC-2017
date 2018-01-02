@@ -307,16 +307,59 @@ containing a value of this type.
         public static final int btnUmid=0x7f07000f;
         public static final int dark=0x7f07000b;
         public static final int gridLayout1=0x7f07000d;
+        public static final int gridLayout2=0x7f070012;
         public static final int hybrid=0x7f070000;
         public static final int icon_only=0x7f070007;
         public static final int light=0x7f07000c;
-        public static final int map=0x7f070012;
+        public static final int map=0x7f07003d;
         public static final int none=0x7f070001;
         public static final int normal=0x7f070002;
         public static final int pltSenzor=0x7f070011;
         public static final int satellite=0x7f070003;
         public static final int standard=0x7f070008;
         public static final int terrain=0x7f070004;
+        public static final int txt1=0x7f070013;
+        public static final int txt10=0x7f07001c;
+        public static final int txt11=0x7f07001d;
+        public static final int txt12=0x7f07001e;
+        public static final int txt13=0x7f07001f;
+        public static final int txt14=0x7f070020;
+        public static final int txt15=0x7f070021;
+        public static final int txt16=0x7f070022;
+        public static final int txt17=0x7f070023;
+        public static final int txt18=0x7f070024;
+        public static final int txt19=0x7f070025;
+        public static final int txt2=0x7f070014;
+        public static final int txt20=0x7f070026;
+        public static final int txt21=0x7f070027;
+        public static final int txt22=0x7f070028;
+        public static final int txt23=0x7f070029;
+        public static final int txt24=0x7f07002a;
+        public static final int txt25=0x7f07002b;
+        public static final int txt26=0x7f07002c;
+        public static final int txt27=0x7f07002d;
+        public static final int txt28=0x7f07002e;
+        public static final int txt29=0x7f07002f;
+        public static final int txt3=0x7f070015;
+        public static final int txt30=0x7f070030;
+        public static final int txt31=0x7f070031;
+        public static final int txt32=0x7f070032;
+        public static final int txt33=0x7f070033;
+        public static final int txt34=0x7f070034;
+        public static final int txt35=0x7f070035;
+        public static final int txt36=0x7f070036;
+        public static final int txt37=0x7f070037;
+        public static final int txt38=0x7f070038;
+        public static final int txt39=0x7f070039;
+        public static final int txt4=0x7f070016;
+        public static final int txt40=0x7f07003a;
+        public static final int txt41=0x7f07003b;
+        public static final int txt42=0x7f07003c;
+        public static final int txt5=0x7f070017;
+        public static final int txt6=0x7f070018;
+        public static final int txt7=0x7f070019;
+        public static final int txt8=0x7f07001a;
+        public static final int txt9=0x7f07001b;
         public static final int wide=0x7f070009;
     }
     public static final class integer {
@@ -324,7 +367,8 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int datesenzor=0x7f030000;
-        public static final int main=0x7f030001;
+        public static final int legenda=0x7f030001;
+        public static final int main=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f050011;

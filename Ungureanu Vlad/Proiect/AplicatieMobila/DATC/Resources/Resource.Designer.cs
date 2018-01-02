@@ -280,6 +280,9 @@ namespace DATC
 			// aapt resource value: 0x7f07000d
 			public const int gridLayout1 = 2131165197;
 			
+			// aapt resource value: 0x7f070012
+			public const int gridLayout2 = 2131165202;
+			
 			// aapt resource value: 0x7f070000
 			public const int hybrid = 2131165184;
 			
@@ -289,8 +292,8 @@ namespace DATC
 			// aapt resource value: 0x7f07000c
 			public const int light = 2131165196;
 			
-			// aapt resource value: 0x7f070012
-			public const int map = 2131165202;
+			// aapt resource value: 0x7f07003d
+			public const int map = 2131165245;
 			
 			// aapt resource value: 0x7f070001
 			public const int none = 2131165185;
@@ -309,6 +312,132 @@ namespace DATC
 			
 			// aapt resource value: 0x7f070004
 			public const int terrain = 2131165188;
+			
+			// aapt resource value: 0x7f070013
+			public const int txt1 = 2131165203;
+			
+			// aapt resource value: 0x7f07001c
+			public const int txt10 = 2131165212;
+			
+			// aapt resource value: 0x7f07001d
+			public const int txt11 = 2131165213;
+			
+			// aapt resource value: 0x7f07001e
+			public const int txt12 = 2131165214;
+			
+			// aapt resource value: 0x7f07001f
+			public const int txt13 = 2131165215;
+			
+			// aapt resource value: 0x7f070020
+			public const int txt14 = 2131165216;
+			
+			// aapt resource value: 0x7f070021
+			public const int txt15 = 2131165217;
+			
+			// aapt resource value: 0x7f070022
+			public const int txt16 = 2131165218;
+			
+			// aapt resource value: 0x7f070023
+			public const int txt17 = 2131165219;
+			
+			// aapt resource value: 0x7f070024
+			public const int txt18 = 2131165220;
+			
+			// aapt resource value: 0x7f070025
+			public const int txt19 = 2131165221;
+			
+			// aapt resource value: 0x7f070014
+			public const int txt2 = 2131165204;
+			
+			// aapt resource value: 0x7f070026
+			public const int txt20 = 2131165222;
+			
+			// aapt resource value: 0x7f070027
+			public const int txt21 = 2131165223;
+			
+			// aapt resource value: 0x7f070028
+			public const int txt22 = 2131165224;
+			
+			// aapt resource value: 0x7f070029
+			public const int txt23 = 2131165225;
+			
+			// aapt resource value: 0x7f07002a
+			public const int txt24 = 2131165226;
+			
+			// aapt resource value: 0x7f07002b
+			public const int txt25 = 2131165227;
+			
+			// aapt resource value: 0x7f07002c
+			public const int txt26 = 2131165228;
+			
+			// aapt resource value: 0x7f07002d
+			public const int txt27 = 2131165229;
+			
+			// aapt resource value: 0x7f07002e
+			public const int txt28 = 2131165230;
+			
+			// aapt resource value: 0x7f07002f
+			public const int txt29 = 2131165231;
+			
+			// aapt resource value: 0x7f070015
+			public const int txt3 = 2131165205;
+			
+			// aapt resource value: 0x7f070030
+			public const int txt30 = 2131165232;
+			
+			// aapt resource value: 0x7f070031
+			public const int txt31 = 2131165233;
+			
+			// aapt resource value: 0x7f070032
+			public const int txt32 = 2131165234;
+			
+			// aapt resource value: 0x7f070033
+			public const int txt33 = 2131165235;
+			
+			// aapt resource value: 0x7f070034
+			public const int txt34 = 2131165236;
+			
+			// aapt resource value: 0x7f070035
+			public const int txt35 = 2131165237;
+			
+			// aapt resource value: 0x7f070036
+			public const int txt36 = 2131165238;
+			
+			// aapt resource value: 0x7f070037
+			public const int txt37 = 2131165239;
+			
+			// aapt resource value: 0x7f070038
+			public const int txt38 = 2131165240;
+			
+			// aapt resource value: 0x7f070039
+			public const int txt39 = 2131165241;
+			
+			// aapt resource value: 0x7f070016
+			public const int txt4 = 2131165206;
+			
+			// aapt resource value: 0x7f07003a
+			public const int txt40 = 2131165242;
+			
+			// aapt resource value: 0x7f07003b
+			public const int txt41 = 2131165243;
+			
+			// aapt resource value: 0x7f07003c
+			public const int txt42 = 2131165244;
+			
+			// aapt resource value: 0x7f070017
+			public const int txt5 = 2131165207;
+			
+			// aapt resource value: 0x7f070018
+			public const int txt6 = 2131165208;
+			
+			// aapt resource value: 0x7f070019
+			public const int txt7 = 2131165209;
+			
+			// aapt resource value: 0x7f07001a
+			public const int txt8 = 2131165210;
+			
+			// aapt resource value: 0x7f07001b
+			public const int txt9 = 2131165211;
 			
 			// aapt resource value: 0x7f070009
 			public const int wide = 2131165193;
@@ -346,7 +475,10 @@ namespace DATC
 			public const int DateSenzor = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int Legenda = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
 			
 			static Layout()
 			{

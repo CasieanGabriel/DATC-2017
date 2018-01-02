@@ -10,6 +10,7 @@
   <application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/icon" android:name="android.app.Application" android:debuggable="true">
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBczzYntpo_sHTgvRp-m9iOU13_OQd2TdU" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:label="Legenda" android:name="md5590a0afcf27b0e6460237f9f5b8328cf.LegendaActivity" />
     <activity android:label="Irrigation Master" android:name="md5590a0afcf27b0e6460237f9f5b8328cf.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

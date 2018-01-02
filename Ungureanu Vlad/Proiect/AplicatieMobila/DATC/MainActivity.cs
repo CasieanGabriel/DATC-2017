@@ -89,6 +89,9 @@ namespace DATC
             btnTemp.Click += BtnTemp_Click;
             btnUmid.Click += BtnUmid_Click;
             btnPres.Click += BtnPres_Click;
+            btnTemp.LongClick += BtnTemp_LongClick;
+            btnUmid.LongClick += BtnUmid_LongClick;
+            btnPres.LongClick += BtnPres_LongClick;
             timpActualizare.Elapsed += TimpActualizare_Elapsed;
             //Preluare lista senzori
             try
@@ -115,6 +118,25 @@ namespace DATC
             catch (Exception e) { }
             timpActualizare.Start();
         }
+
+        private void BtnPres_LongClick(object sender, Android.Views.View.LongClickEventArgs e)
+        {
+            Helper.vizualizareaCurenta = Helper.Vizualizare.Presiune;
+            StartActivity(typeof(LegendaActivity));
+        }
+
+        private void BtnUmid_LongClick(object sender, Android.Views.View.LongClickEventArgs e)
+        {
+            Helper.vizualizareaCurenta = Helper.Vizualizare.Umiditate;
+            StartActivity(typeof(LegendaActivity));
+        }
+
+        private void BtnTemp_LongClick(object sender, Android.Views.View.LongClickEventArgs e)
+        {
+            Helper.vizualizareaCurenta = Helper.Vizualizare.Temperatura;
+            StartActivity(typeof(LegendaActivity));
+        }
+
         private void TimpActualizare_Elapsed(object sender, ElapsedEventArgs e)
         {
             try
