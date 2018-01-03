@@ -9,7 +9,7 @@ const menuList = require('./Constants.js');
 export default class Menu extends Component {
 
     _onPress() {
-      Actions.pop();
+      Actions.loginScreen({prop:''});
     };
   render() {
     return (
