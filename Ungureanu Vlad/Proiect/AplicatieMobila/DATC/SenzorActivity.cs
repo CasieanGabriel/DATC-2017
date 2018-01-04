@@ -48,7 +48,7 @@ namespace DATC
             }
             else
             {
-                axisTitle = "Presiune (Pa)";
+                axisTitle = "Presiune (mmHG)";
             }
             pltSenzor = FindViewById<PlotView>(Resource.Id.pltSenzor);
 
@@ -67,7 +67,7 @@ namespace DATC
         private void BtnPres_Click(object sender, EventArgs e)
         {
             Helper.vizualizareaCurenta = Helper.Vizualizare.Presiune;
-            axisTitle = "Presiune (Pa)";
+            axisTitle = "Presiune (mmHG)";
             ActualizareGrafic();
         }
 
@@ -103,7 +103,7 @@ namespace DATC
             PlotModel plotModel = new PlotModel { Title = "Date " + Helper.senzorCurent, TitleColor = OxyColors.White };
             if (Helper.vizualizareaCurenta == Helper.Vizualizare.Temperatura)
             {
-                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 55, Minimum = -25, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 50, Minimum = -20, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
                 plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, TextColor = OxyColors.White, MajorGridlineColor = OxyColors.White, AxislineColor = OxyColors.White, Title = "Timp (min)", TitleColor = OxyColor.FromRgb(255, 255, 255) });
                 for (int index = 0; index < Helper.listaDateSenzor.Count; index++)
                 {
@@ -122,7 +122,7 @@ namespace DATC
              }
             else if (Helper.vizualizareaCurenta == Helper.Vizualizare.Umiditate)
             {
-                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 105, Minimum = -5, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 100, Minimum = 0, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
                 plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, TextColor = OxyColors.White, MajorGridlineColor = OxyColors.White, AxislineColor = OxyColors.White, Title = "Timp (min)", TitleColor = OxyColor.FromRgb(255, 255, 255) });
                 for (int index = 0; index < Helper.listaDateSenzor.Count; index++)
                     if (index == 0)
@@ -139,7 +139,7 @@ namespace DATC
             }
             else
             {
-                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 1400, Minimum = 700, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
+                plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 790, Minimum = 720, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
                 plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Bottom, TextColor = OxyColors.White, MajorGridlineColor = OxyColors.White, AxislineColor = OxyColors.White, Title = "Timp (min)", TitleColor = OxyColor.FromRgb(255, 255, 255) });
                 for (int index = 0; index < Helper.listaDateSenzor.Count; index++)
                     if (index == 0)

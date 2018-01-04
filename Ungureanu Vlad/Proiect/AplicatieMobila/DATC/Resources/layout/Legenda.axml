@@ -1,336 +1,613 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#ffffffff"
-    android:background="#ffffffff">
+    android:background="#ffffffaa">
     <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/gridLayout1"
-        android:alignmentMode="alignBounds">
-        <Button
-            android:text="Temperatura"
-            android:id="@+id/btnTemp"
-            android:width="120dp" />
-        <Button
-            android:text="Umiditate"
-            android:id="@+id/btnUmid"
-            android:width="120dp" />
-        <Button
-            android:text="Presiune"
-            android:id="@+id/btnPres"
-            android:width="120dp" />
-    </GridLayout>
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:id="@+id/gridLayout2"
         android:alignmentMode="alignBounds"
-        android:rowCount="7"
+        android:rowCount="25"
         android:columnCount="6"
-        android:backgroundTint="#ffffffff">
+        android:layout_marginTop="0.0dp">
+        <TextView
+            android:text="Temperatura (C)"
+            android:textSize="20dp"
+            android:layout_columnSpan="6"
+            android:textColor="#FF000000" />
         <TextView
             android:text="-20"
-            android:id="@+id/txt1"
-            android:textAlignment="center"
+            android:textSize="20dp"
             android:background="#FF000000"
-            android:textSize="22dp"
             android:width="37dp" />
         <TextView
-            android:text="-19-18"
-            android:id="@+id/txt2"
-            android:textAlignment="center"
             android:background="#FF000015"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
-            android:text="-17-16"
-            android:id="@+id/txt3"
-            android:textAlignment="center"
-            android:textSize="22dp"
             android:background="#FF00002B"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
             android:text="  -15"
-            android:id="@+id/txt4"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF000040"
-            android:layout_marginRight="0.0dp"
             android:width="56dp" />
         <TextView
-            android:text="-14 -13"
-            android:id="@+id/txt5"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF000055"
             android:width="70dp" />
         <TextView
-            android:text="-12 -11"
-            android:id="@+id/txt6"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="      -11"
+            android:textSize="20dp"
             android:background="#FF00006B"
             android:width="70dp" />
         <TextView
             android:text="-10 "
-            android:id="@+id/txt7"
-            android:textAlignment="center"
             android:background="#FF000080"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="37dp" />
         <TextView
-            android:text=" -9  -8  "
-            android:id="@+id/txt8"
-            android:textAlignment="center"
             android:background="#FF1623A0"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
-            android:text="  -7 -6 "
-            android:id="@+id/txt9"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF2B46C1"
             android:width="65dp" />
         <TextView
             android:text="   -5   "
-            android:id="@+id/txt10"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF4169E1"
             android:width="56dp" />
         <TextView
-            android:text="   -4 -3 "
-            android:id="@+id/txt11"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF3576EB"
             android:width="70dp" />
         <TextView
-            android:text="   -2 -1"
-            android:id="@+id/txt12"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="        -1"
+            android:textSize="20dp"
             android:background="#FF2A83F5"
             android:width="70dp" />
         <TextView
             android:text="  0"
-            android:id="@+id/txt13"
-            android:textAlignment="center"
             android:background="#FF1E90FF"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="37dp" />
         <TextView
-            android:text="  1  2"
-            android:id="@+id/txt14"
-            android:textAlignment="center"
             android:background="#FF3592F9"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
-            android:text="  3  4"
-            android:id="@+id/txt15"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF4D93F3"
             android:width="65dp" />
         <TextView
-            android:text="   5  "
-            android:id="@+id/txt16"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="    5  "
+            android:textSize="20dp"
             android:background="#FF6495ED"
             android:width="56dp" />
         <TextView
-            android:text="   6 7"
-            android:id="@+id/txt17"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF70A8EC"
             android:width="70dp" />
         <TextView
-            android:text="   8 9"
-            android:id="@+id/txt18"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="         9"
+            android:textSize="20dp"
             android:background="#FF7BBBEC"
             android:width="70dp" />
         <TextView
             android:text=" 10"
-            android:id="@+id/txt19"
-            android:textAlignment="center"
             android:background="#FF87CEEB"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="37dp" />
         <TextView
-            android:text="11 12"
-            android:id="@+id/txt20"
-            android:textAlignment="center"
             android:background="#FF6FD4E2"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
-            android:text=" 13 14"
-            android:id="@+id/txt21"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF58DAD9"
             android:width="65dp" />
         <TextView
             android:text="  15"
-            android:id="@+id/txt22"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF40E0D0"
             android:width="56dp" />
         <TextView
-            android:text=" 16 17"
-            android:id="@+id/txt23"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF2BC08B"
             android:width="70dp" />
         <TextView
-            android:text=" 18 19"
-            android:id="@+id/txt24"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="       19"
+            android:textSize="20dp"
             android:background="#FF15A045"
             android:width="70dp" />
         <TextView
             android:text=" 20"
-            android:id="@+id/txt25"
-            android:textAlignment="center"
             android:background="#FF008000"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="37dp" />
         <TextView
-            android:text=" 21 22"
-            android:id="@+id/txt26"
-            android:textAlignment="center"
             android:background="#FF00AA00"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
-            android:text=" 23 24"
-            android:id="@+id/txt27"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF00D500"
             android:width="65dp" />
         <TextView
             android:text="  25"
-            android:id="@+id/txt28"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF00FF00"
             android:width="56dp" />
         <TextView
-            android:text=" 26 27"
-            android:id="@+id/txt29"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF55FF00"
             android:width="70dp" />
         <TextView
-            android:text=" 28 29"
-            android:id="@+id/txt30"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="       29"
+            android:textSize="20dp"
             android:background="#FFAAFF00"
             android:width="70dp" />
         <TextView
             android:text=" 30"
-            android:id="@+id/txt31"
-            android:textAlignment="center"
             android:background="#FFFFFF00"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="37dp" />
         <TextView
-            android:text=" 31 32"
-            android:id="@+id/txt32"
-            android:textAlignment="center"
             android:background="#FFFFE100"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
-            android:text=" 33 34"
-            android:id="@+id/txt33"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FFFFC300"
             android:width="65dp" />
         <TextView
             android:text="  35"
-            android:id="@+id/txt34"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FFFFA500"
             android:width="56dp" />
         <TextView
-            android:text=" 36 37"
-            android:id="@+id/txt35"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FFFF6E00"
             android:width="70dp" />
         <TextView
-            android:text=" 38 39"
-            android:id="@+id/txt36"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="       39"
+            android:textSize="20dp"
             android:background="#FFFF3700"
             android:width="70dp" />
         <TextView
             android:text=" 40"
-            android:id="@+id/txt37"
-            android:textAlignment="center"
             android:background="#FFFF0000"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="37dp" />
         <TextView
-            android:text=" 41 42"
-            android:id="@+id/txt38"
-            android:textAlignment="center"
             android:background="#FFE6001A"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:width="65dp" />
         <TextView
-            android:text=" 43 44"
-            android:id="@+id/txt39"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FFCC0033"
             android:width="65dp" />
         <TextView
-            android:text="45 46"
-            android:id="@+id/txt40"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="  45 "
+            android:textSize="20dp"
             android:background="#FFB3004D"
             android:width="56dp" />
         <TextView
-            android:text=" 47 48"
-            android:id="@+id/txt41"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:textSize="20dp"
             android:background="#FF990066"
             android:width="70dp" />
         <TextView
-            android:text=" 49 50"
-            android:id="@+id/txt42"
-            android:textAlignment="center"
-            android:textSize="22dp"
+            android:text="       50"
+            android:textSize="20dp"
             android:background="#FF800080"
             android:width="70dp" />
+        <TextView
+            android:text="Presiune (mmHg)"
+            android:textSize="20dp"
+            android:layout_columnSpan="6"
+            android:textColor="#FF000000" />
+        <TextView
+            android:text="720"
+            android:textSize="20dp"
+            android:background="#ff0000ff"
+            android:width="37dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF0014FF"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF0029FF"
+            android:width="65dp" />
+        <TextView
+            android:text="  726"
+            android:textSize="20dp"
+            android:background="#FF003DFF"
+            android:width="56dp" />
+        <TextView
+            android:background="#FF0052FF"
+            android:textSize="20dp"
+            android:width="70dp" />
+        <TextView
+            android:text="      731"
+            android:textSize="20dp"
+            android:background="#FF0066FF"
+            android:width="70dp" />
+        <TextView
+            android:text="732"
+            android:background="#FF0085FF"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF00A3FF"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF00C2FF"
+            android:width="65dp" />
+        <TextView
+            android:text="  738   "
+            android:textSize="20dp"
+            android:background="#FF00E0FF"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF00FFFF"
+            android:width="70dp" />
+        <TextView
+            android:text="      743"
+            android:textSize="20dp"
+            android:background="#FF0AFFCC"
+            android:width="70dp" />
+        <TextView
+            android:text="744"
+            android:background="#FF14FF99"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF1FFF66"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF29FF33"
+            android:width="65dp" />
+        <TextView
+            android:text="  750  "
+            android:textSize="20dp"
+            android:background="#FF33FF00"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF47FF00"
+            android:width="70dp" />
+        <TextView
+            android:text="      755    "
+            android:textSize="20dp"
+            android:background="#FF5CFF00"
+            android:width="70dp" />
+        <TextView
+            android:text="756"
+            android:background="#FF70FF00"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF85FF00"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF99FF00"
+            android:width="65dp" />
+        <TextView
+            android:text="  762"
+            android:textSize="20dp"
+            android:background="#FFADFF00"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#C2FF00"
+            android:width="70dp" />
+        <TextView
+            android:text="      767"
+            android:textSize="20dp"
+            android:background="#FFD6FF00"
+            android:width="70dp" />
+        <TextView
+            android:text="768"
+            android:background="#FFEBFF00"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FFFFFF00"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFFE00A"
+            android:width="65dp" />
+        <TextView
+            android:text="  774"
+            android:textSize="20dp"
+            android:background="#FFFFC214"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFFA31F"
+            android:width="70dp" />
+        <TextView
+            android:text="      779"
+            android:textSize="20dp"
+            android:background="#FFFF8529"
+            android:width="70dp" />
+        <TextView
+            android:text="780"
+            android:background="#FFFF6633"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FFFF5229"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFF3D1F"
+            android:width="65dp" />
+        <TextView
+            android:text="  786"
+            android:textSize="20dp"
+            android:background="#FFFF2914"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFF140A"
+            android:width="70dp" />
+        <TextView
+            android:text="      790"
+            android:textSize="20dp"
+            android:background="#FFFF0000"
+            android:width="70dp" />
+        <TextView
+            android:text="Umiditate (%)"
+            android:textSize="20dp"
+            android:layout_columnSpan="6"
+            android:textColor="#FF000000" />
+        <TextView
+            android:text="0"
+            android:background="#FFFF0000"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FFFF0A00"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFF1400"
+            android:width="65dp" />
+        <TextView
+            android:text="  5"
+            android:textSize="20dp"
+            android:background="#FFFF1F00"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFF2900"
+            android:width="70dp" />
+        <TextView
+            android:text="       10"
+            android:textSize="20dp"
+            android:background="#FFFF3300"
+            android:width="70dp"
+            android:id="@+id/textView3" />
+        <TextView
+            android:text="11 "
+            android:background="#FFfF3D00"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FFFF4700"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFF5200"
+            android:width="65dp" />
+        <TextView
+            android:text="  17   "
+            android:textSize="20dp"
+            android:background="#FFFF5C00"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFF6600"
+            android:width="70dp" />
+        <TextView
+            android:text="       22"
+            android:textSize="20dp"
+            android:background="#FFFF7000"
+            android:width="70dp" />
+        <TextView
+            android:text="23"
+            android:background="#FFFF7A00"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FFFF8500"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFF8F00"
+            android:width="65dp" />
+        <TextView
+            android:text="  29  "
+            android:textSize="20dp"
+            android:background="#FFFF9900"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFFA300"
+            android:width="70dp" />
+        <TextView
+            android:text="       34"
+            android:textSize="20dp"
+            android:background="#FFFFAD00"
+            android:width="70dp" />
+        <TextView
+            android:text="35"
+            android:background="#FFFFB800"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FFFFC200"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFFFCC00"
+            android:width="65dp" />
+        <TextView
+            android:text="  41"
+            android:textSize="20dp"
+            android:background="#FFD6D600"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FFADE000"
+            android:width="70dp" />
+        <TextView
+            android:text="       46"
+            android:textSize="20dp"
+            android:background="#FF85EB00"
+            android:width="70dp" />
+        <TextView
+            android:text="47"
+            android:background="#FF5CF500"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF33FF00"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF29FF33"
+            android:width="65dp" />
+        <TextView
+            android:text="  53"
+            android:textSize="20dp"
+            android:background="#FF1FFF66"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF14FF99"
+            android:width="70dp" />
+        <TextView
+            android:text="       58"
+            android:textSize="20dp"
+            android:background="#FF0AFFCC"
+            android:width="70dp" />
+        <TextView
+            android:text="59"
+            android:background="#FF00FFFF"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF00F5FF"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF00EBFF"
+            android:width="65dp" />
+        <TextView
+            android:text="  65"
+            android:textSize="20dp"
+            android:background="#FF00E0FF"
+            android:width="56dp"
+            android:id="@+id/textView2" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF00D6FF"
+            android:width="70dp" />
+        <TextView
+            android:text="       70"
+            android:textSize="20dp"
+            android:background="#FF00CCFF"
+            android:width="70dp" />
+        <TextView
+            android:text="71"
+            android:background="#FF00C2FF"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF00B8FF"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF00ADFF"
+            android:width="65dp" />
+        <TextView
+            android:text="  77"
+            android:textSize="20dp"
+            android:background="#FF00A3FF"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF0099FF"
+            android:width="70dp" />
+        <TextView
+            android:text="       82"
+            android:textSize="20dp"
+            android:background="#FF007AFF"
+            android:width="70dp" />
+        <TextView
+            android:text="83"
+            android:background="#FF005CFF"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF003DFF"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF001FFF"
+            android:width="65dp" />
+        <TextView
+            android:text="  89"
+            android:textSize="20dp"
+            android:background="#FF0000FF"
+            android:width="56dp" />
+        <TextView
+            android:textSize="20dp"
+            android:background="#FF1400F5"
+            android:width="70dp" />
+        <TextView
+            android:text="       94"
+            android:textSize="20dp"
+            android:background="#FF2900EB"
+            android:width="70dp" />
+        <TextView
+            android:text="95"
+            android:background="#FF3D00E0"
+            android:textSize="20dp"
+            android:width="37dp" />
+        <TextView
+            android:background="#FF5200D6"
+            android:textSize="20dp"
+            android:width="65dp" />
+        <TextView
+            android:text="  100"
+            android:textSize="20dp"
+            android:background="#FF6600CC"
+            android:width="65dp" />
     </GridLayout>
-<!--<ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imgLegenda"
-        android:src="@drawable/download"
-        android:scaleType="fitCenter" />-->
-</LinearLayout>
+</ScrollView>
