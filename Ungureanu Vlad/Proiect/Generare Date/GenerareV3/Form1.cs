@@ -59,7 +59,7 @@ namespace GenerareV3
                 {
                     var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(senz);
                     var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                    var result = client.PostAsync("http://localhost:50922/api/todo", content).Result;
+                    var result = client.PostAsync("http://localhost:50923/api/todo", content).Result;
                     //  MessageBox.Show(Convert.ToString(result));
                 }
                 catch { MessageBox.Show("Nu se poate face Post, error problem"); }
@@ -71,7 +71,7 @@ namespace GenerareV3
         {
             timer1 = new System.Windows.Forms.Timer();
             timer1.Tick += new EventHandler(timer1_Tick);
-            timer1.Interval = 20000; // every 20 seconds
+            timer1.Interval = 90000; // every 20 seconds
 
             Thread tfirst = new Thread(firstinrestrigation);          // Kick off a new thread
             tfirst.Start();
@@ -81,7 +81,7 @@ namespace GenerareV3
             timer2 = new System.Windows.Forms.Timer();
             timer2.Tick += new EventHandler(timer2_Tick);
             timer2.Interval = 30000; // every 20 seconds
-            timer2.Start();
+            //timer2.Start();
         }
 
         List<Inregistrare> li = new List<Inregistrare>();
@@ -93,7 +93,7 @@ namespace GenerareV3
                 int idsenzor = s.idsenzor;
                 int temperatura = rnd.Next(0, 45);
                 int umiditate = rnd.Next(0, 100);
-                int presiune = rnd.Next(900,1100);
+                int presiune = rnd.Next(730,780);
                 DateTime data = DateTime.Now;
 
                 Inregistrare i = new Inregistrare(idsenzor,temperatura,umiditate,presiune,data);
@@ -122,7 +122,7 @@ namespace GenerareV3
                 {
                     var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(i);
                     var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                    var result = client.PostAsync("http://localhost:50922/api/Inregistrare", content).Result;
+                    var result = client.PostAsync("http://localhost:50923/api/Inregistrare", content).Result;
                     //  MessageBox.Show(Convert.ToString(result));
                 }
                 catch
@@ -143,7 +143,7 @@ namespace GenerareV3
                 {
                     i.umiditate = i.umiditate + rnd.Next(5, 50);
                     i.temperatura = i.temperatura - rnd.Next(1, 5);
-                    i.presiune = i.presiune - rnd.Next(10, 100);
+                    i.presiune = i.presiune - rnd.Next(5, 10);
                 }
                 if (i.umiditate > 25)
                 {
@@ -153,7 +153,7 @@ namespace GenerareV3
                         i.umiditate = 0;
                     }
                     i.temperatura = i.temperatura + rnd.Next(1, 5);
-                    i.presiune = i.presiune + rnd.Next(10, 100);
+                    i.presiune = i.presiune + rnd.Next(5, 10);
                 }
                 i.data = DateTime.Now;
             }
@@ -175,7 +175,7 @@ namespace GenerareV3
             {
                 var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(i);
                 var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                var result = client.PostAsync("http://localhost:50922/api/Inregistrare", content).Result;
+                var result = client.PostAsync("http://localhost:50923/api/Inregistrare", content).Result;
                 //  MessageBox.Show(Convert.ToString(result));
             }
 
@@ -256,7 +256,7 @@ namespace GenerareV3
             {
                 var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(i);
                 var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                var result = client.PostAsync("http://localhost:50922/api/Inregistrare", content).Result;
+                var result = client.PostAsync("http://localhost:50923/api/Inregistrare", content).Result;
             }
             catch
             {

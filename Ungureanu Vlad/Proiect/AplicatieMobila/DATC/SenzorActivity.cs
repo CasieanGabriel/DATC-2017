@@ -28,6 +28,10 @@ namespace DATC
         string axisTitle;
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
+            alertDialog.SetTitle("Conectare esuata");
+            alertDialog.SetNeutralButton("OK", delegate { alertDialog.Dispose(); });
+            alertDialog.SetMessage("Verificati conexiunea la internet");
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.DateSenzor);
             btnTemp = FindViewById<Button>(Resource.Id.btnTemp);
@@ -36,7 +40,7 @@ namespace DATC
             btnTemp.Click += BtnTemp_Click;
             btnUmid.Click += BtnUmid_Click;
             btnPres.Click += BtnPres_Click;
-            
+
             Helper.listaDateSenzor.Clear();
             if (Helper.vizualizareaCurenta == Helper.Vizualizare.Temperatura)
             {
@@ -55,12 +59,15 @@ namespace DATC
             try
             {
                 client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
-                var Home = "http://datcapitmv.azurewebsites.net/api/values/"+Helper.senzorCurent.Substring(7);
+                var Home = "http://datcapitmv.azurewebsites.net/api/values/" + Helper.senzorCurent.Substring(7);
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaDateSenzor = JsonConvert.DeserializeObject<List<DateSenzor>>(data);
             }
-            catch (Exception e) { }
+            catch (Exception e)
+            {
+                alertDialog.Show();
+            }
             ActualizareGrafic();
         }
 
@@ -97,7 +104,7 @@ namespace DATC
                          "M/d/yyyy hh:mm tt", "M/d/yyyy hh tt",
                          "M/d/yyyy h:mm", "M/d/yyyy h:mm",
                          "MM/dd/yyyy hh:mm", "M/dd/yyyy hh:mm"};
-            DateTime timp,firstTime=DateTime.Now;
+            DateTime timp, firstTime = DateTime.Now;
             TimeSpan minute;
             LineSeries series1 = new LineSeries();
             PlotModel plotModel = new PlotModel { Title = "Date " + Helper.senzorCurent, TitleColor = OxyColors.White };
@@ -109,17 +116,17 @@ namespace DATC
                 {
                     if (index == 0)
                     {
-                        firstTime =DateTime.ParseExact(Helper.listaDateSenzor[index].Data, formats, new CultureInfo("en-US"), DateTimeStyles.None);
+                        firstTime = DateTime.ParseExact(Helper.listaDateSenzor[index].Data, formats, new CultureInfo("en-US"), DateTimeStyles.None);
                         series1.Points.Add(new DataPoint(index, double.Parse(Helper.listaDateSenzor[index].Temperatura)));
                     }
                     else
                     {
-                        timp= DateTime.ParseExact(Helper.listaDateSenzor[index].Data, formats, new CultureInfo("en-US"), DateTimeStyles.None);
+                        timp = DateTime.ParseExact(Helper.listaDateSenzor[index].Data, formats, new CultureInfo("en-US"), DateTimeStyles.None);
                         minute = timp.Subtract(firstTime);
                         series1.Points.Add(new DataPoint(minute.Minutes, double.Parse(Helper.listaDateSenzor[index].Temperatura)));
                     }
                 }
-             }
+            }
             else if (Helper.vizualizareaCurenta == Helper.Vizualizare.Umiditate)
             {
                 plotModel.Axes.Add(new LinearAxis { Position = AxisPosition.Left, Maximum = 100, Minimum = 0, TextColor = OxyColors.White, AxislineColor = OxyColors.White, MajorGridlineColor = OxyColors.White, Title = axisTitle, TitleColor = OxyColor.FromRgb(255, 255, 255) });
