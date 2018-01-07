@@ -1,0 +1,76 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h2 class="title">@ViewBag.Title</h2>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+    <div class="poza">
+        <div class="thumbnail">
+            @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+            {
+                <img src="@poza.ThumbnailUrl" />
+            }
+            else
+            {
+                <span>no thumbnail</span>
+            }
+        </div>
+        <div class="details">
+            <h3 class="description">@poza.Description</h3>
+
+            @if (!string.IsNullOrWhiteSpace(poza.Url))
+            {
+
+                if (poza.Description != ViewBag.description)
+                {
+                    using (Html.BeginForm("GetAccessLink", "Home", FormMethod.Get))
+                    {
+                        <input type="text" name="fileName" value="@poza.Description" style="display: none"/>
+                        <input type="submit" value="Generate link" style="height: 20px"/>
+                    }
+                }
+                if (poza.Description == ViewBag.description)
+                {
+                    <a href="@ViewBag.link">Descarca</a> <br/>
+                }
+                if (poza.Comments != null)
+                {
+                    <div style="width: 200px; height: 70px; overflow-y: scroll; display: inline-block">
+                        @foreach (var comment in poza.Comments)
+                        {
+                            <span><b>@comment.MadeBy :</b></span>
+                            <br />
+                            <span>@comment.Text</span> <br />
+                        }
+                    </div>
+                }
+                <div style="display: block; float: right;"> 
+                    @using (Html.BeginForm("IncarcaComentariu", "Home", FormMethod.Post, new {DefaultButton = "submit_btn"}))
+                    {
+                        <input type="text" name="madeBy" placeholder="Your name" required/><br/>
+                        <textarea cols="30" rows="2" style="max-height: 50px; max-width: 80%" name="comment" placeholder="Add comment" required></textarea>
+                        <input type="text" style="display: none" name="description" value="@poza.Description"/>
+                        <input type="submit" name="btnSubmit" id="submit_btn" value="Add comment"/>
+                    }
+                </div>
+
+            }
+            else
+            {
+                <span>no download URL</span>
+            }
+
+        </div>
+    </div>
+}
