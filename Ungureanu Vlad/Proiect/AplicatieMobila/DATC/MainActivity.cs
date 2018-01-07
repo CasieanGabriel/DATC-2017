@@ -268,6 +268,7 @@ namespace DATC
 
         private void BtnPres_Click(object sender, EventArgs e)
         {
+            Helper.markersVisible = false;
             Helper.vizualizareaCurenta = Helper.Vizualizare.Presiune;
             mMap.Clear();
             for (int index = 0; index < Helper.listaHeatMapPres.Count; index++)
@@ -278,6 +279,7 @@ namespace DATC
 
         private void BtnUmid_Click(object sender, EventArgs e)
         {
+            Helper.markersVisible = false;
             Helper.vizualizareaCurenta = Helper.Vizualizare.Umiditate;
             mMap.Clear();
             for (int index = 0; index < Helper.listaHeatMapUmid.Count; index++)
@@ -288,6 +290,7 @@ namespace DATC
 
         private void BtnTemp_Click(object sender, EventArgs e)
         {
+            Helper.markersVisible = false;
             Helper.vizualizareaCurenta = Helper.Vizualizare.Temperatura;
             mMap.Clear();
             for (int index = 0; index < Helper.listaHeatMapTemp.Count; index++)
