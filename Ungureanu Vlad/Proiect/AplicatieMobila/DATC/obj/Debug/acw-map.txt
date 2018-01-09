@@ -2,6 +2,14 @@ DATC.LegendaActivity, DATC;md5590a0afcf27b0e6460237f9f5b8328cf.LegendaActivity
 DATC.LegendaActivity, DATC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5590a0afcf27b0e6460237f9f5b8328cf.LegendaActivity
 DATC.LegendaActivity;md5590a0afcf27b0e6460237f9f5b8328cf.LegendaActivity
 datc.LegendaActivity;md5590a0afcf27b0e6460237f9f5b8328cf.LegendaActivity
+DATC.ListViewAdapter, DATC;md5590a0afcf27b0e6460237f9f5b8328cf.ListViewAdapter
+DATC.ListViewAdapter, DATC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5590a0afcf27b0e6460237f9f5b8328cf.ListViewAdapter
+DATC.ListViewAdapter;md5590a0afcf27b0e6460237f9f5b8328cf.ListViewAdapter
+datc.ListViewAdapter;md5590a0afcf27b0e6460237f9f5b8328cf.ListViewAdapter
+DATC.LogsActivity, DATC;md5590a0afcf27b0e6460237f9f5b8328cf.LogsActivity
+DATC.LogsActivity, DATC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5590a0afcf27b0e6460237f9f5b8328cf.LogsActivity
+DATC.LogsActivity;md5590a0afcf27b0e6460237f9f5b8328cf.LogsActivity
+datc.LogsActivity;md5590a0afcf27b0e6460237f9f5b8328cf.LogsActivity
 DATC.MainActivity, DATC;md5590a0afcf27b0e6460237f9f5b8328cf.MainActivity
 DATC.MainActivity, DATC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5590a0afcf27b0e6460237f9f5b8328cf.MainActivity
 DATC.MainActivity;md5590a0afcf27b0e6460237f9f5b8328cf.MainActivity

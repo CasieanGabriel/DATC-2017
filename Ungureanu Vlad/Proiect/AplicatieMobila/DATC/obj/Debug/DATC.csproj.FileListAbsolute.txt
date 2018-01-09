@@ -84,3 +84,5 @@ E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\drawable\ico
 E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\bin\Debug\Newtonsoft.Json.dll
 E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\bin\Debug\Newtonsoft.Json.xml
 E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\layout\legenda.xml
+E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\layout\logs.xml
+E:\Vlad\An IV\Sem I\DATC\Proiect\AplicatieMobila\DATC\obj\Debug\res\layout\logsview.xml

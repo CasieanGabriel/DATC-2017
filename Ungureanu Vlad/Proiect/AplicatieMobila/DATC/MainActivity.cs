@@ -31,13 +31,14 @@ namespace DATC
             mMap.MoveCamera(camera);
             mMap.MarkerClick += MMap_MarkerClick;
             mMap.MapLongClick += MMap_MapLongClick;
+            mMap.MapClick += MMap_MapClick;
             for (int index = 0; index < Helper.listaHeatMapTemp.Count; index++)
             {
                 Helper.DesenarePoligon(mMap, new LatLng(double.Parse(Helper.listaHeatMapTemp[index].LatA), double.Parse(Helper.listaHeatMapTemp[index].LngA)), new LatLng(double.Parse(Helper.listaHeatMapTemp[index].LatB), double.Parse(Helper.listaHeatMapTemp[index].LngB)), new LatLng(double.Parse(Helper.listaHeatMapTemp[index].LatC), double.Parse(Helper.listaHeatMapTemp[index].LngC)), new LatLng(double.Parse(Helper.listaHeatMapTemp[index].LatD), double.Parse(Helper.listaHeatMapTemp[index].LngD)), Helper.listaHeatMapTemp[index].Culoare);
             }
         }
 
-        private void MMap_MapLongClick(object sender, GoogleMap.MapLongClickEventArgs e)
+        private void MMap_MapClick(object sender, GoogleMap.MapClickEventArgs e)
         {
             Helper.markersVisible = !Helper.markersVisible;
             if (Helper.markersVisible == true)
@@ -70,6 +71,11 @@ namespace DATC
                     }
                 }
             }
+        }
+
+        private void MMap_MapLongClick(object sender, GoogleMap.MapLongClickEventArgs e)
+        {
+            StartActivity(typeof(LogsActivity));
         }
 
         private void MMap_MarkerClick(object sender, GoogleMap.MarkerClickEventArgs e)

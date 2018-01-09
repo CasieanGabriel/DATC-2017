@@ -28,11 +28,11 @@ namespace DATC
         string axisTitle;
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            base.OnCreate(savedInstanceState);
             AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
             alertDialog.SetTitle("Conectare esuata");
             alertDialog.SetNeutralButton("OK", delegate { alertDialog.Dispose(); });
             alertDialog.SetMessage("Verificati conexiunea la internet");
-            base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.DateSenzor);
             btnTemp = FindViewById<Button>(Resource.Id.btnTemp);
             btnUmid = FindViewById<Button>(Resource.Id.btnUmid);

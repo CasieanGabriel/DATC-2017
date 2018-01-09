@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="ID"
+        android:layout_width="30.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtId" />
+    <TextView
+        android:text="Eronat"
+        android:layout_width="55.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEronat" />
+    <TextView
+        android:text="Corectat"
+        android:layout_width="55.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCorectat" />
+    <TextView
+        android:text="Tip"
+        android:layout_width="85.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTip" />
+    <TextView
+        android:text="Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtData" />
+</LinearLayout>

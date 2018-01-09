@@ -104,6 +104,9 @@
     <Compile Include="HeatMapPart.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="LegendaActivity.cs" />
+    <Compile Include="ListViewAdapter.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="LogsActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,6 +123,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Legenda.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Logs.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LogsView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

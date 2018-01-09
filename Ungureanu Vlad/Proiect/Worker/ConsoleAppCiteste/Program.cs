@@ -101,6 +101,7 @@ namespace ConsoleAppCiteste
                             determinaPresiuneCol6(inregistrareActuala);
 
                             SendDB(inregistrareActuala);
+                            //SendQueue(inregistrareActuala);
                         }
                     }
                     
@@ -121,6 +122,7 @@ namespace ConsoleAppCiteste
 
             for (randDeCalculat = 1; randDeCalculat < 11; randDeCalculat++)
             {
+                verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 3);
                 Inregistrare inregistrare = new Inregistrare();
                 inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
                 int culPresiuneDominanta = ComputeCuloareRGBPresiune(listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune);
@@ -190,6 +192,7 @@ namespace ConsoleAppCiteste
 
             for (randDeCalculat = 1; randDeCalculat < 11; randDeCalculat++)
             {
+                verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 2);
                 Inregistrare inregistrare = new Inregistrare();
                 inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
                 int culUmiditateDominanta = ComputeCuloareRGBUmiditate(listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate);
@@ -258,6 +261,7 @@ namespace ConsoleAppCiteste
             int coloanaDeCalculat = 6;
             while (true)
             {
+                verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 2);
                 Inregistrare inregistrare = new Inregistrare();
                 inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
                 int culUmiditateDominanta = ComputeCuloareRGBUmiditate(listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate);
@@ -394,6 +398,7 @@ namespace ConsoleAppCiteste
             int coloanaDeCalculat = 6;
             while (true)
             {
+                verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 3);
                 Inregistrare inregistrare = new Inregistrare();
                 inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
                 int culPresiuneDominanta = ComputeCuloareRGBPresiune(listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune);
@@ -532,6 +537,7 @@ namespace ConsoleAppCiteste
             {
                 coloanaDeCalculat = 6;
             }
+            verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 3);
             Inregistrare inregistrare = new Inregistrare();
             inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
             int culPresiuneDominanta = ComputeCuloareRGBPresiune(listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune);
@@ -785,6 +791,7 @@ namespace ConsoleAppCiteste
             {
                 coloanaDeCalculat = 6;
             }
+            verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 2);
             Inregistrare inregistrare = new Inregistrare();
             inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
             int culumiditateDominanta = ComputeCuloareRGBUmiditate(listaInregistrare[randDeCalculat,coloanaDeCalculat].umiditate);//(Color.FromName(((CuloareUmiditate)(((int)inregistrare.umiditate / 10) * 10)).ToString())).ToArgb();
@@ -1028,7 +1035,295 @@ namespace ConsoleAppCiteste
 
             listaInregistrare[randDeCalculat, coloanaDeCalculat].inregistrareUmiditateActuala = inregistrare.inregistrareUmiditateActuala;
         }
-                
+
+        private static void verifyValue(Inregistrare[,] listaInregistrare, int rand, int coloana, int tip)
+        {
+            int valGresita = 0;
+            int valCorectata = 0;
+            ///*-20->50*//*Umd: 0->100*//*Pres 720-790*/
+            switch (tip)
+            {
+                case 1:
+                    if (listaInregistrare[rand, coloana].temperatura < -20 || listaInregistrare[rand, coloana].temperatura > 50)
+                    {
+                        /*Temperatura gresita*/
+                        valGresita = listaInregistrare[rand, coloana].temperatura;
+                        temperaturaGresita(listaInregistrare, rand, coloana);
+                        valCorectata = listaInregistrare[rand, coloana].temperatura;
+                        updateValue(listaInregistrare,rand,coloana,tip);
+                        genErrorLog(tip,valGresita, valCorectata,listaInregistrare[rand,coloana]);
+                    }
+                    break;
+                case 2:
+                    if (listaInregistrare[rand, coloana].umiditate < 0 || listaInregistrare[rand, coloana].umiditate > 100)
+                    {
+                        /*Umiditate gresita*/
+                        valGresita = listaInregistrare[rand, coloana].umiditate;
+                        umiditateGresita(listaInregistrare, rand, coloana);
+                        valCorectata = listaInregistrare[rand, coloana].umiditate;
+                        updateValue(listaInregistrare, rand, coloana, tip);
+                    }
+                    break;
+                case 3:
+                    if (listaInregistrare[rand, coloana].presiune < 720 || listaInregistrare[rand, coloana].presiune > 790)
+                    {
+                        /*Presiune gresita*/
+                        valGresita = listaInregistrare[rand, coloana].presiune;
+                        presiuneGresita(listaInregistrare, rand, coloana);
+                        valCorectata = listaInregistrare[rand, coloana].presiune;
+                        updateValue(listaInregistrare, rand, coloana, tip);
+                    }
+                    break;
+            }
+        }
+
+        private static void genErrorLog(int tip, int valGresita, int valCorectata, Inregistrare inregistrare)
+        {
+            string connectionString = "Server=tcp:silviu.database.windows.net,1433;Initial Catalog=proiect;Persist Security Info=False;User ID= silviumilu; Password = !Silviu1;MultipleActiveResultSets=False;Encrypt=False;Connection Timeout=30;";
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
+            string query = "";
+            switch (tip)
+            {
+                case 1:
+                    query = "Insert into [dbo].[LogErori] ([IDSenzor],[ValoareEronata],[ValoareCorectata],[TipData]) values( " + 
+                        inregistrare.idsenzor+","+valGresita+","+valCorectata+",'Temperatura')";
+                    break;
+                case 2:
+                    query = "Insert into [dbo].[LogErori] ([IDSenzor],[ValoareEronata],[ValoareCorectata],[TipData]) values( " +
+                        inregistrare.idsenzor + "," + valGresita + "," + valCorectata + ",'Umiditate')";
+                    break;
+                case 3:
+                    query = "Insert into [dbo].[LogErori] ([IDSenzor],[ValoareEronata],[ValoareCorectata],[TipData]) values( " +
+                        inregistrare.idsenzor + "," + valGresita + "," + valCorectata + ",'Presiune')";
+                    break;
+                default:
+                    return;
+            }
+            SqlCommand cmd = new SqlCommand(query);
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.Connection = conn;
+            cmd.ExecuteNonQuery();
+        }
+
+        private static void updateValue(Inregistrare[,] listaInregistrare, int rand, int coloana, int tip)
+        {
+            string connectionString = "Server=tcp:silviu.database.windows.net,1433;Initial Catalog=proiect;Persist Security Info=False;User ID= silviumilu; Password = !Silviu1;MultipleActiveResultSets=False;Encrypt=False;Connection Timeout=30;";
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
+            string query= "";
+            switch (tip)
+            {
+                case 1:
+                    query = "Update [dbo].[TabelaInregistrari] set temperatura = " + listaInregistrare[rand, coloana].temperatura + " where idsenzor=" + listaInregistrare[rand, coloana].idsenzor;
+                    break;
+                case 2:
+                    query = "Update [dbo].[TabelaInregistrari] set umiditate = " + listaInregistrare[rand, coloana].umiditate + " where idsenzor=" + listaInregistrare[rand, coloana].idsenzor;
+                    break;
+                case 3:
+                    query = "Update [dbo].[TabelaInregistrari] set presiune = " + listaInregistrare[rand, coloana].presiune + " where idsenzor=" + listaInregistrare[rand, coloana].idsenzor;
+                    break;
+                default:
+                    return;
+            }
+            SqlCommand cmd = new SqlCommand(query);
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.Connection = conn;
+            cmd.ExecuteNonQuery();
+        }
+
+        private static void presiuneGresita(Inregistrare[,] listaInregistrare, int randDeCalculat, int coloanaDeCalculat)
+        {
+            if (randDeCalculat > 1 && randDeCalculat < 11)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].presiune +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].presiune) / 4;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].presiune +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].presiune) / 3;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].presiune +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].presiune) / 3;
+                }
+            }
+            else if (randDeCalculat == 1)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].presiune +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].presiune) / 3;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].presiune +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].presiune) / 2;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].presiune +
+                        listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].presiune) / 2;
+                }
+            }
+            else if (randDeCalculat == 11)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].presiune +
+                         listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].presiune) / 3;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].presiune) / 2;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].presiune =
+                         (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].presiune + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].presiune) / 2;
+                }
+            }
+        }
+
+        private static void umiditateGresita(Inregistrare[,] listaInregistrare, int randDeCalculat, int coloanaDeCalculat)
+        {
+            if (randDeCalculat > 1 && randDeCalculat < 11)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].umiditate +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].umiditate) / 4;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].umiditate +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].umiditate) / 3;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].umiditate +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].umiditate) / 3;
+                }
+            }
+            else if (randDeCalculat == 1)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].umiditate +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].umiditate) / 3;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].umiditate +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].umiditate) / 2;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].umiditate +
+                        listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].umiditate) / 2;
+                }
+            }
+            else if (randDeCalculat == 11)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].umiditate +
+                         listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].umiditate) / 3;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].umiditate) / 2;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].umiditate =
+                         (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].umiditate + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].umiditate) / 2;
+                }
+            }
+        }
+
+        private static void temperaturaGresita(Inregistrare[,] listaInregistrare, int randDeCalculat, int coloanaDeCalculat)
+        {
+            if (randDeCalculat > 1 && randDeCalculat < 11)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat-1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].temperatura +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].temperatura) / 4;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].temperatura +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].temperatura ) / 3;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].temperatura +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].temperatura) / 3;
+                }
+            } else if (randDeCalculat == 1)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].temperatura +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].temperatura) / 3;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].temperatura +
+                        listaInregistrare[randDeCalculat + 1, coloanaDeCalculat].temperatura) / 2;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].temperatura +
+                        listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].temperatura) / 2;
+                }
+            }else if(randDeCalculat == 11)
+            {
+                if (coloanaDeCalculat > 1 && coloanaDeCalculat < 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].temperatura +
+                         listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].temperatura) / 3;
+                }
+                else if (coloanaDeCalculat == 1)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                        (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat + 1].temperatura) / 2;
+                }
+                else if (coloanaDeCalculat == 6)
+                {
+                    listaInregistrare[randDeCalculat, coloanaDeCalculat].temperatura =
+                         (listaInregistrare[randDeCalculat - 1, coloanaDeCalculat].temperatura + listaInregistrare[randDeCalculat, coloanaDeCalculat - 1].temperatura) / 2;
+                }
+            }
+        }
 
         private static void determinaTemperaturaCol6(Inregistrare[,] listaInregistrare)
         {
@@ -1038,6 +1333,7 @@ namespace ConsoleAppCiteste
 
             for(randDeCalculat = 1; randDeCalculat < 11; randDeCalculat++)
             {
+                verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 1);
                 Inregistrare inregistrare = new Inregistrare();
                 inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
                 int culTemperaturaDominanta = (Color.FromName(((CuloareTemperatura)(((int)inregistrare.temperatura / 10) * 10)).ToString())).ToArgb();
@@ -1119,6 +1415,7 @@ namespace ConsoleAppCiteste
             int coloanaDeCalculat = 6;
             while (true)
             {
+                verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 1);
                 Inregistrare inregistrare = new Inregistrare();
                 inregistrare = listaInregistrare[randDeCalculat,coloanaDeCalculat];
                 int culTemperaturaDominanta = (Color.FromName(((CuloareTemperatura)(((int)inregistrare.temperatura / 10) * 10)).ToString())).ToArgb();
@@ -1631,6 +1928,7 @@ namespace ConsoleAppCiteste
             {
                 coloanaDeCalculat = 6;
             }
+            verifyValue(listaInregistrare, randDeCalculat, coloanaDeCalculat, 1);
             Inregistrare inregistrare = new Inregistrare();
             inregistrare = listaInregistrare[randDeCalculat, coloanaDeCalculat];
             int culTemperaturaDominanta = (Color.FromName(((CuloareTemperatura)(((int)inregistrare.temperatura / 10) * 10)).ToString())).ToArgb();
