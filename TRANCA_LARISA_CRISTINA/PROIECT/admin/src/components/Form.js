@@ -47,7 +47,12 @@ export default class Form extends Component {
    keyboardWillHide (e) {
      this.setState({visibleHeight: Dimensions.get('window').height})
    }
-
+	 componentWillReceiveProps(nextProps) {
+		 this.setState({
+			 username: '',
+			 password: '',
+		 });
+	 }
 	render() {
 		return (
 			 <View style={{height: this.state.visibleHeight}}>

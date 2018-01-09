@@ -1,7 +1,8 @@
 var api = {
-  getResource(){
-    var url = 'http://api.wunderground.com/api/7371ed5d87903525/forecast/q/zmw:00000.74.15247.json';
-    return fetch(url).then((res) => res.json());
+    getResource(term){
+      url = 'http://api.wunderground.com/api/7371ed5d87903525/geolookup/hourly/q/'+ term[1]+','+term[0]+'.json';
+      let response =  fetch(url);
+      return response.then((response) => response.json());
   },
   postResource(params){
     return fetch("http://www.example.co.uk/login", {
