@@ -54,9 +54,9 @@
             this.IdSenzor,
             this.Latitudine,
             this.Longitudine});
-            this.listView1.Location = new System.Drawing.Point(209, 67);
+            this.listView1.Location = new System.Drawing.Point(298, 55);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(334, 159);
+            this.listView1.Size = new System.Drawing.Size(537, 169);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -64,25 +64,25 @@
             // IdSenzor
             // 
             this.IdSenzor.Text = "IdSenzor";
-            this.IdSenzor.Width = 113;
+            this.IdSenzor.Width = 182;
             // 
             // Latitudine
             // 
             this.Latitudine.Text = "Latitudine";
-            this.Latitudine.Width = 108;
+            this.Latitudine.Width = 179;
             // 
             // Longitudine
             // 
             this.Longitudine.Text = "Longitudine";
-            this.Longitudine.Width = 105;
+            this.Longitudine.Width = 156;
             // 
             // getSensors
             // 
-            this.getSensors.Location = new System.Drawing.Point(48, 67);
+            this.getSensors.Location = new System.Drawing.Point(23, 55);
             this.getSensors.Name = "getSensors";
-            this.getSensors.Size = new System.Drawing.Size(121, 31);
+            this.getSensors.Size = new System.Drawing.Size(175, 50);
             this.getSensors.TabIndex = 1;
-            this.getSensors.Text = "GenSensors";
+            this.getSensors.Text = "Genereaza Senzorii ";
             this.getSensors.UseVisualStyleBackColor = true;
             this.getSensors.Click += new System.EventHandler(this.getSensors_Click);
             // 
@@ -94,9 +94,9 @@
             this.umiditate,
             this.presiune,
             this.data});
-            this.listView2.Location = new System.Drawing.Point(209, 232);
+            this.listView2.Location = new System.Drawing.Point(298, 230);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(535, 178);
+            this.listView2.Size = new System.Drawing.Size(537, 184);
             this.listView2.TabIndex = 3;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -104,21 +104,22 @@
             // senzor
             // 
             this.senzor.Text = "senzor";
+            this.senzor.Width = 89;
             // 
             // temperatura
             // 
             this.temperatura.Text = "temperatura";
-            this.temperatura.Width = 112;
+            this.temperatura.Width = 129;
             // 
             // umiditate
             // 
             this.umiditate.Text = "umiditate";
-            this.umiditate.Width = 101;
+            this.umiditate.Width = 123;
             // 
             // presiune
             // 
             this.presiune.Text = "presiune";
-            this.presiune.Width = 113;
+            this.presiune.Width = 128;
             // 
             // data
             // 
@@ -126,9 +127,9 @@
             // 
             // btnInregistrari
             // 
-            this.btnInregistrari.Location = new System.Drawing.Point(23, 232);
+            this.btnInregistrari.Location = new System.Drawing.Point(23, 111);
             this.btnInregistrari.Name = "btnInregistrari";
-            this.btnInregistrari.Size = new System.Drawing.Size(167, 35);
+            this.btnInregistrari.Size = new System.Drawing.Size(175, 48);
             this.btnInregistrari.TabIndex = 4;
             this.btnInregistrari.Text = "GenereazaInregistrari";
             this.btnInregistrari.UseVisualStyleBackColor = true;
@@ -144,21 +145,21 @@
             // 
             // GetSensorsNoInsert
             // 
-            this.GetSensorsNoInsert.Location = new System.Drawing.Point(48, 123);
+            this.GetSensorsNoInsert.Location = new System.Drawing.Point(12, 455);
             this.GetSensorsNoInsert.Name = "GetSensorsNoInsert";
-            this.GetSensorsNoInsert.Size = new System.Drawing.Size(142, 30);
+            this.GetSensorsNoInsert.Size = new System.Drawing.Size(245, 55);
             this.GetSensorsNoInsert.TabIndex = 5;
-            this.GetSensorsNoInsert.Text = "SensorsNoInsert";
+            this.GetSensorsNoInsert.Text = "Incarca senzorii (fara insert)";
             this.GetSensorsNoInsert.UseVisualStyleBackColor = true;
             this.GetSensorsNoInsert.Click += new System.EventHandler(this.GetSensorsNoInsert_Click);
             // 
             // btnDeleteAll
             // 
-            this.btnDeleteAll.Location = new System.Drawing.Point(771, 104);
+            this.btnDeleteAll.Location = new System.Drawing.Point(817, 461);
             this.btnDeleteAll.Name = "btnDeleteAll";
-            this.btnDeleteAll.Size = new System.Drawing.Size(75, 23);
+            this.btnDeleteAll.Size = new System.Drawing.Size(129, 49);
             this.btnDeleteAll.TabIndex = 6;
-            this.btnDeleteAll.Text = "DeleteAll";
+            this.btnDeleteAll.Text = "Delete Inregistrari";
             this.btnDeleteAll.UseVisualStyleBackColor = true;
             this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
