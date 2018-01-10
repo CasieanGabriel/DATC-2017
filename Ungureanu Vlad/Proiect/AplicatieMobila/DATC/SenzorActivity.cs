@@ -59,7 +59,7 @@ namespace DATC
             try
             {
                 client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
-                var Home = "http://datcapitmv.azurewebsites.net/api/values/" + Helper.senzorCurent.Substring(7);
+                var Home = "https://xdoit.azurewebsites.net/api/values/" + Helper.senzorCurent.Substring(7);
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaDateSenzor = JsonConvert.DeserializeObject<List<DateSenzor>>(data);

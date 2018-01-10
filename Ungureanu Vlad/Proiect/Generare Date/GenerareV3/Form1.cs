@@ -59,7 +59,7 @@ namespace GenerareV3
                 {
                     var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(senz);
                     var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                    var result = client.PostAsync("http://localhost:50922/api/todo", content).Result;
+                    var result = client.PostAsync("https://xdoit.azurewebsites.net/api/todo", content).Result;
                     //  MessageBox.Show(Convert.ToString(result));
                 }
                 catch { MessageBox.Show("Nu se poate face Post, error problem"); }
@@ -122,7 +122,7 @@ namespace GenerareV3
                 {
                     var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(i);
                     var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                    var result = client.PostAsync("http://localhost:50922/api/Inregistrare", content).Result;
+                    var result = client.PostAsync("https://xdoit.azurewebsites.net/api/Inregistrare", content).Result;
                     //  MessageBox.Show(Convert.ToString(result));
                 }
                 catch
@@ -190,7 +190,8 @@ namespace GenerareV3
                     {
                         var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(i);
                         var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                        var result = client.PostAsync("http://localhost:50922/api/Inregistrare", content).Result;
+                        var result = client.PostAsync("https://xdoit.azurewebsites.net/api/Inregistrare", content).Result;
+                        Thread.Sleep(200);
                         //  MessageBox.Show(Convert.ToString(result));
                     }
                     catch
@@ -218,7 +219,8 @@ namespace GenerareV3
                     {
                         var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(bi);
                         var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
-                        var result = client.PostAsync("http://localhost:50922/api/Inregistrare", content).Result;
+                        var result = client.PostAsync("https://xdoit.azurewebsites.net/api/Inregistrare", content).Result;
+                        Thread.Sleep(200);
                     }
                     catch
                     {
@@ -245,7 +247,7 @@ namespace GenerareV3
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            listView1.Items.Clear();
+           /* listView1.Items.Clear();
 
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
             builder.DataSource = "silviu.database.windows.net";
@@ -272,6 +274,7 @@ namespace GenerareV3
                     command.ExecuteNonQuery();
                 }
             }
+            */
         }
 
         private void timer2_Tick(object sender, EventArgs e)

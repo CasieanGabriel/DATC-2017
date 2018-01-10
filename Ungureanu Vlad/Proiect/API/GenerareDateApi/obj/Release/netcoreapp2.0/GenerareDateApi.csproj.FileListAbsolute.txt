@@ -34,3 +34,15 @@ E:\Facultate\An4\DATC\Proiect\API\GenerareDateApi\obj\Release\netcoreapp2.0\Gene
 E:\Facultate\An4\DATC\Proiect\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.AssemblyInfo.cs
 E:\Facultate\An4\DATC\Proiect\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.dll
 E:\Facultate\An4\DATC\Proiect\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.pdb
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\bin\Release\netcoreapp2.0\GenerareDateApi.dll.config
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\bin\Release\netcoreapp2.0\GenerareDateApi.deps.json
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\bin\Release\netcoreapp2.0\GenerareDateApi.runtimeconfig.json
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\bin\Release\netcoreapp2.0\GenerareDateApi.runtimeconfig.dev.json
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\bin\Release\netcoreapp2.0\GenerareDateApi.dll
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\bin\Release\netcoreapp2.0\GenerareDateApi.pdb
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.csprojResolveAssemblyReference.cache
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.csproj.CoreCompileInputs.cache
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.AssemblyInfoInputs.cache
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.AssemblyInfo.cs
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.dll
+E:\Facultate\An4\DATC\Finale\API\GenerareDateApi\obj\Release\netcoreapp2.0\GenerareDateApi.pdb

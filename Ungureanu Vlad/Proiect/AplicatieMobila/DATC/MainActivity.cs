@@ -124,7 +124,7 @@ namespace DATC
             try
             {
                 client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
-                var Home = "http://datcapitmv.azurewebsites.net/api/values";
+                var Home = "https://xdoit.azurewebsites.net/api/values";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaSenzori = JsonConvert.DeserializeObject<List<Senzor>>(data);
@@ -141,7 +141,7 @@ namespace DATC
             //Preluare HeatMap temperatura
             try
             {
-                var Home = "http://datcapitmv.azurewebsites.net/api/Temperatura";
+                var Home = "https://xdoit.azurewebsites.net/api/Temperatura";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaHeatMapTemp = JsonConvert.DeserializeObject<List<HeatMap>>(data);
@@ -153,7 +153,7 @@ namespace DATC
             try
             {
                 Helper.listaHeatMapUmid.Clear();
-                var Home = "http://datcapitmv.azurewebsites.net/api/Umiditate";
+                var Home = "https://xdoit.azurewebsites.net/api/Umiditate";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaHeatMapUmid = JsonConvert.DeserializeObject<List<HeatMap>>(data);
@@ -165,7 +165,7 @@ namespace DATC
             try
             {
                 Helper.listaHeatMapPres.Clear();
-                var Home = "http://datcapitmv.azurewebsites.net/api/Presiune";
+                var Home = "https://xdoit.azurewebsites.net/api/Presiune";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaHeatMapPres = JsonConvert.DeserializeObject<List<HeatMap>>(data);
@@ -201,7 +201,7 @@ namespace DATC
             try
             {
                 Helper.listaHeatMapTemp.Clear();
-                var Home = "http://datcapitmv.azurewebsites.net/api/Temperatura";
+                var Home = "https://xdoit.azurewebsites.net/api/Temperatura";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaHeatMapTemp = JsonConvert.DeserializeObject<List<HeatMap>>(data);
@@ -213,7 +213,7 @@ namespace DATC
             try
             {
                 Helper.listaHeatMapUmid.Clear();
-                var Home = "http://datcapitmv.azurewebsites.net/api/Umiditate";
+                var Home = "https://xdoit.azurewebsites.net/api/Umiditate";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaHeatMapUmid = JsonConvert.DeserializeObject<List<HeatMap>>(data);
@@ -225,7 +225,7 @@ namespace DATC
             try
             {
                 Helper.listaHeatMapPres.Clear();
-                var Home = "http://datcapitmv.azurewebsites.net/api/Presiune";
+                var Home = "https://xdoit.azurewebsites.net/api/Presiune";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 Helper.listaHeatMapPres = JsonConvert.DeserializeObject<List<HeatMap>>(data);

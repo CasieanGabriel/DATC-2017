@@ -159,7 +159,7 @@
             this.btnDeleteAll.Name = "btnDeleteAll";
             this.btnDeleteAll.Size = new System.Drawing.Size(129, 49);
             this.btnDeleteAll.TabIndex = 6;
-            this.btnDeleteAll.Text = "Delete Inregistrari";
+            this.btnDeleteAll.Text = "Sterge Inregistrari";
             this.btnDeleteAll.UseVisualStyleBackColor = true;
             this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 

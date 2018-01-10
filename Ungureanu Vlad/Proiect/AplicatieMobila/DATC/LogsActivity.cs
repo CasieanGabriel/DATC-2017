@@ -33,7 +33,7 @@ namespace DATC
             try
             {
                 listaLoguri.Clear();
-                var Home = "http://datcapitmv.azurewebsites.net/api/Logs";
+                var Home = "https://xdoit.azurewebsites.net/api/Logs";
                 var response = client.GetAsync(Home).Result;
                 string data = response.Content.ReadAsStringAsync().Result;
                 listaLoguri = JsonConvert.DeserializeObject<List<Log>>(data);

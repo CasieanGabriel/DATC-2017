@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="datcapitmv" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Vlad\\An\ IV\\Sem\ I\\DATC\\Proiect\\API\\GenerareDateApi\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  <parameter name="IIS Web Application Name" description="" value="xdoit" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Facultate\\An4\\DATC\\Finale\\API\\GenerareDateApi\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
