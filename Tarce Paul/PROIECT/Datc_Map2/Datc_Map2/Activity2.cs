@@ -30,7 +30,7 @@ namespace Datc_Map2
         private Button btnTerrain;
         int a = 2;
 
-        public static System.Timers.Timer timpActualizare = new System.Timers.Timer(100000);  //o data la 5s se apeleaza functia asta 
+        public static System.Timers.Timer timpActualizare = new System.Timers.Timer(5000);  //o data la 5s se apeleaza functia asta 
 
         private GoogleMap mMap;
         LocationManager locationManager;
@@ -210,20 +210,21 @@ namespace Datc_Map2
 
             //in functie de data.Value( 0 ,1 ,2 ) imi pun culorile.
 
-            //  RunOnUiThread(() =>    ///aici desenez datele 
-            //{
-            List<CircleOptions> circles = new List<CircleOptions>();
-            double lat = 45.744594, longit = 21.218611, la = 0, lo = 0;
-            for (int i = 0; i < 10; i++)
+            RunOnUiThread(() =>    ///aici desenez datele 
             {
+                //List<CircleOptions> circles = new List<CircleOptions>();
+                double lat = 45.744594, longit = 21.218611, la = 0, lo = 0;
+                // for (int i = 0; i < 10; i++)
+                //  {
                 var color = Android.Graphics.Color.White;
-                if (a == 3)
+                if (a == 2)
                 {
                     try
                     {
-
+                        int i = 0;
                         foreach (var s in listFinal)
                         {
+                           
                             switch (s.Valoare)
                             {
                                 case 0:
@@ -240,6 +241,21 @@ namespace Datc_Map2
                                     break;
                             }
 
+                            CircleOptions circle = new CircleOptions();
+                            circle.InvokeRadius(0.7);
+                            circle.InvokeCenter(new LatLng(lat + la, longit + lo));
+
+                            circle.InvokeFillColor(color);
+                            circle.InvokeStrokeColor(color);
+                            i++;
+                            la = i * 0.000019;
+                            lo = -i * 0.000019;
+
+                            mMap.AddCircle(circle);
+                            //circles.Add(circle);
+                            circle.Clickable(true);
+                            
+
                         }
                     }
                     catch (Exception exp)
@@ -251,20 +267,7 @@ namespace Datc_Map2
 
 
 
-                CircleOptions circle = new CircleOptions();
-                circle.InvokeRadius(0.7);
-                circle.InvokeCenter(new LatLng(lat + la, longit + lo));
-
-                circle.InvokeFillColor(color);
-                circle.InvokeStrokeColor(color);
-                la = i * 0.000019;
-                lo = -i * 0.000019;
-
-
-
-                mMap.AddCircle(circle);
-                circles.Add(circle);
-                circle.Clickable(true);
+              
 
 
 
@@ -285,9 +288,9 @@ namespace Datc_Map2
                        FragmentTransaction transaction = FragmentManager.BeginTransaction();
 
                    }*/
-            }
-            a = 3;
-        //}//);
+                //  }
+                a = 2;
+            });
 
         }
 
