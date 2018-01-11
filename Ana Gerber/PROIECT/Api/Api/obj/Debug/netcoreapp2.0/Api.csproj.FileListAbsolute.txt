@@ -1,0 +1,11 @@
+C:\Users\cCrina\source\repos\Api\Api\bin\Debug\netcoreapp2.0\Api.deps.json
+C:\Users\cCrina\source\repos\Api\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.json
+C:\Users\cCrina\source\repos\Api\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.dev.json
+C:\Users\cCrina\source\repos\Api\Api\bin\Debug\netcoreapp2.0\Api.dll
+C:\Users\cCrina\source\repos\Api\Api\bin\Debug\netcoreapp2.0\Api.pdb
+C:\Users\cCrina\source\repos\Api\Api\obj\Debug\netcoreapp2.0\Api.csprojResolveAssemblyReference.cache
+C:\Users\cCrina\source\repos\Api\Api\obj\Debug\netcoreapp2.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\cCrina\source\repos\Api\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfoInputs.cache
+C:\Users\cCrina\source\repos\Api\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfo.cs
+C:\Users\cCrina\source\repos\Api\Api\obj\Debug\netcoreapp2.0\Api.dll
+C:\Users\cCrina\source\repos\Api\Api\obj\Debug\netcoreapp2.0\Api.pdb

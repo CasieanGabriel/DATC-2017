@@ -1,0 +1,271 @@
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\ApplicationInsights.config
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\csc.exe
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\csc.exe.config
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\csc.rsp
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\csi.exe
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\csi.rsp
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\System.AppContext.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\System.Collections.Immutable.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\vbc.exe
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\vbc.exe.config
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\vbc.rsp
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe.config
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\KappaWebApp.dll.config
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\KappaWebApp.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\KappaWebApp.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Antlr3.Runtime.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.Web.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.Web.Infrastructure.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Newtonsoft.Json.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Helpers.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Mvc.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Optimization.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Razor.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Razor.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\WebGrease.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Helpers.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Mvc.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Optimization.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.Razor.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Razor.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Antlr3.Runtime.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Newtonsoft.Json.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\bin\Microsoft.AI.Web.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\obj\Debug\KappaWebApp.csprojResolveAssemblyReference.cache
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\obj\Debug\KappaWebApp.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaWebApp\KappaWebApp\obj\Debug\KappaWebApp.pdb
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\ApplicationInsights.config
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\csc.exe
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\csc.exe.config
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\csc.rsp
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\csi.exe
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\csi.rsp
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\System.AppContext.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\vbc.exe
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\vbc.exe.config
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\vbc.rsp
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\KappaWebApp.dll.config
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\KappaWebApp.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\KappaWebApp.pdb
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Antlr3.Runtime.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.Web.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Newtonsoft.Json.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Helpers.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Mvc.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Optimization.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Razor.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\WebGrease.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Newtonsoft.Json.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Helpers.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Mvc.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Optimization.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.Razor.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\bin\Microsoft.AI.Web.xml
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\obj\Debug\KappaWebApp.csprojResolveAssemblyReference.cache
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\obj\Debug\KappaWebApp.csproj.CoreCompileInputs.cache
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\obj\Debug\KappaWebApp.dll
+C:\Users\MarianaGal\source\repos\KappaWebApp\KappaWebApp\obj\Debug\KappaWebApp.pdb
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\ApplicationInsights.config
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\csc.exe
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\csc.exe.config
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\csc.rsp
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\csi.exe
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\csi.rsp
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\System.AppContext.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\vbc.exe
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\vbc.exe.config
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\vbc.rsp
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\KappaWebApp.dll.config
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\KappaWebApp.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\KappaWebApp.pdb
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Antlr3.Runtime.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.Web.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Newtonsoft.Json.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Helpers.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Mvc.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Optimization.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Razor.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\WebGrease.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Newtonsoft.Json.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Helpers.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Mvc.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Optimization.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.Razor.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\bin\Microsoft.AI.Web.xml
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.csprojResolveAssemblyReference.cache
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.csproj.CoreCompileInputs.cache
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.dll
+C:\Users\MarianaGal\source\repos\New folder\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.pdb
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\ApplicationInsights.config
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\csc.exe
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\csc.exe.config
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\csc.rsp
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\csi.exe
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\csi.rsp
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\System.AppContext.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\vbc.exe
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\vbc.exe.config
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\vbc.rsp
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\KappaWebApp.dll.config
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\KappaWebApp.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\KappaWebApp.pdb
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Antlr3.Runtime.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.Web.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Newtonsoft.Json.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Helpers.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Mvc.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Optimization.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Razor.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\WebGrease.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Newtonsoft.Json.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Helpers.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Mvc.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Optimization.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.Razor.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\bin\Microsoft.AI.Web.xml
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.csprojResolveAssemblyReference.cache
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.csproj.CoreCompileInputs.cache
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.dll
+C:\Users\cCrina\Desktop\3G_WebApp2\3G_WebApp\KappaWebApp\obj\Debug\KappaWebApp.pdb
