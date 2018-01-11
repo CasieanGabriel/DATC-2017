@@ -9,7 +9,9 @@ import {
 	Image,
 	Alert,
 	View,
+	Keyboard,
 } from 'react-native';
+import api from './api.js';
 import { Actions, ActionConst } from 'react-native-router-flux';
 
 import spinner from '../images/loading.gif';
@@ -31,7 +33,21 @@ export default class ButtonSubmit extends Component {
 		this._onPress = this._onPress.bind(this);
 	}
 
+	componentWillReceiveProps(nextProps) {
+		this.setState({
+			isLoading: false,
+			email: '',
+			password: '',
+			confirmPassword: '',
+		});
+	}
+
 	_onPress() {
+		Keyboard.dismiss();
+		var crypto = require('crypto')
+		var hashedPass = crypto.createHash('sha1').update(this.props.password).digest('hex')
+		var hashedConfirmPass = crypto.createHash('sha1').update(this.props.confirmPassword).digest('hex')
+		console.log(hashedConfirmPass);
 		if (this.state.isLoading) return;
 
 		this.setState({ isLoading: true });
@@ -43,17 +59,20 @@ export default class ButtonSubmit extends Component {
 				easing: Easing.linear
 			}
 		).start();
-
-		setTimeout(() => {
-			this._onGrow();
-		}, 2000);
-
-		setTimeout(() => {
-			Actions.mapScreen();
+console.log(this.props.confirmPassword);
+setTimeout(() => {
+		var response = api.createAccount({email: this.props.email, password:hashedPass, confirmPassword:hashedConfirmPass});
+		console.log(response);
+		if(response === "Succes insert"){
+				Actions.mapScreen();
+				this.setState({ isLoading: false });
+				this.buttonAnimated.setValue(0);
+		}
+		else{
 			this.setState({ isLoading: false });
 			this.buttonAnimated.setValue(0);
-			this.growAnimated.setValue(0);
-		}, 2300);
+		}
+	},2000);
 	}
 
 	_onGrow() {
@@ -98,8 +117,7 @@ export default class ButtonSubmit extends Component {
 
 const styles = StyleSheet.create({
 	container: {
-		flex: 1,
-		top: 5,
+		top: 0,
 		alignItems: 'center',
 		justifyContent: 'flex-start',
 	},

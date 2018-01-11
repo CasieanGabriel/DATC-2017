@@ -13,7 +13,6 @@ export default class createAccount extends Component {
 			<Wallpaper>
 				<Logo />
 				<AccountForm />
-				<SubmitCreateAccount/>
 				<SecondScreen/>
 			</Wallpaper>
 		);

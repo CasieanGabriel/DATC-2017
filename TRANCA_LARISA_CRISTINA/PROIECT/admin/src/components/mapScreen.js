@@ -7,6 +7,7 @@ import ActionBar from 'react-native-action-bar';
 import DrawerLayout from 'react-native-drawer-layout';
 
 import api from './api';
+import manipulateCoordinates from './manipulateCoordinates';
 import coordinateImg from '../images/coordinate.png';
 import regionImg from '../images/region.png';
 import angleImg  from '../images/angle.png';
@@ -23,6 +24,10 @@ function randomColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 let id = 0;
+var me = this;
+var geojson =[];
+    var coloredJson =[];
+    var polygons =[];
 const DEFAULT_PADDING = { top: 40, right: 40, bottom: 40, left: 40 };
 const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;
@@ -33,23 +38,23 @@ export class mapScreen extends React.Component {
     this.state = {
       resource: [],
       region: {
-        latitude: 45.74449980000001,
-        longitude: 21.22336506843567,
+        latitude: 45.761954492450286,
+        longitude:  21.226358413696286,
         latitudeDelta: 0.0021,
         longitudeDelta: 0.0021
       },
       marker: {
         coordinate: {
-          latitude: 45.74449980000001,
-          longitude: 21.22336506843567,
+          latitude: 45.761954492450286,
+          longitude:  21.226358413696286,
           latitudeDelta: 0.0021,
           longitudeDelta: 0.0021
         }
       },
       drawerClosed: true,
       polygons: [],
-editing: null,
-creatingHole: false,
+      editing: null,
+      creatingHole: false
     }
     this.onRegionChange = this.onRegionChange.bind(this);
     this.jumpRandom = this.jumpRandom.bind(this);
@@ -61,25 +66,34 @@ creatingHole: false,
   }
 
   componentWillMount(){
-    var weather = [];
-    var i=0;
-    var coord = geoJson.features[0].geometry.coordinates.forEach(function(coordinates){
-        var terms = coordinates.forEach(function(term){
-          var tes= api.getResource(term);
-          console.log(tes);
-           var temps= api.getResource(term).then((res) => {
-             var obj = {
-               'latitude': res.location.lat,
-               'longitude': res.location.lon,
-               'temperature': res.hourly_forecast[0].temp.english,
-               'humidity': res.hourly_forecast[0].humidity
-             }
-            weather[i] = obj;
-            i++;
+
+    // var coord = manipulateCoordinates.manipulate(geoJson);
+    // let addResource = api.addResource(coord);
+ //making this async to simulate an API call
+   setTimeout(()=>{
+    geoJson.features[0].geometry.coordinates.forEach(function(coordinates){
+        var terms = coordinates.map(function(term){
+
+      fetch('http://api.wunderground.com/api/7371ed5d87903525/geolookup/hourly/q/'+ term[1]+','+term[0]+'.json')
+            .then((response) => response.json())
+          .then((responseJson) => {
+          const obj = {
+              'Latitudine': responseJson.location.lat,
+              'Longitudine': responseJson.location.lon,
+              'Temperature': responseJson.hourly_forecast[0].temp.english,
+              'Humidity': responseJson.hourly_forecast[0].humidity,
+              "Flag": 0,
+            };
+              console.log(obj);
+              geojson.push(obj);
+
           })
+          .catch((error) => {
+            console.error(error);
+          }).done();;
         });
-    });
-    console.log(weather);
+      });
+    },2000);
 
   }
   show() {
@@ -100,6 +114,7 @@ creatingHole: false,
         }
     });
     const { editing, creatingHole } = this.state;
+    console.log(e.nativeEvent.coordinate);
     if (!editing) {
       this.setState({
         editing: {
@@ -159,10 +174,56 @@ creatingHole: false,
        });
     }
   getTemperature(){
+    console.log(geojson);
+    this.setState({geoJson:geojson});
+    let addResource = api.addResource(geojson);
+    var i = 0;
+     setTimeout(()=>{
+       geojson.forEach(function(coordinates){
+         console.log('https://0c81bb1d.ngrok.io/get-response?Longitudine='+coordinates.Longitudine +'&Latitudine='+coordinates.Latitudine);
+        fetch('https://0c81bb1d.ngrok.io/get-response?Longitudine='+coordinates.Longitudine +'&Latitudine='+coordinates.Latitudine)
+          .then((response) => response.json())
+        .then((responseJson) => {
+          console.log(responseJson.resources[0].Culoare_umiditate);
+          if(responseJson.resources[0].Culoare_umiditate && responseJson.resources[0].Culoare_temperatura){
+            const obj = {
+              Culoare_temperatura:responseJson.resources[0].Culoare_temperatura,
+              Culoare_umiditate: responseJson.resources[0].Culoare_umiditate,
+              latitude: responseJson.resources[0].Latitudine,
+              longitude: responseJson.resources[0].Longitudine
+            };
+            coloredJson.push(obj);
+            i++;
+          }
+        });
+      });
 
+    },100);
+
+    setTimeout(()=>{
+      console.log(coloredJson);
+      coloredJson.forEach(function(coord){
+        console.log("aici");
+        polygons.push({
+          id: id++, // keep incrementing id to trigger display refresh
+          coordinates: [
+            {latitude: coord.latitude,
+              longitude: coord.longitude}
+          ],
+          holes: [],
+          fillColor: coord.Culoare_temperatura
+        });
+
+      });
+    },200);
+    console.log(polygons);
+    this.setState({
+      polygons: polygons,
+    });
+    console.log(this.state.polygons);
   }
   getHumidity(){
-
+    let addResource = api.addResource(geoJson);
   }
 
   animateRandom() {
@@ -256,6 +317,7 @@ createHole() {
       const mapOptions = {
   scrollEnabled: true,
 };
+
       if (this.state.editing) {
   mapOptions.scrollEnabled = false;
   mapOptions.onPanDrag = e => this.onPress(e);
@@ -285,12 +347,13 @@ createHole() {
                 >
 
                 {this.state.polygons.map(polygon => (
+                // <Text>{polygon}</Text>
                     <MapView.Polygon
                       key={polygon.id}
                       coordinates={polygon.coordinates}
                       holes={polygon.holes}
-                      strokeColor="#F00"
-                      fillColor="rgba(255,0,0,0.5)"
+                      strokeColor="rgba(r,g,b,0.5)"
+                      fillColor="rgba(r,g,b,0.5)"
                       strokeWidth={1}
                     />
                   ))}
@@ -300,7 +363,7 @@ createHole() {
                       coordinates={this.state.editing.coordinates}
                       holes={this.state.editing.holes}
                       strokeColor="#000"
-                      fillColor="rgba(255,0,0,0.5)"
+                      fillColor={this.state.editing.fillColor}
                       strokeWidth={1}
                     />
                   )}
