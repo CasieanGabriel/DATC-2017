@@ -1,0 +1,14 @@
+C:\Users\timeia.tina\Desktop\teme\Output\Database\bin\Debug\Database.exe.config
+C:\Users\timeia.tina\Desktop\teme\Output\Database\bin\Debug\Database.exe
+C:\Users\timeia.tina\Desktop\teme\Output\Database\bin\Debug\Database.pdb
+C:\Users\timeia.tina\Desktop\teme\Output\Database\bin\Debug\EntityFramework.dll
+C:\Users\timeia.tina\Desktop\teme\Output\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\timeia.tina\Desktop\teme\Output\Database\bin\Debug\EntityFramework.xml
+C:\Users\timeia.tina\Desktop\teme\Output\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\timeia.tina\Desktop\teme\Output\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\timeia.tina\Desktop\teme\Output\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\timeia.tina\Desktop\teme\Output\Database\obj\Debug\Database.exe
+C:\Users\timeia.tina\Desktop\teme\Output\Database\obj\Debug\Database.pdb
+C:\Users\timeia.tina\Desktop\teme\Output\Database\obj\Debug\Database.Migrations.initial.resources
+C:\Users\timeia.tina\Desktop\teme\Output\Database\obj\Debug\Database.csproj.GenerateResource.Cache
+C:\Users\timeia.tina\Desktop\teme\Output\Database\obj\Debug\Database.Migrations.IncreasedPrecision.resources

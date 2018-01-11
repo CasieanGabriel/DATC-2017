@@ -1,0 +1,12 @@
+C:\Users\timeia.tina\Desktop\teme\Output\Output
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Output
+--content-root=C:\Users\timeia.tina\Desktop\teme\Output\Output
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\Home\About.cshtml
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\Home\Contact.cshtml
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\Home\Index.cshtml
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\Shared\Error.cshtml
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\Shared\_Layout.cshtml
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\_ViewImports.cshtml
+--file=C:\Users\timeia.tina\Desktop\teme\Output\Output\Views\_ViewStart.cshtml
