@@ -1,0 +1,43 @@
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojResolveAssemblyReference.cache
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.ConsoleApp3.exe.config
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Configuration.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Azure.Common.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Azure.Common.NetFramework.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Azure.Management.Sql.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Azure.Plugins.Diagnostics.dll.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Azure.ResourceManager.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Hyak.Common.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\MonAgentListener.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Cis.Monitoring.Query.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\WindowsAzureTelemetryEvents.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\WindowsAzureEventSource.dll
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Remus Trancau\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\Configuration.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\Hyak.Common.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\MonAgentListener.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Cis.Monitoring.Query.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\WindowsAzureTelemetryEvents.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\bin\Debug\WindowsAzureEventSource.dll
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojResolveAssemblyReference.cache
+C:\Users\Bianca\Documents\DATC\PROIECT\ConsoleApp3\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.ConsoleApp3.exe.config
