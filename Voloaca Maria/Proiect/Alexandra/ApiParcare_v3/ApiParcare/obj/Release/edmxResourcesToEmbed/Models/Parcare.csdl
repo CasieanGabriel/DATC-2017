@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Parcare">
+    <Key>
+      <PropertyRef Name="LocID" />
+    </Key>
+    <Property Name="LocID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StareLoc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="StareLoc_Veche" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DataModificare" Type="DateTime" Precision="3" />
+    <Property Name="BottomLeftLat" Type="Decimal" Precision="8" Scale="6" />
+    <Property Name="BottomLeftLng" Type="Decimal" Precision="8" Scale="6" />
+    <Property Name="BottomRightLat" Type="Decimal" Precision="8" Scale="6" />
+    <Property Name="BottomRightLng" Type="Decimal" Precision="8" Scale="6" />
+    <Property Name="TopRightLat" Type="Decimal" Precision="8" Scale="6" />
+    <Property Name="TopRightLng" Type="Decimal" Precision="8" Scale="6" />
+    <Property Name="TopLeftLat" Type="Decimal" Precision="8" Scale="6" />
+    <Property Name="TopLeftLng" Type="Decimal" Precision="8" Scale="6" />
+  </EntityType>
+  <EntityContainer Name="MyDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Parcares" EntityType="Self.Parcare" />
+  </EntityContainer>
+</Schema>

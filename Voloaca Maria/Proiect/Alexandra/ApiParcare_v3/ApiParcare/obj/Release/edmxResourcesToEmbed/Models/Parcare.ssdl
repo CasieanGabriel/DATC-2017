@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Parcare">
+    <Key>
+      <PropertyRef Name="LocID" />
+    </Key>
+    <Property Name="LocID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StareLoc" Type="varchar" MaxLength="20" />
+    <Property Name="StareLoc_Veche" Type="varchar" MaxLength="20" />
+    <Property Name="DataModificare" Type="datetime" />
+    <Property Name="BottomLeftLat" Type="decimal" Precision="8" Scale="6" />
+    <Property Name="BottomLeftLng" Type="decimal" Precision="8" Scale="6" />
+    <Property Name="BottomRightLat" Type="decimal" Precision="8" Scale="6" />
+    <Property Name="BottomRightLng" Type="decimal" Precision="8" Scale="6" />
+    <Property Name="TopRightLat" Type="decimal" Precision="8" Scale="6" />
+    <Property Name="TopRightLng" Type="decimal" Precision="8" Scale="6" />
+    <Property Name="TopLeftLat" Type="decimal" Precision="8" Scale="6" />
+    <Property Name="TopLeftLng" Type="decimal" Precision="8" Scale="6" />
+  </EntityType>
+  <EntityContainer Name="MyDatabaseModelStoreContainer">
+    <EntitySet Name="Parcare" EntityType="Self.Parcare" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
