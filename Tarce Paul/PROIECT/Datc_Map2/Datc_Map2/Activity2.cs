@@ -30,7 +30,7 @@ namespace Datc_Map2
         private Button btnTerrain;
         int a = 2;
 
-        public static System.Timers.Timer timpActualizare = new System.Timers.Timer(5000);  //o data la 5s se apeleaza functia asta 
+        public static System.Timers.Timer timpActualizare = new System.Timers.Timer(100000);  //o data la 5s se apeleaza functia asta 
 
         private GoogleMap mMap;
         LocationManager locationManager;
@@ -57,7 +57,7 @@ namespace Datc_Map2
             btnHybid.Click += btnHybid_Click;
             btnSatellite.Click += btnSatellite_Click;
             btnTerrain.Click += btnTerrain_Click;
-         
+
             FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map).GetMapAsync(this);
         }
 
@@ -200,66 +200,97 @@ namespace Datc_Map2
         private void TimpActualizare_Elapsed(object sender, System.Timers.ElapsedEventArgs e) // 
         {
             //citesc din baza e date prin API
-            /*    HttpClient client = new HttpClient();
-                var Home = "URL api";  //   /api/Mobile ( controler ) 
-                var response = client.GetAsync(Home).Result;
-                string data = response.Content.ReadAsStringAsync().Result;
+            HttpClient client = new HttpClient();
+            client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
+            var Home = "https://datcproiectginbell.azurewebsites.net/api/Mobile";  //   /api/Mobile ( controler ) 
+            var response = client.GetAsync(Home).Result;
+            string data = response.Content.ReadAsStringAsync().Result;
+            List<Senzor> listaSenzori = JsonConvert.DeserializeObject<List<Senzor>>(data);
+            List<Senzor> listFinal = listaSenzori.GetRange(listaSenzori.Count - 10, 10);
 
-                var listaSenzori = JsonConvert.DeserializeObject<List<Senzor>>(data); */
             //in functie de data.Value( 0 ,1 ,2 ) imi pun culorile.
-            
-            RunOnUiThread(() =>    ///aici desenez datele 
+
+            //  RunOnUiThread(() =>    ///aici desenez datele 
+            //{
+            List<CircleOptions> circles = new List<CircleOptions>();
+            double lat = 45.744594, longit = 21.218611, la = 0, lo = 0;
+            for (int i = 0; i < 10; i++)
             {
-                
-                List<CircleOptions> circles = new List<CircleOptions>();
-                double lat = 45.744594, longit = 21.218611, la = 0, lo = 0;
-                for (int i = 0; i < 5; i++)
+                var color = Android.Graphics.Color.White;
+                if (a == 3)
                 {
-                    var color = Android.Graphics.Color.White;
-                    if (a == 3)
+                    try
                     {
-                         color = Android.Graphics.Color.Black;
+
+                        foreach (var s in listFinal)
+                        {
+                            switch (s.Valoare)
+                            {
+                                case 0:
+                                    color = Android.Graphics.Color.Red;
+                                    break;
+                                case 1:
+                                    color = Android.Graphics.Color.Gold;
+                                    break;
+                                case 2:
+                                    color = Android.Graphics.Color.Green;
+                                    break;
+                                default:
+                                    color = Android.Graphics.Color.White;
+                                    break;
+                            }
+
+                        }
                     }
-                    
-                    CircleOptions circle = new CircleOptions();
-                    circle.InvokeRadius(0.7);
-                    circle.InvokeCenter(new LatLng(lat + la, longit + lo));
-                    circle.InvokeFillColor(color);
-                    circle.InvokeStrokeColor(color);
-                    la = i * 0.000019;
-                    lo = -i * 0.000019;
-
-                    
-
-                    mMap.AddCircle(circle);
-                    circles.Add(circle);
-                    circle.Clickable(true);
-                   
-                    
-
-                    // mMap.CircleClick += MMap_CircleClick;
-
-                    /*   mBtnSignUp.Click += (object sender, EventArgs args) =>
-                       {
-                           //Pull up dialog
-                           FragmentTransaction transaction = FragmentManager.BeginTransaction();
-                           DialogSignUp signUp = new DialogSignUp();
-                           signUp.Show(transaction, "dialog_fragment");
-
-                           signUp.mOnSignUpInComplete += SignUp_mOnSignUpInComplete;
-
-                       };   */
-                    /*   mMap.CircleClick += (object sender,EventArgs args) =>
-                       {
-                           FragmentTransaction transaction = FragmentManager.BeginTransaction();
-
-                       }*/
+                    catch (Exception exp)
+                    {
+                        //RIP
+                    }
+                    //  color = Android.Graphics.Color.Black;
                 }
-                a = 3;
-            });
-            
+
+
+
+                CircleOptions circle = new CircleOptions();
+                circle.InvokeRadius(0.7);
+                circle.InvokeCenter(new LatLng(lat + la, longit + lo));
+
+                circle.InvokeFillColor(color);
+                circle.InvokeStrokeColor(color);
+                la = i * 0.000019;
+                lo = -i * 0.000019;
+
+
+
+                mMap.AddCircle(circle);
+                circles.Add(circle);
+                circle.Clickable(true);
+
+
+
+                // mMap.CircleClick += MMap_CircleClick;
+
+                /*   mBtnSignUp.Click += (object sender, EventArgs args) =>
+                   {
+                       //Pull up dialog
+                       FragmentTransaction transaction = FragmentManager.BeginTransaction();
+                       DialogSignUp signUp = new DialogSignUp();
+                       signUp.Show(transaction, "dialog_fragment");
+
+                       signUp.mOnSignUpInComplete += SignUp_mOnSignUpInComplete;
+
+                   };   */
+                /*   mMap.CircleClick += (object sender,EventArgs args) =>
+                   {
+                       FragmentTransaction transaction = FragmentManager.BeginTransaction();
+
+                   }*/
+            }
+            a = 3;
+        //}//);
+
         }
-        
+
     }
 
 

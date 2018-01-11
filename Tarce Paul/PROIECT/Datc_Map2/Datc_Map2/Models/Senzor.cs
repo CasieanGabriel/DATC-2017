@@ -12,9 +12,9 @@ using Android.Widget;
 
 namespace Datc_Map2.Models
 {
-    class Senzor
+    public class Senzor
     {
-        public int ParkingId { get; set; }
-        public int Status { get; set; }
+        public int Id { get; set; }
+        public int Valoare { get; set; }
     }
 }
