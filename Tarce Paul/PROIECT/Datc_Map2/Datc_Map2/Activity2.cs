@@ -221,10 +221,11 @@ namespace Datc_Map2
                 {
                     try
                     {
+                        mMap.Clear();
                         int i = 0;
                         foreach (var s in listFinal)
                         {
-                           
+
                             switch (s.Valoare)
                             {
                                 case 0:
@@ -254,9 +255,8 @@ namespace Datc_Map2
                             mMap.AddCircle(circle);
                             //circles.Add(circle);
                             circle.Clickable(true);
-                            
 
-                        }
+                        }                   
                     }
                     catch (Exception exp)
                     {
@@ -264,12 +264,6 @@ namespace Datc_Map2
                     }
                     //  color = Android.Graphics.Color.Black;
                 }
-
-
-
-              
-
-
 
                 // mMap.CircleClick += MMap_CircleClick;
 
