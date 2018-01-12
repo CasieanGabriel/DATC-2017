@@ -1,0 +1,110 @@
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe.config
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csprojResolveAssemblyReference.cache
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\MainWindow.baml
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\MainWindow.g.cs
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\App.g.cs
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient_MarkupCompile.cache
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.g.resources
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.Properties.Resources.resources
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csproj.GenerateResource.Cache
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.pdb
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.exe
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.pdb
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\Newtonsoft.Json.dll
+c:\users\madhur\documents\visual studio 2012\Projects\WebAPIClient\WebAPIClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe.config
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.pdb
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csprojResolveAssemblyReference.cache
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\MainWindow.baml
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\MainWindow.g.cs
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\App.g.cs
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient_MarkupCompile.cache
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.g.resources
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.Properties.Resources.resources
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csproj.GenerateResource.Cache
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csproj.CoreCompileInputs.cache
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.exe
+C:\Users\xigyenge\Desktop\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.pdb
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe.config
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.exe
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\WebAPIClient.pdb
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Data.Edm.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Data.OData.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Newtonsoft.Json.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Extensions.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Primitives.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\System.Spatial.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Data.Edm.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Data.OData.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\Newtonsoft.Json.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Extensions.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\System.Net.Http.Primitives.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\System.Spatial.xml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\de\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\es\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\fr\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\it\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ja\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ko\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\ru\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\MainWindow.baml
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\MainWindow.g.cs
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\App.g.cs
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient_MarkupCompile.cache
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.g.resources
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.Properties.Resources.resources
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csproj.GenerateResource.Cache
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.csproj.CoreCompileInputs.cache
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.exe
+D:\DATC\xintia\Ginbell\WebAPIClient\WebAPIClient\obj\Debug\WebAPIClient.pdb
