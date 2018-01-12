@@ -1,0 +1,20 @@
+﻿@model List<DATC_API.Models.RawData>
+@{
+    ViewBag.Title = "RawData";
+}
+
+<head>
+    <h2>RawData</h2>
+</head>
+
+<body>
+    @foreach (var data in Model)
+    {
+        <div>
+            <p>@Html.DisplayNameFor(d => data.FreeOrNot): @Html.DisplayFor(d => data.FreeOrNot)</p>
+            <p>@Html.DisplayNameFor(d => data.ResOrOcc): @Html.DisplayFor(d => data.ResOrOcc)</p>
+            <p>@Html.DisplayNameFor(d => data.Malfunction): @Html.DisplayFor(d => data.Malfunction)</p>
+            <br />
+        </div>
+    }
+</body>
