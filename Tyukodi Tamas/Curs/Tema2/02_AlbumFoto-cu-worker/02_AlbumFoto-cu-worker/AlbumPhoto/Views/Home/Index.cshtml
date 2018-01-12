@@ -1,0 +1,102 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+    var usercomm = Request["txtComment"];
+    var username = Request["txtUserName"];
+}
+@{
+
+
+}
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    input {
+        border: none;
+    }
+</style>
+<h2 class="title">@ViewBag.Title</h2>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+    <div class="poza" style="height:220px;">
+        <div class="thumbnail">
+            @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+            {
+                <img src="@poza.ThumbnailUrl" />
+            }
+            else
+            {
+                <span>no thumbnail</span>
+            }
+        </div>
+        <div class="details">
+            <h3 class="description">@poza.Description</h3>
+
+
+            @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+            {
+                <a href="@poza.ThumbnailUrl">Descarca</a>
+                <a href="@Url.Action("GetLink", "Home", new { pictureName = poza.PictureName })">Generează link pentru 2h</a>
+                <form action="" method="post">
+
+                    <table style="border: 1px solid black">
+                        <tr>
+                            <td align="center" colspan="2">Add comment</td>
+                            <td align="center" colspan="2">View comment</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                User:
+                            </td>
+                            <td>
+                                @Html.TextBox("txtUserName")
+                            </td>
+                            <td>
+                                @Html.TextBox("myTextBox2", @username, new { @class = "form-control" })
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comment:
+                            </td>
+                            <td>
+                                @Html.TextArea("txtComment")
+                            </td>
+                            <td>
+                                @Html.TextBox("myTextBox", @usercomm, new { @class = "form-control" })
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border:none;">
+                                <input type="submit" value="Add" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+
+            }
+
+            else
+            {
+                <span>no download URL</span>
+            }
+
+        </div>
+    </div>
+
+
+
+
+}
