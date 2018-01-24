@@ -1,0 +1,11 @@
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\bin\Debug\netcoreapp2.0\LikesCounterAPI.deps.json
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\bin\Debug\netcoreapp2.0\LikesCounterAPI.runtimeconfig.json
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\bin\Debug\netcoreapp2.0\LikesCounterAPI.runtimeconfig.dev.json
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\bin\Debug\netcoreapp2.0\LikesCounterAPI.dll
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\obj\Debug\netcoreapp2.0\LikesCounterAPI.csprojResolveAssemblyReference.cache
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\obj\Debug\netcoreapp2.0\LikesCounterAPI.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\obj\Debug\netcoreapp2.0\LikesCounterAPI.AssemblyInfoInputs.cache
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\obj\Debug\netcoreapp2.0\LikesCounterAPI.AssemblyInfo.cs
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\bin\Debug\netcoreapp2.0\LikesCounterAPI.pdb
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\obj\Debug\netcoreapp2.0\LikesCounterAPI.dll
+C:\Users\Alex\source\repos\LikesCounterAPI\LikesCounterAPI\obj\Debug\netcoreapp2.0\LikesCounterAPI.pdb
