@@ -13,6 +13,7 @@ namespace ThumbnailGenerator
 			var worker = new Worker();
 			worker.Init();
 			worker.Process();
+			
 		}
 	}
 }
