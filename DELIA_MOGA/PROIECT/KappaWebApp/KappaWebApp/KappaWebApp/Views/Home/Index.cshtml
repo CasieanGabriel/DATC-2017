@@ -1,4 +1,4 @@
-﻿@model IEnumerable<KappaWebApp.Models.SensorData>
+﻿@model IEnumerable<KappaWebApp.Models.Date>
 @{
     ViewBag.Title = "Home Page";
     Layout = null;
@@ -9,77 +9,59 @@
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="~/Content/CssFiles/IndexCSS.css"/>
-    @*<script type="text/javascript" src="~/Scripts/JavaScriptFiles/GoogleAPI.js"></script>*@
+    <link rel="stylesheet" type="text/css" href="~/Content/CssFiles/IndexCSS.css" />
 
-    <script>
+    <script type="text/javascript">
+        var dataheat = [];
+        var dataheat1 = [];
+        var dataheat2 = [];
+
+
         function initMap() {
+
+            document.getElementById('map').innerText = "";
+        //    $('#map').load(window.location.href + ' #map');
+
             var jItem = @Html.Raw(Json.Encode(Model));
             var parcBotanic = new google.maps.LatLng(45.76046, 21.225);
-            //var heatmap = new google.maps.visualization.HeatmapLayer({
-            //    data: heatmapData
-            //});
 
-
-            //var heatmapData = [
-            //    { location: new google.maps.LatLng(45.76046, 21.225), weight: 10 },
-            //    new google.maps.LatLng(45.76046, 21.225),
-            //    { location: new google.maps.LatLng(45.76046, 21.2251), weight: 25 },
-            //    { location: new google.maps.LatLng(45.76046, 21.226), weight: 100 },
-            //    { location: new google.maps.LatLng(45.76046, 21.224), weight: 150 }
-            //];
-
-            
-
-            //map = new google.maps.Map(document.getElementById('map'), {
-            //    center: parcBotanic,
-            //    zoom: 16,
-            //});
-
-            //   heatmap.setMap(map);
-            
             var options = {
                 zoom: 18,
                 center: parcBotanic
             }
-
             // New map
             var map = new google.maps.Map(document.getElementById('map'), options);
 
-            // Adaugare marker pe click-btn
-            //google.maps.event.addListener(map, 'click', function (event) {
-            //    // Add marker
-            //    addMarker({ coords: event.latLng });
-            //});
-
 
             for (var i = 0; i < jItem.length; i++) {
-                // Add marker
                 addMarker(jItem[i]);
+                var point = new google.maps.LatLng(
+                    parseFloat(jItem[i].Latitude),
+                    parseFloat(jItem[i].Longitude)
+                );
+
+                if (parseFloat(jItem[i].Humidity) < 18)
+                {
+                    dataheat.push(point)
+                }
+                if (parseFloat(jItem[i].Humidity) > 20)
+                {
+                    dataheat1.push(point)
+                }
             }
             // Add Marker Function
             function addMarker(props) {
-                var marker = new google.maps.Marker({
-                    position: { lat: parseFloat(props.Lat), lng: parseFloat(props.Lng) },
-                    map: map,
-                    //icon:props.iconImage
-                });
-
+                var dt = Number(props.Data.substring(6,props.Data.length-2))
                 var newContent = document.createElement('div');
                 var div = document.createElement('div');
-                div.innerText = "Temperature: " + props.Temperature.toString() + " Humidity: " + props.Humidity.toString();
+                div.innerText = "Data: " + new Date(dt) +"\nTemperature: " + props.Temperature.toString() + " Humidity: " + props.Humidity.toString() + " \nNeed Irigation: " + props.NeedIrigation.toString();
                 newContent.appendChild(div);
 
-                //// Check for customicon
-                //if (props.iconImage) {
-                //    // Set icon image
-                //    marker.setIcon(props.iconImage);
-                //}
-
-                //if (props.Temperature) {
-                //    var infoWindow = new google.maps.InfoWindow({
-                //        content: "'<h1>"+ "Temp:" + props.Temperature + "  Hum: " + props.Humidity +"</h1>'"
-                //    });
+                 var marker = new google.maps.Marker({
+                    position: { lat: parseFloat(props.Latitude), lng: parseFloat(props.Longitude) },
+                    map: map,
+                  //  icon: 'https://maps.google.com/mapfiles/kml/shapes/parking_lot_maps.png'
+                });
 
                 var infoWindow = new google.maps.InfoWindow({
                     content: newContent
@@ -88,15 +70,158 @@
                     infoWindow.open(map, marker);
                 });
             }
+            // AICIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+            var yellow = [
+                'rgba(255, 255, 0, 0)',
+                'rgba(255, 255, 0, 1)'
+            ];
+
+            var red = [
+                'rgba(255, 0, 0, 0)',
+                'rgba(255, 0, 0, 1)'
+            ];
+
+            var green = [
+                'rgba(0, 255, 0, 0)',
+                'rgba(0, 255, 0, 1)'
+            ];
+
+            var redHeatmap = new google.maps.visualization.HeatmapLayer({
+
+                data: dataheat,
+                map: map,
+                radius: 24
+
+            });
+            var yellowHeatmap = new google.maps.visualization.HeatmapLayer({
+
+                data: dataheat1,
+                map: map,
+                radius: 24
+
+            });
+            var greenHeatmap = new google.maps.visualization.HeatmapLayer({
+
+                data: dataheat2,
+                map: map,
+                radius: 24
+
+            });
+
+            redHeatmap.set('gradient', redHeatmap.get('gradient') ? null : red);
+            yellowHeatmap.set('gradient', yellowHeatmap.get('gradient') ? null : yellow);
+            greenHeatmap.set('gradient', greenHeatmap.get('gradient') ? null : green);
+            // AICIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+        }
+
+
+        function initMap1() {
+            var jItem = @Html.Raw(Json.Encode(Model));
+            var parcBotanic = new google.maps.LatLng(45.76046, 21.225);
+
+            var options = {
+                zoom: 18,
+                center: parcBotanic
+            }
+
+            // New map
+            var map = new google.maps.Map(document.getElementById('map'), options);
+
+
+            for (var i = 0; i < jItem.length; i++) {
+                addMarker(jItem[i]);
+                var point = new google.maps.LatLng(
+                    parseFloat(jItem[i].Latitude),
+                    parseFloat(jItem[i].Longitude)
+                );
+                dataheat2.push(point)
+                //if (parseFloat(jItem[i].Temperature) < 18)
+                //{
+                //    dataheat.push(point)
+                //}
+                //if (parseFloat(jItem[i].Temperature) > 20)
+                //{
+                //    dataheat1.push(point)
+                //}
+            }
+            // Add Marker Function
+            function addMarker(props) {
+                var dt = Number(props.Data.substring(6,props.Data.length-2))
+                var newContent = document.createElement('div');
+                var div = document.createElement('div');
+                div.innerText = "Data: " + new Date(dt) +"\nTemperature: " + props.Temperature.toString() + " Humidity: " + props.Humidity.toString() + " \nNeed Irigation: " + props.NeedIrigation.toString();
+                newContent.appendChild(div);
+
+                 var marker = new google.maps.Marker({
+                    position: { lat: parseFloat(props.Latitude), lng: parseFloat(props.Longitude) },
+                    map: map,
+                  //  icon: 'https://maps.google.com/mapfiles/kml/shapes/parking_lot_maps.png'
+                });
+
+                var infoWindow = new google.maps.InfoWindow({
+                    content: newContent
+                });
+                marker.addListener('click', function () {
+                    infoWindow.open(map, marker);
+                });
+            }
+            // AICIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+            var yellow = [
+                'rgba(255, 255, 0, 0)',
+                'rgba(255, 255, 0, 1)'
+            ];
+
+            var red = [
+                'rgba(255, 0, 0, 0)',
+                'rgba(255, 0, 0, 1)'
+            ];
+
+            var green = [
+                'rgba(0, 255, 0, 0)',
+                'rgba(0, 255, 0, 1)'
+            ];
+
+            var redHeatmap = new google.maps.visualization.HeatmapLayer({
+
+                data: dataheat,
+                map: map,
+                radius: 24
+
+            });
+            var yellowHeatmap = new google.maps.visualization.HeatmapLayer({
+
+                data: dataheat1,
+                map: map,
+                radius: 24
+
+            });
+            var greenHeatmap = new google.maps.visualization.HeatmapLayer({
+
+                data: dataheat2,
+                map: map,
+                radius: 24
+
+            });
+
+            redHeatmap.set('gradient', redHeatmap.get('gradient') ? null : red);
+            yellowHeatmap.set('gradient', yellowHeatmap.get('gradient') ? null : yellow);
+            greenHeatmap.set('gradient', greenHeatmap.get('gradient') ? null : green);
+            // AICIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
         }
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeBrzsotmd8hGyxSeaFXiiOM_kfL2nnm4&callback=initMap&libraries=visualization" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeBrzsotmd8hGyxSeaFXiiOM_kfL2nnm4&libraries=visualization"></script>
+
+
 </head>
+
 <body>
     <div>
-        <h1 style="align-content:center">Vizualizare hartă</h1>
+        <h1 style="align-content:center">Vizualizare hartă</h1> <br/>
+            <input type="button" value="Temperatura" id="Temp" name="Temp" onclick="initMap()"/><br/>
+            <input type="button" value="Umiditate  " id="Umid" name="Umid" onclick="initMap1()"/><br/>
     </div>
     <div id="map"></div>
+
 </body>
 </html>

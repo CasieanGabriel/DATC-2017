@@ -9,9 +9,8 @@ using Newtonsoft.Json;
 
 namespace kappa_webjob.Controller
 {
-    class BackgroundTask
+    public class BackgroundTask
     {
-        //public static string _connectionString = "Server=tcp:kappaserver.database.windows.net;Database=kappa_database;User ID =IonutGrad;Password=GradIonut1;Trusted_Connection=False;Encrypt=True;";
         public static string _connectionString = "Server=tcp:iogrserver.database.windows.net,1433;Initial Catalog=IoGrDatabase;Persist Security Info=False;User ID=IonutGrad;Password=GradIonut1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         public List<DateDePrelucrat> GetInfoDateDePrelucrat()
@@ -56,7 +55,7 @@ namespace kappa_webjob.Controller
             try
             {
                 DBConn.Open();
-                string getDataFromDateTable = "DELETE * FROM DateDePrelucrat";
+                string getDataFromDateTable = "DELETE FROM DateDePrelucrat";
                 getCommand = new SqlCommand(getDataFromDateTable, DBConn);
                 getCommand.ExecuteNonQuery();
             }
@@ -65,7 +64,7 @@ namespace kappa_webjob.Controller
             }
         }
         
-        public List<IntervalDeDate> GetInfoIntervalDeDate()
+        public List<IntervalDeDate> GetInfoIntervaleDeDate()
         {
             SqlConnection DBConn = new SqlConnection(_connectionString);
             SqlCommand getCommand = null;
@@ -99,7 +98,7 @@ namespace kappa_webjob.Controller
             return dataFromTable;        
         }
 
-        public void DeleteInfoIntevalDeDate()
+        public void DeleteInfoIntervaleDeDate()
         {
             SqlConnection DBConn = new SqlConnection(_connectionString);
             SqlCommand getCommand = null;
@@ -107,13 +106,104 @@ namespace kappa_webjob.Controller
             try
             {
                 DBConn.Open();
-                string getDataFromDateTable = "DELETE * FROM IntervalDeDate";
+                string getDataFromDateTable = "DELETE FROM IntervalDeDate";
                 getCommand = new SqlCommand(getDataFromDateTable, DBConn);
                 getCommand.ExecuteNonQuery();
             }
             catch (Exception exp)
             {
             }
+        }
+
+        public List<Zone> GetInfoZone(int nrZona)
+        {
+            SqlConnection DBConn = new SqlConnection(_connectionString);
+            SqlCommand getCommand = null;
+            SqlDataReader reader;
+            List<Zone> dataFromTable = new List<Zone>();
+            try
+            {
+                DBConn.Open();
+                string getDataFromZoneTable = "SELECT * FROM Zone WHERE Zona = " + nrZona;
+                getCommand = new SqlCommand(getDataFromZoneTable, DBConn);
+                reader = getCommand.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        dataFromTable.Add(new Zone
+                        {
+                            Zona = Convert.ToInt32(reader["Zona"]),
+                            Latitude = Convert.ToDouble(reader["Latitude"]),
+                            Longitude = Convert.ToDouble(reader["Longitude"])
+                        });
+                    }
+                }
+            }
+            catch (Exception exp)
+            {
+            }
+            // var serializedJson = JsonConvert.SerializeObject(dataFromTable);
+
+            return dataFromTable;
+        }
+
+        public string GetInfoSenzorStricat(int i, List<IntervalDeDate> ListaIntervale)
+        {
+            bool senzorTemperaturaStricat = false;
+            bool senzorUmiditateStricat = false;
+
+            SqlConnection DBConn = new SqlConnection(_connectionString);
+            SqlCommand getCommand = null;
+            SqlDataReader reader;
+            List<DateDePrelucrat> dataFromTableDateDePrelucrat = new List<DateDePrelucrat>();
+            try
+            {
+                DBConn.Open();
+                string getDataFromDateTable = "SELECT * FROM DateDePrelucrat WHERE Zona =" + i;
+                getCommand = new SqlCommand(getDataFromDateTable, DBConn);
+                reader = getCommand.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        dataFromTableDateDePrelucrat.Add(new DateDePrelucrat
+                        {
+                            Zona = Convert.ToInt32(reader["Zona"]),
+                            Data = Convert.ToDateTime(reader["Data"]),
+                            Temperature = Convert.ToDouble(reader["Temperature"]),
+                            Humidity = Convert.ToDouble(reader["Humidity"])
+                        });
+                    }
+                }
+            }
+            catch (Exception exp)
+            {
+            }
+            foreach (var item in dataFromTableDateDePrelucrat)
+            {
+                if (item.Humidity > ListaIntervale[0].HumidityMax || item.Humidity < ListaIntervale[0].HumidityMin)
+                {
+                    senzorUmiditateStricat = true;
+                    break;
+                }                    
+            }
+            foreach (var item in dataFromTableDateDePrelucrat)
+            {
+                if (item.Temperature > ListaIntervale[0].TemperatureMax || item.Temperature < ListaIntervale[0].TemperatureMin)
+                {
+                    senzorTemperaturaStricat = true;
+                    break;
+                }
+            }
+            if (senzorUmiditateStricat == true && senzorTemperaturaStricat == true)
+                return "AmbiiSenzoriStricati";
+            else if (senzorUmiditateStricat == true)
+                return "SenzorUmiditateStricat";
+            else if (senzorTemperaturaStricat == true)
+                return "SenzorTemperaturaStricat";
+            else
+                return "OK";
         }
 
         public void IrigationLogic()
@@ -123,21 +213,19 @@ namespace kappa_webjob.Controller
             SqlDataReader reader;
             List<Date> colectedDataForInsertion = new List<Date>();
 
-            var ListaIntervale = GetInfoIntervalDeDate();
+            var ListaIntervale = GetInfoIntervaleDeDate();
 
             try
             {
-                for (int i = 0; i <= 20; i++)
+                for (int i = 0; i <= 1; i++)
                 {
                     DBConn.Open();
                     double avg_temp = -30;
                     double avg_umidit = 0;
                     DateTime data_masuratoare = DateTime.Now;
-                    double longit = 0;
-                    double latit = 0;
                     string NeedWater = String.Empty;
-
-                    string getDataFromDateDePrelucratTable = "SELECT AVG(Temperature) AS avg_temp, AVG(Humidity) AS avg_umidit, max(Data) as DataMasuratoare FROM DateDePrelucrat WHERE Zona = " + i;
+                    
+                    string getDataFromDateDePrelucratTable = "SELECT AVG(Temperature) AS avg_temp, AVG(Humidity) AS avg_umidit, max(Data) AS DataMasuratoare FROM DateDePrelucrat WHERE Zona = " + i;
                     getCommand = new SqlCommand(getDataFromDateDePrelucratTable, DBConn);
                     reader = getCommand.ExecuteReader();
                     if (reader.HasRows)
@@ -149,62 +237,44 @@ namespace kappa_webjob.Controller
                             data_masuratoare = Convert.ToDateTime(reader["DataMasuratoare"]);
                         }
                     }
+                    
+                    NeedWater = GetInfoSenzorStricat(i, ListaIntervale);
 
-                    string getDataFromZoneTable = "SELECT * FROM Zone WHERE Zona = " + i;
-                    getCommand = new SqlCommand(getDataFromZoneTable, DBConn);
-                    reader = getCommand.ExecuteReader();
-                    if (reader.HasRows)
-                    {
-                        while (reader.Read())
-                        {
-                            longit = Convert.ToDouble(reader["Latitude"]);
-                            latit = Convert.ToDouble(reader["Longitude"]);
-                        }
-                    }
-
-                    if (avg_temp > ListaIntervale[1].TemperatureMax || avg_temp < ListaIntervale[1].TemperatureMin) // Normal: [-20, 30] gradeC
-                    {
-                        //wrong
-                        if (avg_umidit < ListaIntervale[1].HumidityMin || avg_umidit > ListaIntervale[1].HumidityMax) // Normal : [20, 100] %
-                        {
-                            NeedWater = "SenzorStricat";
-                        }
-                    }
-                    else
+                    var ListaZone = GetInfoZone(i);
+                    if(NeedWater == "OK")
                     {
                         if (avg_umidit < 50)
                         {
-                            NeedWater = "Yes";
+                            NeedWater = "YES";
                         }
                         else
                         {
-                            NeedWater = "No";
+                            NeedWater = "NO";
                         }
                     }
                     colectedDataForInsertion.Add(new Date
                     {
                         Data = data_masuratoare,
-                        Lng = longit,
+                        Lng = ListaZone[0].Longitude,
                         Temperature = avg_temp,
-                        Lat = latit,
+                        Lat = ListaZone[0].Latitude,
                         Humidity = avg_umidit,
                         NeedIrigation = NeedWater
-                    });                    
+                    });
+                    DBConn.Close();
                 }
-
-                InsertDataIntoDateTable(colectedDataForInsertion);
+                foreach (var item in colectedDataForInsertion)
+                {
+                    InsertDataIntoDateTable(item);
+                }
                 DeleteInfoDateDePrelucrat();
-                DeleteInfoIntevalDeDate();
             }
             catch (Exception exp)
             {
             }
-            //var serializedJson = JsonConvert.SerializeObject(dataFromTable);
-
-            //return serializedJson;
         }
 
-        public void InsertDataIntoDateTable(List<Date> ListForInsertInDateTable)
+        public void InsertDataIntoDateTable(Date item)
         {
             SqlConnection DBConn = null;
             SqlCommand insertCommand = null;
@@ -212,28 +282,66 @@ namespace kappa_webjob.Controller
             {
                 DBConn = new SqlConnection(_connectionString);
                 DBConn.Open();
-                foreach (var item in ListForInsertInDateTable)
+
+                var l = item.Lat.ToString().Split(',');
+                var L = item.Lng.ToString().Split(',');
+                var t = item.Temperature.ToString().Split(',');
+                var h = item.Humidity.ToString().Split(',');
+                var temperatura = String.Empty;
+                var umiditate = String.Empty;
+                try
                 {
-                    string insertCmd = string.Format
-                    (
-                      "INSERT INTO Date VALUES({0},{1},{2},{3},{4},{5}})",
-                      item.Lat, item.Lng, item.Temperature, item.Humidity, item.Data, item.NeedIrigation
-                    );
-                    insertCommand = new SqlCommand(insertCmd, DBConn);
-                    insertCommand.ExecuteNonQuery();
+                    temperatura = t[0] + "." + t[1].Substring(0, 2);
                 }
+                catch
+                {
+                    try
+                    {
+                        temperatura = t[0] + "." + t[1].Substring(0, 1);
+                    }
+                    catch
+                    {
+                        temperatura = t[0];
+                    }
+                }
+
+                try
+                {
+                    umiditate = h[0] + "." + h[1].Substring(0, 2);
+                }
+                catch
+                {
+                    try
+                    {
+                        umiditate = h[0] + "." + h[1].Substring(0, 1);
+                    }
+                    catch
+                    {
+
+                        umiditate = h[0];
+                    }
+                }
+
+                string insertCmd = string.Format
+                        (
+                          "INSERT INTO Date VALUES({0},{1},{2},{3},'{4}','{5}')",
+                          l[0] + "." + l[1],
+                          L[0] + "." + L[1],
+                          temperatura,
+                          umiditate,
+                          item.Data.ToString("yyyy-MM-dd hh:mm:ss"), 
+                          item.NeedIrigation.ToString()
+                        );
+            
+                insertCommand = new SqlCommand(insertCmd, DBConn);
+                insertCommand.ExecuteNonQuery();
             }
-            catch { }
+            catch (Exception exp) { }
             finally
             {
                 if (DBConn != null)
                     DBConn.Dispose();
             }
-        }
-
-        public void HistoryConstructor()
-        {
-            // ???
-        }
+        }        
     }
 }

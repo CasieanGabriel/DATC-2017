@@ -6,42 +6,34 @@ using System.Threading;
 using System.Threading.Tasks;
 using kappa_webjob.Controller;
 using Microsoft.Azure.WebJobs;
+using Microsoft.WindowsAzure.Storage.Queue;
 
 namespace kappa_webjob
 {
     // To learn more about Microsoft Azure WebJobs SDK, please see https://go.microsoft.com/fwlink/?LinkID=320976
     class Program
     {
-        // Please set the following connection strings in app.config for this WebJob to run:
-        // AzureWebJobsDashboard and AzureWebJobsStorage
         static void Main()
         {
-            var thread = new Thread(ExecuteInForeground);
-            thread.Start();
-            Thread.Sleep(1000);
-            Console.WriteLine("Main thread ({0}) exiting...",
-                              Thread.CurrentThread.ManagedThreadId);
-
-            //////var config = new JobHostConfiguration();
-
-            //////if (config.IsDevelopment)
-            //////{
-            //////    config.UseDevelopmentSettings();
-            //////}
-
-            //////var host = new JobHost();
-            //////// The following code ensures that the WebJob will be running continuously
-            //////host.RunAndBlock();
+            ExecuteInBackground();
         }
 
-        static void ExecuteInForeground()
+        static void ExecuteInBackground()
         {
-            var task = new BackgroundTask();
-
-            //task.GetInfoDateDePrelucrat();
-            //task.ComputeAverage();
-            //task.GetInfoIntevaleDeDate();
+            BackgroundTask task = new BackgroundTask();
             //task.IrigationLogic();
+
+            AsyncronousMessaging asyncMsg = new AsyncronousMessaging();
+            asyncMsg.SendDateDePrelucratIsEmpty("date-de-prelucrat-is-empty");
+
+            CloudQueueMessage messsageFromDataGenerator = asyncMsg.ReceiveDateDePrelucratIsReady();
+
+            if (messsageFromDataGenerator.AsString == "date-de-prelucrat-is-ready") 
+            {
+                task.IrigationLogic();
+            }
+
+            asyncMsg.SendDateDePrelucratIsEmpty("date-de-prelucrat-is-empty");
         }
     }
 }

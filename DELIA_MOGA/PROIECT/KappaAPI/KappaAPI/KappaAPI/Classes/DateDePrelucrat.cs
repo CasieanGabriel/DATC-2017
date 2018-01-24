@@ -8,17 +8,20 @@ namespace KappaAPI.Classes
 {
     public class DateDePrelucrat
     {
-        [JsonProperty("Zona")]
-        public int Zona { get; set; }
+        [JsonProperty("Field")]
+        public int Field { get; set; }
 
-        [JsonProperty("Data")]
-        public DateTime Data { get; set; }
+
+        [JsonProperty("Date_Time")]
+        public string Date_Time { get; set; }
 
         [JsonProperty("Temperature")]
         public double Temperature { get; set; }
 
         [JsonProperty("Humidity")]
         public double Humidity { get; set; }
+
+
 
     }
 }

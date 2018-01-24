@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="kappa-team" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Adi\\Documents\\Visual\ Studio\ 2017\\Projects\\kappa-webjob\\kappa-webjob\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Adi\\Documents\\Visual\ Studio\ 2017\\Projects\\kappa-webjob\\kappa-webjob\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Adi\\documents\\visual\ studio\ 2017\\Projects\\kappa-webjob\\kappa-webjob\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Adi\\documents\\visual\ studio\ 2017\\Projects\\kappa-webjob\\kappa-webjob\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
 </parameters>

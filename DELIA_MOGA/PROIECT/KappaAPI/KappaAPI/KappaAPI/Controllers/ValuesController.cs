@@ -36,11 +36,11 @@ namespace KappaAPI.Controllers
                     {
                         dataFromTable.Add(new Date
                         {
-                            Data = Convert.ToDateTime(reader["Data"]),
+                            Latitude = Convert.ToDouble(reader["Latitude"]),
                             Longitude = Convert.ToDouble(reader["Longitude"]),
                             Temperature = Convert.ToDouble(reader["Temperature"]),
-                            Latitude = Convert.ToDouble(reader["Latitude"]),
                             Humidity = Convert.ToDouble(reader["Humidity"]),
+                            Data = Convert.ToDateTime(reader["Data"]),
                             NeedIrigation = reader["NeedIrigation"].ToString()
                         });
                     }
@@ -48,6 +48,7 @@ namespace KappaAPI.Controllers
             }
             catch (Exception exp)
             {
+                return exp.Message.ToString();
             }
             var serializedJson = JsonConvert.SerializeObject(dataFromTable);
 
@@ -56,7 +57,7 @@ namespace KappaAPI.Controllers
 
         // GET api/values/5
         [HttpGet("{zona}")]
-        public string Get(string zona) // get data from Zona
+        public string Get(string zona) // get data from Zone
         {
             SqlConnection DBConn = new SqlConnection(_connectionString);
             SqlCommand getCommand = null;
@@ -74,15 +75,16 @@ namespace KappaAPI.Controllers
                     {
                         dataFromZoneTable.Add(new Zone
                         {
+                            Zona = Convert.ToInt32(reader["Zona"]),
                             Latitude = Convert.ToDouble(reader["Latitude"]),
-                            Longitude = Convert.ToDouble(reader["Longitude"]),
-                            Zona = Convert.ToInt32(reader["Zona"])
+                            Longitude = Convert.ToDouble(reader["Longitude"])
                         });
                     }
                 }
             }
             catch (Exception exp)
             {
+                return exp.Message.ToString();
             }
             var serializedJson = JsonConvert.SerializeObject(dataFromZoneTable);
 
@@ -94,32 +96,71 @@ namespace KappaAPI.Controllers
         public void Post([FromBody] dynamic fromBody)
         {
             IEnumerable<DateDePrelucrat> IdateDePrelucrat;
+            IEnumerable<IntervalDeDate> IintervalDeDate;
             SqlConnection DBConn = null;
             SqlCommand insertCommand = null;
-            var value = Convert.ToString(fromBody);
+            SqlCommand deleteCommand = null;
+            string value = Convert.ToString(fromBody);
+
             try
             {
-                //value = request.Content.ReadAsStringAsync().Result;
-                IdateDePrelucrat = JsonConvert.DeserializeObject<IEnumerable<DateDePrelucrat>>(value);
-                DBConn = new SqlConnection(_connectionString);
-                DBConn.Open();
-                if (IdateDePrelucrat.First().Temperature == 0 && IdateDePrelucrat.First().Humidity == 0 && IdateDePrelucrat.First().Zona == 0)
-                { }
-                else
+                IintervalDeDate = JsonConvert.DeserializeObject<IEnumerable<IntervalDeDate>>(value);
+                if( IintervalDeDate == null || (IintervalDeDate.First().TemperatureMax == 0 && IintervalDeDate.First().TemperatureMin == 0  &&
+                                                IintervalDeDate.First().HumidityMax == 0 && IintervalDeDate.First().HumidityMin == 0))
                 {
-                    foreach (var item in IdateDePrelucrat)
+                    try
                     {
-                        string insertCmd = string.Format
-                            (
-                                "INSERT INTO DateDePrelucrat VALUES({0},{1},{2},{3})",
-                                item.Zona, item.Data, item.Temperature, item.Humidity
-                            );
-                        insertCommand = new SqlCommand(insertCmd, DBConn);
-                        insertCommand.ExecuteNonQuery();
+                        //value = request.Content.ReadAsStringAsync().Result;
+                        IdateDePrelucrat = JsonConvert.DeserializeObject<IEnumerable<DateDePrelucrat>>(value);
+                        DBConn = new SqlConnection(_connectionString);
+                        DBConn.Open();
+                        foreach (var item in IdateDePrelucrat)
+                        {
+                            try
+                            {
+                                string insertCmd = string.Format
+                                    (
+                                        "INSERT INTO DateDePrelucrat VALUES({0},{1},{2},{3})",
+                                        item.Field, item.Temperature, item.Humidity, "'" + item.Date_Time + "'"
+                                    );
+                                insertCommand = new SqlCommand(insertCmd, DBConn);
+                                insertCommand.ExecuteNonQuery();
+                                deleteCommand.Dispose();
+                            }
+                            catch (Exception exp)
+                            {
+                                exp.Message.ToString();
+                            } // try to insert the next data
+                        }
+                    }
+                    catch (Exception exp)
+                    {
+                        exp.Message.ToString();
                     }
                 }
+                else
+                {
+                    DBConn = new SqlConnection(_connectionString);
+                    DBConn.Open();
+                    string deleteCmd = "DELETE FROM IntervalDeDate";
+                    string insertCmd = string.Format
+                            (
+                                "INSERT INTO IntervalDeDate VALUES({0},{1},{2},{3})",
+                                IintervalDeDate.First().TemperatureMin, IintervalDeDate.First().TemperatureMax, IintervalDeDate.First().HumidityMin, IintervalDeDate.First().HumidityMax
+
+                            );
+                    insertCommand = new SqlCommand(insertCmd, DBConn);
+                    deleteCommand = new SqlCommand(deleteCmd, DBConn);
+                    deleteCommand.ExecuteNonQuery();
+                    insertCommand.ExecuteNonQuery();
+                    insertCommand.Dispose();
+                    deleteCommand.Dispose();
+                }
             }
-            catch { }
+            catch (Exception exp)
+            {
+                exp.Message.ToString();
+            }
             finally
             {
                 if (DBConn != null)
