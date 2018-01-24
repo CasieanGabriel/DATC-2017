@@ -2,16 +2,21 @@ import React from 'react';
 import { Dimensions, AppRegistry, StyleSheet, View, Image, Platform, ListView, TouchableOpacity, ToolbarAndroid } from 'react-native';
 import { Container, Header, Content, Form, Item, Input, Label, Button, Text, Title, Left, Right, Body, Thumbnail, Fab, Toast, Drawer } from 'native-base';
 import MapView from 'react-native-maps';
+import Geojson from 'react-native-geojson';
 import ActionBar from 'react-native-action-bar';
 import DrawerLayout from 'react-native-drawer-layout';
 
 import api from './api';
+import manipulateCoordinates from './manipulateCoordinates';
 import coordinateImg from '../images/coordinate.png';
 import regionImg from '../images/region.png';
 import angleImg  from '../images/angle.png';
 import jumpImg from '../images/jump.png';
 import bearingImg from '../images/bearing.png';
 import mapStyle from '../assets/mapStyle';
+import geoJson from '../assets/geoJson';
+import redIcon from '../images/red.png';
+import blueIcon from '../images/blue.png';
 import Menu from './Menu';
 import SideBar from './SideBar';
 
@@ -19,6 +24,10 @@ function randomColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 let id = 0;
+var me = this;
+var geojson =[];
+    var coloredJson =[];
+    var polygons =[];
 const DEFAULT_PADDING = { top: 40, right: 40, bottom: 40, left: 40 };
 const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;
@@ -29,34 +38,63 @@ export class mapScreen extends React.Component {
     this.state = {
       resource: [],
       region: {
-        latitude: 45.7473215,
-        longitude: 21.226200199999994,
+        latitude: 45.761954492450286,
+        longitude:  21.226358413696286,
         latitudeDelta: 0.0021,
         longitudeDelta: 0.0021
       },
       marker: {
         coordinate: {
-          latitude: 45.7473215,
-          longitude: 21.226200199999994,
+          latitude: 45.761954492450286,
+          longitude:  21.226358413696286,
           latitudeDelta: 0.0021,
           longitudeDelta: 0.0021
         }
       },
       drawerClosed: true,
+      polygons: [],
+      editing: null,
+      creatingHole: false
     }
     this.onRegionChange = this.onRegionChange.bind(this);
     this.jumpRandom = this.jumpRandom.bind(this);
     this.onMapPress = this.onMapPress.bind(this);
     this.toggleDrawer = this.toggleDrawer.bind(this);
-   this.setDrawerState = this.setDrawerState.bind(this);
+    this.setDrawerState = this.setDrawerState.bind(this);
+    this.getTemperature = this.getTemperature.bind(this);
+    this.getHumidity = this.getHumidity.bind(this);
   }
 
   componentWillMount(){
-    api.getResource().then((res) => {
-      this.setState({
-        resource: res
-      })
-    });
+
+    // var coord = manipulateCoordinates.manipulate(geoJson);
+    // let addResource = api.addResource(coord);
+ //making this async to simulate an API call
+   setTimeout(()=>{
+    geoJson.features[0].geometry.coordinates.forEach(function(coordinates){
+        var terms = coordinates.map(function(term){
+
+      fetch('http://api.wunderground.com/api/7371ed5d87903525/geolookup/hourly/q/'+ term[1]+','+term[0]+'.json')
+            .then((response) => response.json())
+          .then((responseJson) => {
+          const obj = {
+              'Latitudine': responseJson.location.lat,
+              'Longitudine': responseJson.location.lon,
+              'Temperature': responseJson.hourly_forecast[0].temp.english,
+              'Humidity': responseJson.hourly_forecast[0].humidity,
+              "Flag": 0,
+            };
+              console.log(obj);
+              geojson.push(obj);
+
+          })
+          .catch((error) => {
+            console.error(error);
+          }).done();;
+        });
+      });
+    },2000);
+
   }
   show() {
       this.state.marker.showCallout();
@@ -66,46 +104,127 @@ export class mapScreen extends React.Component {
       this.state.marker.hideCallout();
     }
   onMapPress(e) {
-  this.setState({
-    marker:
-      {
-        coordinate: e.nativeEvent.coordinate,
-        color: randomColor(),
-        title:e.nativeEvent.title,
-        description:e.nativeEvent.description
-      }
-  });
+    this.setState({
+      marker:
+        {
+          coordinate: e.nativeEvent.coordinate,
+          color: randomColor(),
+          title:e.nativeEvent.title,
+          description:e.nativeEvent.description
+        }
+    });
+    const { editing, creatingHole } = this.state;
+    console.log(e.nativeEvent.coordinate);
+    if (!editing) {
+      this.setState({
+        editing: {
+          id: id++,
+          coordinates: [e.nativeEvent.coordinate],
+          holes: [],
+        },
+      });
+    } else if (!creatingHole) {
+      this.setState({
+        editing: {
+          ...editing,
+          coordinates: [
+            ...editing.coordinates,
+            e.nativeEvent.coordinate,
+          ],
+        },
+      });
+    } else {
+      const holes = [...editing.holes];
+      holes[holes.length - 1] = [
+        ...holes[holes.length - 1],
+        e.nativeEvent.coordinate,
+      ];
+      this.setState({
+        editing: {
+          ...editing,
+          id: id++, // keep incrementing id to trigger display refresh
+          coordinates: [
+            ...editing.coordinates,
+          ],
+          holes,
+        },
+      });
 }
-setDrawerState() {
-  this.setState({
-    drawerClosed: !this.state.drawerClosed,
-  });
-}
-
-toggleDrawer = () => {
-  if (this.state.drawerClosed) {
-    this.DRAWER.openDrawer();
-  } else {
-    this.DRAWER.closeDrawer();
   }
-}
+  setDrawerState() {
+    this.setState({
+      drawerClosed: !this.state.drawerClosed,
+    });
+  }
+
+  toggleDrawer = () => {
+    if (this.state.drawerClosed) {
+      this.DRAWER.openDrawer();
+    } else {
+      this.DRAWER.closeDrawer();
+    }
+  }
     onRegionChange(region) {
-      this.setState({ region: region,
-        marker:
-          {
-            coordinate: region
-          }
+      this.setState({ region: region
        });
     }
     jumpRandom() {
       const region = this.randomRegion();
-      this.setState({ region: region,
-        marker:
-          {
-            coordinate: region,
-          }
+      this.setState({ region: region
        });
     }
+  getTemperature(){
+    console.log(geojson);
+    this.setState({geoJson:geojson});
+    let addResource = api.addResource(geojson);
+    var i = 0;
+     setTimeout(()=>{
+       geojson.forEach(function(coordinates){
+         console.log('https://0c81bb1d.ngrok.io/get-response?Longitudine='+coordinates.Longitudine +'&Latitudine='+coordinates.Latitudine);
+        fetch('https://0c81bb1d.ngrok.io/get-response?Longitudine='+coordinates.Longitudine +'&Latitudine='+coordinates.Latitudine)
+          .then((response) => response.json())
+        .then((responseJson) => {
+          console.log(responseJson.resources[0].Culoare_umiditate);
+          if(responseJson.resources[0].Culoare_umiditate && responseJson.resources[0].Culoare_temperatura){
+            const obj = {
+              Culoare_temperatura:responseJson.resources[0].Culoare_temperatura,
+              Culoare_umiditate: responseJson.resources[0].Culoare_umiditate,
+              latitude: responseJson.resources[0].Latitudine,
+              longitude: responseJson.resources[0].Longitudine
+            };
+            coloredJson.push(obj);
+            i++;
+          }
+        });
+      });
+
+    },100);
+
+    setTimeout(()=>{
+      console.log(coloredJson);
+      coloredJson.forEach(function(coord){
+        console.log("aici");
+        polygons.push({
+          id: id++, // keep incrementing id to trigger display refresh
+          coordinates: [
+            {latitude: coord.latitude,
+              longitude: coord.longitude}
+          ],
+          holes: [],
+          fillColor: coord.Culoare_temperatura
+        });
+
+      });
+    },200);
+    console.log(polygons);
+    this.setState({
+      polygons: polygons,
+    });
+    console.log(this.state.polygons);
+  }
+  getHumidity(){
+    let addResource = api.addResource(geoJson);
+  }
 
   animateRandom() {
     this.map.animateToRegion(this.randomRegion());
@@ -141,6 +260,42 @@ toggleDrawer = () => {
       ...this.randomCoordinate(),
     };
   }
+  finish() {
+  const { polygons, editing } = this.state;
+  this.setState({
+    polygons: [...polygons, editing],
+    editing: null,
+    creatingHole: false,
+  });
+}
+
+createHole() {
+  const { editing, creatingHole } = this.state;
+  if (!creatingHole) {
+    this.setState({
+      creatingHole: true,
+      editing: {
+        ...editing,
+        holes: [
+          ...editing.holes,
+          [],
+        ],
+      },
+    });
+  } else {
+    const holes = [...editing.holes];
+    if (holes[holes.length - 1].length === 0) {
+      holes.pop();
+      this.setState({
+        editing: {
+          ...editing,
+          holes,
+        },
+      });
+    }
+    this.setState({ creatingHole: false });
+  }
+}
     getInitialState() {
   return {
     region: {
@@ -159,6 +314,14 @@ toggleDrawer = () => {
     };
 
     render() {
+      const mapOptions = {
+  scrollEnabled: true,
+};
+
+      if (this.state.editing) {
+  mapOptions.scrollEnabled = false;
+  mapOptions.onPanDrag = e => this.onPress(e);
+}
         return (
 
             <DrawerLayout
@@ -179,8 +342,32 @@ toggleDrawer = () => {
 
      <View style={styles.container}>
                 <MapView style={styles.map} initialRegion = {this.coordinate} region={this.state.region} onRegionChange={this.onRegionChange}
-                customMapStyle={mapStyle} ref={ref => { this.map = ref; }} onPress={(e) => this.onMapPress(e)}
+                customMapStyle={mapStyle}
+                 ref={ref => { this.map = ref; }} onPress={(e) => this.onMapPress(e)} {...mapOptions}
                 >
+
+                {this.state.polygons.map(polygon => (
+                // <Text>{polygon}</Text>
+                    <MapView.Polygon
+                      key={polygon.id}
+                      coordinates={polygon.coordinates}
+                      holes={polygon.holes}
+                      strokeColor="rgba(r,g,b,0.5)"
+                      fillColor="rgba(r,g,b,0.5)"
+                      strokeWidth={1}
+                    />
+                  ))}
+                  {this.state.editing && (
+                    <MapView.Polygon
+                      key={this.state.editing.id}
+                      coordinates={this.state.editing.coordinates}
+                      holes={this.state.editing.holes}
+                      strokeColor="#000"
+                      fillColor={this.state.editing.fillColor}
+                      strokeWidth={1}
+                    />
+                  )}
+                  <Geojson geojson={geoJson} />
                   <MapView.Marker
                     coordinate={this.state.marker.coordinate}
                     pinColor={this.state.marker.color}
@@ -189,6 +376,21 @@ toggleDrawer = () => {
                   >
                   </MapView.Marker>
                 </MapView>
+                <View style={styles.inputWrapper}>
+                  <TouchableOpacity
+                      onPress={() => this.getTemperature()}>
+            				<Image source={redIcon}
+            					style={styles.inlineImg} />
+            				<Text style={styles.input}>Temperature</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    onPress={() => this.getHumidity()}>
+            				<Image source={blueIcon}
+            					style={styles.inlineImg} />
+            				<Text style={styles.input}>Humidity</Text>
+                  </TouchableOpacity>
+          			</View>
+
                 <View style={[styles.bubble, styles.latlng]}>
                   <Text style={{ textAlign: 'center' }}>
                     {this.state.region.latitude.toPrecision(7)},
@@ -260,6 +462,28 @@ const styles = {
      paddingVertical: 12,
      borderRadius: 20,
    },
+   input: {
+ 		backgroundColor: 'rgba(255, 255, 255, 0.4)',
+ 		width: 150,
+ 		height: 40,
+ 		marginHorizontal: 20,
+ 		paddingLeft: 45,
+ 		// borderRadius: 20,
+ 		color: '#ffffff',
+ 	},
+ 	inputWrapper: {
+ 		flex: 2,
+    top: 50,
+    alignSelf: 'flex-end',
+ 	},
+ 	inlineImg: {
+ 		position: 'absolute',
+ 		zIndex: 99,
+ 		width: 22,
+ 		height: 22,
+ 		left: 35,
+ 		top: 1,
+ 	},
    latlng: {
      width: 200,
      alignItems: 'stretch',

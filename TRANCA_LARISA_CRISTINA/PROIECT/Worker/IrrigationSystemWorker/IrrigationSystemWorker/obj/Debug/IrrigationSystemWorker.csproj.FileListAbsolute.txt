@@ -1,0 +1,10 @@
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\bin\Debug\IrrigationSystemWorker.exe.config
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\bin\Debug\IrrigationSystemWorker.exe
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\bin\Debug\IrrigationSystemWorker.pdb
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\obj\Debug\IrrigationSystemWorker.exe
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\obj\Debug\IrrigationSystemWorker.pdb
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\obj\Debug\IrrigationSystemWorker.csprojResolveAssemblyReference.cache
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Proiect\IrrigationSystemWorker\IrrigationSystemWorker\bin\Debug\System.Net.Http.Formatting.xml

@@ -40,11 +40,7 @@ export default class SubmitCreateAccount extends Component {
 		var crypto = require('crypto')
 		var hashedPass = crypto.createHash('sha1').update(this.props.password).digest('hex')
 		console.log({username: this.props.username, password:hashedPass});
-		// api.postResource({username: this.props.username, password:hashedPass}).then((res) => {
-		// 	console.log("aici");
-		// });
 		if (this.state.isLoading) return;
-
 		this.setState({ isLoading: true });
 		Animated.timing(
 			this.buttonAnimated,
@@ -54,17 +50,22 @@ export default class SubmitCreateAccount extends Component {
 				easing: Easing.linear
 			}
 		).start();
+		var res = api.postResource({username: this.props.username, password:hashedPass}).then(function(res){
+			console.log(res);
+			if(res === "ok"){
+				setTimeout(() => {
+					Actions.mapScreen();
+					// this.setState({ isLoading: false });
+					// this.buttonAnimated.setValue(0);
+					}, 2300);
+			}else{
+				setTimeout(() => {
+				// this.setState({ isLoading: false });
+				// this.buttonAnimated.setValue(0);
+				}, 2300);
+			}
+		});
 
-		// setTimeout(() => {
-		// 	this._onGrow();
-		// }, 2000);
-
-		setTimeout(() => {
-			Actions.mapScreen();
-			this.setState({ isLoading: false });
-			this.buttonAnimated.setValue(0);
-			// this.growAnimated.setValue(0);
-		}, 2300);
 	}
 
 	_onGrow() {
