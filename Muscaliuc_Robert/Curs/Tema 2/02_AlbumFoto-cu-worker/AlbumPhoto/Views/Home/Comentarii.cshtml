@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Comentarii";
+}
+
+<h2 class="title">Comentarii</h2>
+
+<div  style="display:inline-block;">
+        @foreach (var comentariu in Model)
+        {
+            <div >
+                <p style="display:inline;">@comentariu.MadeBy:</p>
+                <p style="display:inline;">@comentariu.Text</p>
+            </div>
+        }
+</div>

@@ -1,0 +1,16 @@
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\RandomDataGenerator.exe.config
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\RandomDataGenerator.exe
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\RandomDataGenerator.pdb
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\obj\Debug\RandomDataGenerator.csprojResolveAssemblyReference.cache
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\obj\Debug\RandomDataGenerator.generateOutOfRange.resources
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\obj\Debug\RandomDataGenerator.Properties.Resources.resources
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\obj\Debug\RandomDataGenerator.csproj.GenerateResource.Cache
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\obj\Debug\RandomDataGenerator.csproj.CoreCompileInputs.cache
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\obj\Debug\RandomDataGenerator.exe
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\obj\Debug\RandomDataGenerator.pdb
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\RabbitMQ.Client.dll
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\cCrina\source\repos\RandomDataGenerator\RandomDataGenerator\bin\Debug\RabbitMQ.Client.xml

@@ -1,0 +1,6 @@
+c:\users\alexandra\documents\visual studio 2015\Projects\GeneratorDateV1.1\GeneratorDateV1.1\bin\Debug\GeneratorDateV1.1.exe.config
+c:\users\alexandra\documents\visual studio 2015\Projects\GeneratorDateV1.1\GeneratorDateV1.1\bin\Debug\GeneratorDateV1.1.exe
+c:\users\alexandra\documents\visual studio 2015\Projects\GeneratorDateV1.1\GeneratorDateV1.1\bin\Debug\GeneratorDateV1.1.pdb
+c:\users\alexandra\documents\visual studio 2015\Projects\GeneratorDateV1.1\GeneratorDateV1.1\obj\Debug\GeneratorDateV1.1.csprojResolveAssemblyReference.cache
+c:\users\alexandra\documents\visual studio 2015\Projects\GeneratorDateV1.1\GeneratorDateV1.1\obj\Debug\GeneratorDateV1.1.exe
+c:\users\alexandra\documents\visual studio 2015\Projects\GeneratorDateV1.1\GeneratorDateV1.1\obj\Debug\GeneratorDateV1.1.pdb

@@ -42,5 +42,10 @@ namespace BeersClient.UI
             Console.WriteLine("\nb-Back");
             Console.WriteLine("q-Quis");
         }
+
+        public static void Display(Beer beer)
+        {
+
+        }
     }
 }

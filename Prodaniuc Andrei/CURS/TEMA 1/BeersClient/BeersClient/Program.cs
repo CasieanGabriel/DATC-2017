@@ -15,45 +15,75 @@ namespace BeersClient
     class Program
     {
         private static HALClientService _service;
+        private static Level _level;
+        private static Level _previousLevel;
+        private static Level _nextLevel;
+        private static UiModel _uiModel;
         private static string _userOption;
-        private static List<Brewery> _breweries;
         static void Main(string[] args)
         {
-            _breweries = new List<Brewery>();
-            var brewery=new Brewery();
+            _uiModel = new UiModel();
             _userOption = string.Empty;
+            _level = Level.Breweries;
             _service = new HALClientService();
+            ExecuteClient().GetAwaiter().GetResult();
+        }
 
-            while (_userOption!="q")
+        private static async Task ExecuteClient()
+        {
+            while (_level != Level.None)
             {
-                if(_userOption == "b")
+                try
                 {
-
+                    switch (_level)
+                    {
+                        case Level.None:
+                            break;
+                        case Level.Breweries:
+                            _uiModel.Breweries = await _service.GetBreweries();
+                            Menu.Display(_uiModel.Breweries);
+                            _previousLevel = Level.None;
+                            _nextLevel = Level.Brewery;
+                            break;
+                        case Level.Brewery:
+                            _uiModel.Brewery = _uiModel.Breweries.FirstOrDefault(x => x.Id.ToString() == _userOption);
+                            Menu.Display(await _service.GetBrewery(_uiModel.Brewery.Links.Self.Href));
+                            _previousLevel = Level.Breweries;
+                            _nextLevel = Level.Beers;
+                            break;
+                        case Level.Beers:
+                            var beerLink = _uiModel.Brewery.Links.Beers.Href;
+                            _uiModel.Beers = (await _service.GetBeers(beerLink)).Embedded.Beer.ToList();
+                            Menu.Display(_uiModel.Beers);
+                            _previousLevel = Level.Brewery;
+                            break;
+                        case Level.Beer:
+                            //var beerString = _uiModel.Beers.FirstOrDefault().;
+                            //var beer = _service.GetBeer();
+                            break;
+                        case Level.Add:
+                            string beerName = Console.ReadLine();
+                            var result = _service.AddBeer(beerName);
+                            Console.WriteLine("Added");
+                            break;
+                        default:
+                            break;
+                    }
+                    _userOption = Console.ReadLine();
+                    _level = _userOption == "b" ? _previousLevel : _nextLevel;
+                    if (_userOption == "q")
+                        _level = Level.None;
+                    if (_userOption == "beers")
+                        _level = Level.Beers;
                 }
-                else if (Regex.Matches(_userOption, "^[0-9]").Count>0)
+                catch (Exception ex)
                 {
-                    brewery = _breweries.FirstOrDefault(x => x.Id.ToString() == _userOption);
-                    Menu.Display(_service.GetBrewery(brewery.Links.Self.Href));
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine("Press any key to continue...");
+                    Console.ReadKey();
+                    _level = Level.Breweries;
                 }
-                else if(_userOption == "b")
-                {
-                    Menu.Display(_breweries);
-                }
-                else if (_userOption == "beers")
-                {
-                    var beers = brewery.Links.Beers.Href;
-                    Menu.Display(_service.GetBeers(beers));
-                }
-                else
-                {
-                    _breweries = _service.GetBreweries();
-                    Menu.Display(_breweries);
-
-                }
-
-                _userOption = Console.ReadLine();
             }
-            Console.ReadKey();
         }
     }
 }

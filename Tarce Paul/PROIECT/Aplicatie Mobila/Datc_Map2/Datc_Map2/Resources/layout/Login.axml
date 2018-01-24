@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_google_signin_btn_icon_dark"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Create an account"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:id="@+id/txtCreateAccount"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:textSize="25sp" />
+    <Button
+        android:text="SIGN IN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:id="@+id/btnSignIn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        android:background="@drawable/ButtonSignInStyle" />
+    <TextView
+        android:text="Or"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark" />
+    <Button
+        android:text="SIGN UP"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:id="@+id/btnSignUp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        android:background="@drawable/ButtonSignUpStyle" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar1"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ProgressBarStyle"
+            android:visibility="invisible"
+            android:indeterminate="true" />
+    </RelativeLayout>
+</LinearLayout>

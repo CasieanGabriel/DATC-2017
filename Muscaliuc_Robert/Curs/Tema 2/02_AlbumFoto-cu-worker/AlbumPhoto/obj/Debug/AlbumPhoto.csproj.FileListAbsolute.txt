@@ -1,0 +1,136 @@
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll.config
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.pdb
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Antlr3.Runtime.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Optimization.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Providers.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\WebGrease.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.pdb
+D:\Robert\Facultatea AC\Anul 4\Sem I\DATC\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll.config
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.pdb
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Antlr3.Runtime.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Optimization.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Providers.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\WebGrease.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.pdb
+C:\Users\RobertStefan\Documents\GitHub\DATC-2017\Muscaliuc_Robert\Curs\Tema 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache

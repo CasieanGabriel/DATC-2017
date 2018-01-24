@@ -1,0 +1,11 @@
+C:\Users\timeia.tina\Desktop\teme\Output\Output\bin\Release\netcoreapp2.0\Output.deps.json
+C:\Users\timeia.tina\Desktop\teme\Output\Output\bin\Release\netcoreapp2.0\Output.runtimeconfig.json
+C:\Users\timeia.tina\Desktop\teme\Output\Output\bin\Release\netcoreapp2.0\Output.runtimeconfig.dev.json
+C:\Users\timeia.tina\Desktop\teme\Output\Output\bin\Release\netcoreapp2.0\Output.dll
+C:\Users\timeia.tina\Desktop\teme\Output\Output\bin\Release\netcoreapp2.0\Output.pdb
+C:\Users\timeia.tina\Desktop\teme\Output\Output\obj\Release\netcoreapp2.0\Output.csprojResolveAssemblyReference.cache
+C:\Users\timeia.tina\Desktop\teme\Output\Output\obj\Release\netcoreapp2.0\Output.csproj.CoreCompileInputs.cache
+C:\Users\timeia.tina\Desktop\teme\Output\Output\obj\Release\netcoreapp2.0\Output.AssemblyInfoInputs.cache
+C:\Users\timeia.tina\Desktop\teme\Output\Output\obj\Release\netcoreapp2.0\Output.AssemblyInfo.cs
+C:\Users\timeia.tina\Desktop\teme\Output\Output\obj\Release\netcoreapp2.0\Output.dll
+C:\Users\timeia.tina\Desktop\teme\Output\Output\obj\Release\netcoreapp2.0\Output.pdb

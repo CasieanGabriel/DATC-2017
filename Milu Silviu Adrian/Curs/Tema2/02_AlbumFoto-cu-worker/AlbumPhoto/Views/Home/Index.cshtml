@@ -1,0 +1,63 @@
+﻿@model List<AlbumPhoto.Models.PozaCuComentarii>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h2 class="title">@ViewBag.Title</h2>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var pozaCuComentarii in Model)
+{
+    <div class="poza">
+        <div class="thumbnail">
+            @if (!string.IsNullOrWhiteSpace(pozaCuComentarii.Poza.ThumbnailUrl))
+            {
+                <img src="@pozaCuComentarii.Poza.ThumbnailUrl" />
+            }
+            else
+            {
+                <span>no thumbnail</span>
+            }
+        </div>
+        <div class="details">
+            <h3 class="description">@pozaCuComentarii.Poza.Description</h3>
+
+            @if (!string.IsNullOrWhiteSpace(pozaCuComentarii.Poza.Url))
+            {
+                <a href="@pozaCuComentarii.Poza.Url">Descarca</a>
+                @Html.ActionLink("Genereaza Link","Picture", new { key=DateTime.UtcNow.Ticks, fileName = pozaCuComentarii.Poza.Description})
+            }
+            else
+            {
+                <span>no download URL</span>
+            }
+
+        </div>
+
+        <div class="comments">
+            @using (Html.BeginForm("AddComment", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                <input type="text" name="comment" />
+                    <input type="text" name="fileName" value="@pozaCuComentarii.Poza.Description" hidden="true" />
+                    <input type="submit" value="Adauga" />
+            }
+
+            <ul id="comments-list" class="comments-list">
+                @foreach(var comment in pozaCuComentarii.Comentarii)
+                {
+                <div class="indiv-comment">
+                     <p>@comment.Text</p>              
+                </div>
+                }
+
+            </ul>
+        </div>
+    </div>
+}

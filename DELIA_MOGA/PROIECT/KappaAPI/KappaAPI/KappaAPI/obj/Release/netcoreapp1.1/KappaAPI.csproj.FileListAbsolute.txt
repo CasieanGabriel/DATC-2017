@@ -1,0 +1,9 @@
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\bin\Release\netcoreapp1.1\KappaAPI.deps.json
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\bin\Release\netcoreapp1.1\KappaAPI.runtimeconfig.json
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\bin\Release\netcoreapp1.1\KappaAPI.runtimeconfig.dev.json
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\bin\Release\netcoreapp1.1\KappaAPI.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\bin\Release\netcoreapp1.1\KappaAPI.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\obj\Release\netcoreapp1.1\KappaAPI.csprojResolveAssemblyReference.cache
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\obj\Release\netcoreapp1.1\KappaAPI.AssemblyInfo.cs
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\obj\Release\netcoreapp1.1\KappaAPI.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\PROIECT\KappaAPI\KappaAPI\obj\Release\netcoreapp1.1\KappaAPI.pdb

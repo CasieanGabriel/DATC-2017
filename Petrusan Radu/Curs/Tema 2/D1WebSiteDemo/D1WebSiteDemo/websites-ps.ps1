@@ -1,0 +1,3 @@
+Get-AzurePublishSettingsFile
+Import-AzurePublishSettingsFile
+Set-AzureSubscription

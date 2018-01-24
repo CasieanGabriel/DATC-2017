@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "GetLink";
+}
+
+<h2>GetLink</h2>
+<h3>The SAS Key: @ViewBag.Sas</h3>
+<ul>
+    @foreach (string url in ViewBag.BlobFiles)
+    {
+        <li>
+            @Html.ActionLink(url, "GetImage", new
+{
+    id = ShareClientAccesUrls.Lib.AzureBlobSA.EncodeTo64(url),
+    sas = @ViewBag.Sas
+},
+  new
+  {
+      target = "_blank"
+  })
+        </li>
+    }
+</ul>

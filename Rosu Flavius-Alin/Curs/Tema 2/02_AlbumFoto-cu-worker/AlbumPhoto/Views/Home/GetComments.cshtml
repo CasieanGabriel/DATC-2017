@@ -1,0 +1,18 @@
+﻿@model List<AlbumPhoto.Models.Comment>
+    @{
+    ViewBag.Title = "GetComments";
+        }
+    <h3>Comments:</h3>
+   
+            <div>
+   @foreach(var comment in Model)
+                {
+                        <div>
+                               <h2> <b> @comment.MadeBy </b> </h2>
+        
+                               <div> @comment.Text </div>
+                       </div>
+                        <br>
+                   }
+            </div>
+        }

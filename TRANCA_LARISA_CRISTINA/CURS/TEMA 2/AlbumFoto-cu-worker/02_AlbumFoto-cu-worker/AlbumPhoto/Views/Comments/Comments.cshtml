@@ -1,0 +1,34 @@
+﻿@model List<AlbumPhoto.Models.Comment>
+
+@{
+    ViewBag.Title = "Comments";
+}
+<br>
+
+<h1 class="padding">ListaComentarii</h1>
+
+@if (Model.Count() != 0)
+{
+    <div>
+        @foreach (var comment in Model)
+        {
+            <div class="padding1">
+                @if (@comment.MadeBy.ToString() == "")
+                {
+                    <h2> <b> Anonim </b> </h2>
+                }
+                else
+                {
+                    <h2> <b> @comment.MadeBy </b> </h2>
+                }
+
+                <div>@comment.Text</div>
+            </div>
+            <br>
+        }
+    </div>
+}
+else
+{
+    <div class="padding1">Nu exista comentarii!</div>
+}

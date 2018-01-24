@@ -1,0 +1,77 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+<h2 class="title">@ViewBag.Title</h2>
+
+<div class="action-bar">
+    @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="Incarca" />
+    }
+</div>
+@foreach (var poza in Model)
+{
+    <div class="poza">
+        <div class="thumbnail">
+            @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+            {
+                <img src="@poza.ThumbnailUrl"/>
+            }
+            else
+            {
+                <span>no thumbnail</span>
+            }
+        </div>
+        <div class="details">
+            <h3 class="description">@poza.Description</h3>
+
+            @if (!string.IsNullOrWhiteSpace(poza.Url))
+            {
+                <a href="@poza.Url">Descarca</a>
+             }
+             else
+             {
+              < span > no download URL</ span >
+             }
+            <br/>
+
+            @if((poza.Comentarii) !=null)
+            {
+                foreach(var comm in poza.Comentarii)
+                {
+                    if(comm.MadeBy != null)
+                    {
+                        <input type="text" value="@(comm.MadeBy+":"+comm.Text)"/>
+                        <br/>
+                        <br />
+                    }
+                }
+            }
+            else
+            {
+                <span>Nu exista comentarii</span>
+            }
+
+            @using (Html.BeginForm("AddComments", "Home", FormMethod.Post, new { enctype = "multipart/from-data" }))
+            {
+                <input type="hidden" value="@poza.Description" name="picture"/>
+                <input type="text" name="txtComment"/>
+                <input type="submit" value="Incarca comment"/>
+            }
+
+            @using (Html.BeginForm("GetLink", "Home", FormMethod.Post, new { enctype = "multipart/from-data" }))
+            {
+                <input type="hidden" value="@poza.Description" name="picture" />
+                <input type="submit" value="Primeste linkul cu acces de 2 ore" />
+                if(poza.Linkul != null)
+                {
+                    <input type="text" name="Linkpoza" value="@poza.Linkul.text"/>
+                }
+            }
+        </div>
+    </div>
+}

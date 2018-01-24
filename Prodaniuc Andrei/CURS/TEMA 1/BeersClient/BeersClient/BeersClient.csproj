@@ -52,6 +52,7 @@
     <Compile Include="Models\Brewery.cs" />
     <Compile Include="Models\Resource.cs" />
     <Compile Include="Models\Review.cs" />
+    <Compile Include="Models\UiModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\HALClientService.cs" />

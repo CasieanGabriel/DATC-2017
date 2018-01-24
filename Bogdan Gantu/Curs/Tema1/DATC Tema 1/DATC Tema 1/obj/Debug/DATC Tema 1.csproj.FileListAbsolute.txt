@@ -1,0 +1,9 @@
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\obj\Debug\DATC Tema 1.csprojResolveAssemblyReference.cache
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\obj\Debug\DATC Tema 1.csproj.CoreCompileInputs.cache
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\bin\Debug\DATC Tema 1.exe.config
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\bin\Debug\DATC Tema 1.exe
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\bin\Debug\DATC Tema 1.pdb
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\obj\Debug\DATC Tema 1.exe
+C:\Users\gantu\source\repos\DATC Tema 1\DATC Tema 1\obj\Debug\DATC Tema 1.pdb

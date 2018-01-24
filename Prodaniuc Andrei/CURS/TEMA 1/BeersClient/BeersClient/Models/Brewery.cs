@@ -17,6 +17,6 @@ namespace BeersClient.Models
         public long Id { get; set; }
 
         [JsonProperty("_links")]
-        public Links Links { get; set; }
+        public BeerLinks Links { get; set; }
     }
 }

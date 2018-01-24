@@ -1,0 +1,161 @@
+﻿@model IEnumerable<3G_WebApp.Models.Date>
+@{
+    ViewBag.Title = "Vizualizare Istoric";
+    Layout = null;
+}
+
+<html>
+<head>
+    <title>Vizualizare Istoric</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="~/Content/CssFiles/IndexCSS.css" />
+    <meta http-equiv="refresh" content="60">
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="~/Scripts/jquery-3.2.1.js"></script>
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript">
+
+        var dynamicColors = function () {
+            var r = Math.floor(Math.random() * 255);
+            var g = Math.floor(Math.random() * 255);
+            var b = Math.floor(Math.random() * 255);
+            return "rgb(" + r + "," + g + "," + b + ")";
+        };
+
+        $(document).ready(function () {
+
+        $("#Temp").click(function () {
+            //$('#myChart').width += 0;
+
+            var cnv = document.getElementById('tempChart');
+            var ctx = cnv.getContext('2d');     // gets reference to canvas context
+            ctx.beginPath();    // clear existing drawing paths
+            ctx.save();         // store the current transformation matrix
+
+            // Use the identity matrix while clearing the canvas
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
+            ctx.clearRect(0, 0, cnv.width, cnv.height);
+
+            ctx.restore();        // restore the transform
+
+
+            var jItem = @Html.Raw(Json.Encode(Model));
+            var humidity = [];
+            var temp = [];
+            var dt = [];
+            var coloR = [];
+
+
+            for (var i = 0; i < jItem.length; i++) {
+                humidity.push(jItem[i].Humidity);
+                temp.push(jItem[i].Temperature);
+                dt.push(new Date(Number(jItem[i].Data.substring(6, jItem[i].Data.length - 2))).toString().substring(0,25));
+                coloR.push(dynamicColors());
+            }
+
+            var ctx = document.getElementById('tempChart').getContext('2d');
+            var chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: dt,
+                    datasets: [
+                        {
+                           //label: "Population (millions)",
+                            backgroundColor: coloR,
+                            data: temp
+                        }
+                    ]
+                },
+                options: {
+                    legend: { display: false },
+                    title: {
+                        display: true,
+                        text: 'Vizualizare istoric temperatura'
+                    }
+                }
+            });
+        });
+
+        $("#Umid").click(function () {
+
+            var cnv = document.getElementById('humChart');
+            var ctx = cnv.getContext('2d');     // gets reference to canvas context
+            ctx.beginPath();    // clear existing drawing paths
+            ctx.save();         // store the current transformation matrix
+
+            // Use the identity matrix while clearing the canvas
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
+            ctx.clearRect(0, 0, cnv.width, cnv.height);
+
+            ctx.restore();        // restore the transform
+
+
+
+         //   $('#myChart').width += 0;
+            var jItem = @Html.Raw(Json.Encode(Model));
+            var humidity = [];
+            var temp = [];
+            var dt = [];
+            var coloR = [];
+
+
+            for (var i = 0; i < jItem.length; i++) {
+                humidity.push(jItem[i].Humidity);
+                temp.push(jItem[i].Temperature);
+                dt.push(new Date(Number(jItem[i].Data.substring(6, jItem[i].Data.length - 2))).toString().substring(0,25));
+                coloR.push(dynamicColors());
+            }
+
+            var ctx = document.getElementById('humChart').getContext('2d');
+            var chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: dt,
+                    datasets: [
+                        {
+                           //label: "Population (millions)",
+                            backgroundColor: coloR,
+                            data: humidity
+                        }
+                    ]
+                },
+                options: {
+                    legend: { display: false },
+                    title: {
+                        display: true,
+                        text: 'Vizualizare istoric umiditate'
+                    }
+                }
+            });
+        });
+
+
+        document.getElementById("Temp").click();
+        document.getElementById("Umid").click();
+        });
+    </script>
+
+</head>
+
+<body >
+    <div>
+        <h1 align="center" >Vizualizare Istoric</h1> <br />
+        <input type="button" class="btn1" value="Vizualizare Temperatură" id="Back" name="Back" onclick="location.href='@Url.Action("VizualizeTemperature")'" /><br /><br />
+        <input type="button" class="btn1" value="Vizualizare Umiditate" id="Back1" name="Back1" onclick="location.href='@Url.Action("VizualizeHumidity")'" /> <br /><br />
+    </div>
+    <div>
+        <input type="hidden" value="Istoric Temperatura" id="Temp" name="Temp" /><br />
+        <input type="hidden" value="Istoric Umididate" id="Umid" name="Umid" /><br />
+    </div>
+
+    <div style="width:1200px; height:1000px; " align="center">
+        <canvas id="tempChart" style="width:1200px; height:500px;"></canvas> <br />
+        <canvas id="humChart" style="width:1200px; height:500px;"></canvas> <br />
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll.config
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.pdb
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Antlr3.Runtime.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Hyak.Common.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.Common.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Optimization.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Providers.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\WebGrease.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Hyak.Common.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.Common.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+C:\Users\andre\Desktop\anul 4 sem 1\DATC\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.pdb
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\AlbumPhoto.dll.config
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\AlbumPhoto.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\AlbumPhoto.pdb
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Antlr3.Runtime.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\EntityFramework.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Hyak.Common.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Azure.Common.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Data.OData.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Data.Services.Client.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Newtonsoft.Json.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Spatial.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Http.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Mvc.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Optimization.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Providers.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Razor.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.WebPages.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\WebGrease.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Hyak.Common.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Azure.Common.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Data.OData.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.Data.Services.Client.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\Newtonsoft.Json.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Spatial.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\EntityFramework.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Http.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Mvc.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.Razor.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.WebPages.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\de\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\es\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\it\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\obj\Debug\AlbumPhoto.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+C:\Users\andre\OneDrive\Documente\GitHub\DATC-2017\Georgescu Andreea\CURS\TEMA 2\AlbumPhoto\obj\Debug\AlbumPhoto.pdb

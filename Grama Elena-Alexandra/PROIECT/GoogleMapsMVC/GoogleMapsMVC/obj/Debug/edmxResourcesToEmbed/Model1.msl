@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB1ModelStoreContainer" CdmEntityContainer="DB1Entities">
+    <EntitySetMapping Name="parcare">
+      <EntityTypeMapping TypeName="DB1Model.parcare">
+        <MappingFragment StoreEntitySet="parcare">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="data1" ColumnName="data1" />
+          <ScalarProperty Name="data2" ColumnName="data2" />
+          <ScalarProperty Name="data3" ColumnName="data3" />
+          <ScalarProperty Name="data4" ColumnName="data4" />
+          <ScalarProperty Name="data5" ColumnName="data5" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="parking">
+      <EntityTypeMapping TypeName="DB1Model.parking">
+        <MappingFragment StoreEntitySet="parking">
+          <ScalarProperty Name="latitudine" ColumnName="latitudine" />
+          <ScalarProperty Name="longitudine" ColumnName="longitudine" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

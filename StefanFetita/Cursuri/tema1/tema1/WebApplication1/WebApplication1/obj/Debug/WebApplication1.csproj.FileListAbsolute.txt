@@ -1,0 +1,14 @@
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\Facebook.dll
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\FacebookAds.dll
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\Facebook.xml
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Bo$$ STEFAN\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

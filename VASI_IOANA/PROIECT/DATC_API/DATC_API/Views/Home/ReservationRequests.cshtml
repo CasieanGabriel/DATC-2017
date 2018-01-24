@@ -1,0 +1,18 @@
+﻿@model List<DATC_API.Models.ReservationRequest>
+@{
+    ViewBag.Title = "ReservationRequests";
+}
+
+<head>
+    <h2>Reservation Requests</h2>
+</head>
+
+<body>
+    @foreach(var data in Model)
+    {
+        <div>
+            <p>@Html.DisplayNameFor(d => data.ParkingLot): @Html.DisplayFor(d => data.ParkingLot)</p>
+            <p>@Html.DisplayNameFor(d => data.ParkingSpace): @Html.DisplayFor(d => data.ParkingSpace)</p>
+        </div>
+    }
+</body>

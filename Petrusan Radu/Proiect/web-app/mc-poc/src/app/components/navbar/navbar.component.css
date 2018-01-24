@@ -1,0 +1,16 @@
+.no-radius {
+    border-radius: 0;
+}
+
+.navbar {
+    background-color: #003B46;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #07575B;
+}
+
+.brand-light {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}

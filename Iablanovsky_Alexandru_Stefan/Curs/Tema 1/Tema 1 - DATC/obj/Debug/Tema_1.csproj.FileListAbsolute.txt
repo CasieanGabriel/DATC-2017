@@ -1,0 +1,21 @@
+H:\Facultate\DATC\Tema 1 - DATC\obj\Debug\Tema_1.csproj.CoreCompileInputs.cache
+H:\Facultate\DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.exe
+H:\Facultate\DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.pdb
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe.config
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.pdb
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.dll
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.dll
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.xml
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.xml
+E:\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe.config
+E:\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe
+E:\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.pdb
+E:\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.dll
+E:\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.dll
+E:\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.xml
+E:\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.xml
+E:\Tema 1 - DATC\obj\Debug\Tema_1.csprojResolveAssemblyReference.cache
+E:\Tema 1 - DATC\obj\Debug\Tema_1.csproj.CoreCompileInputs.cache
+E:\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.exe
+E:\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.pdb

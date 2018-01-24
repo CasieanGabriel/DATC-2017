@@ -1,0 +1,35 @@
+﻿@model List<AlbumPhoto.Models.Comentariu>
+    @{
+        ViewBag.Title = "Comentarii poze";
+    }
+
+    <html>
+    <head>
+        <title>@ViewBag.Title</title>
+    </head>
+    <body>
+        <div align="center">
+            <h1>Vizualizare comentarii</h1>
+            <table border="1" width="800" style="table-layout:fixed">
+                <thead>
+                    <tr style="background-color:white">
+                        <td style="color:black">User</td>
+                        <td style="color:black">Comentariu</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr style="background-color:white">
+                            <td style="color:white">
+                                @item.MadeBy
+                            </td>
+                            <td style="color:white">
+                                @item.Text
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+</html>

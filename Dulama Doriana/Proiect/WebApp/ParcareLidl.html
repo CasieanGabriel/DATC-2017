@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple Polygon</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+//hardcoded
+var p1=0; //ocupat
+var p2=1; //ocupat
+var arrayParcare =[p1,p2];
+var listParcare=new Array();
+//var arrayPaths = [pathParcare1,pathParcare1];
+var polygons = [];
+
+//constructor
+
+function Parcare(pathParcare, fillColor) {
+    this.pathParcare = pathParcare;
+    this.fillColor = fillColor;    
+}
+
+var pathParcare1 = [
+          {lat: 45.768222, lng: 21.221358},
+          {lat: 45.768234, lng: 21.221390},
+          {lat: 45.768269, lng: 21.221361},
+          {lat: 45.768263, lng: 21.221346}
+        ];
+
+ var pathParcare2 = [
+          {lat: 45.768238,  lng: 21.221388},
+          {lat: 45.768272, lng: 21.221365},
+          {lat: 45.768279, lng: 21.221398},
+          {lat: 45.768242, lng: 21.221415}
+        ];
+
+        var arrayPaths = [pathParcare1,pathParcare2];
+
+        function fillColorRed(){
+            //var strokeColor= '#FF0000';
+            var fillColor='#FF0000';
+    
+        }
+
+        function fillColorGreen(){
+            //var strokeColor= '#00cc00';
+            var fillColor='#00cc00';
+        
+        }
+
+        function fillColor(){
+            for(var i=0;i<arrayParcare.length;i++)
+            {
+                if(arrayParcare[i]==0)
+                    {
+                        var parc=new Parcare(arrayPaths[i],'#FF0000')
+                        listParcare.push(parc);
+                        
+                     
+                   }
+                else
+                if(arrayParcare[i]==1)
+                {
+                    var parc=new Parcare(arrayPaths[i],'#00cc00')
+                    listParcare.push(parc);
+                   
+                }
+            }
+
+        }
+
+        fillColor();
+
+
+//creere dinamica
+      
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 20,
+          center: {lat: 45.768359, lng: 21.222084},
+          //mapTypeId: 'terrain'
+          mapTypeId: 'satellite'
+        });
+
+        map.setTilt(0);   
+    
+        //var pathParcare;
+        
+
+        //me
+        function createPolygons(){
+            for(var i=0;i<listParcare.length;i++)
+                {
+                    var par=new google.maps.Polygon({
+                        paths: arrayPaths[i],
+                        strokeColor: '#000000',
+                        strokeOpacity: 0.8,
+                        strokeWeight: 2,
+                        fillColor: listParcare[i].fillColor,
+                        fillOpacity: 0.35
+                   });
+                   par.setMap(map);
+                }
+        }
+   createPolygons();
+       
+        /*polygons.push(new google.maps.Polygon({
+                            path: pathParcare1,
+                            geodesic: false,
+                            strokeColor: '#FF0000',
+                            strokeOpacity: 1.0,
+                            fillColor: listParcare[0].fillColor,
+                            strokeWeight: 1,
+                            map: map
+                        }));
+                    
+                        polygons.push(new google.maps.Polygon({
+                        path: pathParcare2,
+                        geodesic: false,
+                        strokeColor: '#000000',
+                        strokeOpacity: 1.0,
+                        fillColor: '#00cc00',
+                        strokeWeight: 1,
+                        map: map
+                    }));
+                  */
+
+    
+
+   /* polygons.push(new google.maps.Polygon({
+      paths: arr,
+      strokeColor: '#000000',
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      fillColor: '#FF0000',
+      fillOpacity: 0.35
+    }));
+    polygons[polygons.length - 1].setMap(map);*/
+
+
+
+   
+
+        // Construct the polygon.
+     /*   var bermudaTriangle = new google.maps.Polygon({
+          paths: pathParcare2,
+          strokeColor: '#FF0000',
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: '#FF0000',
+          fillOpacity: 0.35
+        });
+        bermudaTriangle.setMap(map);*/
+
+    }//init map closing
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy4ofKNd5AVoU4vQ8nLH1jz8dxtEG-BUU&callback=initMap">
+    </script>
+  </body>
+</html>

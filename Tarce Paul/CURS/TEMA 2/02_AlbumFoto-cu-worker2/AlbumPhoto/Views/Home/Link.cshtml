@@ -1,0 +1,27 @@
+﻿@model AlbumPhoto.Models.Link
+ 
+ @{
+     ViewBag.Title = "GenerareLink";
+     }
+ 
+ <h2 class="padding">Generare Linkuri </h2>
+ 
+ <div class="padding">
+       <b>Poza aleasa: </b>
+    
+</div>
+ <div class="padding1">
+        @Html.DisplayFor(model => model.Poza)
+    
+</div>
+
+
+ 
+ <div class="padding">
+       <b>Link(valabil 2 ore): </b>
+    
+</div>
+ <div class="padding1">
+        @Html.DisplayFor(model => model.LinkPoza)
+    
+</div>

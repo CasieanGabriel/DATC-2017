@@ -1,0 +1,11 @@
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\obj\Debug\3G-webjob.csprojResolveAssemblyReference.cache
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\obj\Debug\3G-webjob.csproj.CoreCompileInputs.cache
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\bin\Debug\3G-webjob.exe.config
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\bin\Debug\3G-webjob.exe
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\bin\Debug\3G-webjob.pdb
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\obj\Debug\3G-webjob.exe
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\obj\Debug\3G-webjob.pdb
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Ana Gerber\Desktop\3G-webjob\3G-webjob\bin\Debug\RabbitMQ.Client.xml

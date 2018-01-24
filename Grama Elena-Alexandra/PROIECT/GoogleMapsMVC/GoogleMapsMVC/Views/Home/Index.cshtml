@@ -1,0 +1,228 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=drawing "></script>
+<!-- This css is to ensure that the google map controls (zoom bar etc) show and size correctly. -->
+<style>
+#map_canvas img{max-width:none}
+</style>
+
+<!-- This css is to give a nice big popup "info window" when a marker is clicked on the map -->
+<style>
+    .infoDiv {
+    height: 200px;    
+    width: 300px; 
+    -webkit-user-select: none; 
+    background-color: white; 
+    }
+</style>
+
+
+<div id="map_canvas" style="height: 600px;"></div>
+
+<!-- Enclose the Javascript in a "section" so that it is rendered in the correct order after scripts have been loaded etc -->
+@section scripts {
+    <section class="scripts">
+
+<script type="text/javascript">
+
+    <!-- This code tells the browser to execute the "Initialize" method only when the complete document model has been loaded. -->
+    $(document).ready(function () {
+        Initialize();
+    });
+
+    
+    function Initialize() {
+
+        // Google has tweaked their interface somewhat - this tells the api to use that new UI
+        google.maps.visualRefresh = true;
+
+        var parcare = new google.maps.LatLng(45.753739, 21.226892);
+        // These are options that set initial zoom level, where the map is centered globally to start, and the type of map to show
+        var mapOptions = {
+            zoom: 20,
+            center: parcare,
+            mapTypeId: google.maps.MapTypeId.G_NORMAL_MAP
+        };
+
+
+
+        // This makes the div with id "map_canvas" a google map
+        var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+        // This shows adding a simple pin "marker"  
+        var myLatlng = new google.maps.LatLng(45.753795, 21.226452);
+
+        /*var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Tate Gallery'
+        });
+        */
+        //coordinates - lines
+        var planCoordinates = [
+            { lat: 45.753744, lng: 21.226739 },// 45.753742, 21.226756
+            { lat: 45.753705, lng: 21.227090 },
+        ];
+
+        var loc1 = [
+            { lat: 45.753743, lng: 21.227096 },
+            { lat: 45.753672, lng: 21.227082 },
+        ];
+
+        var loc2 = [
+            { lat: 45.753748, lng: 21.227026 },
+            { lat: 45.753677, lng: 21.227012 },
+        ];
+        var loc3 = [
+            { lat: 45.753755, lng: 21.226956 },
+            { lat: 45.753684, lng: 21.226942 },
+        ];
+        var loc4 = [
+            { lat: 45.753762, lng: 21.226886 },
+            { lat: 45.753691, lng: 21.226872 },
+        ];
+        var loc5 = [
+            { lat: 45.753769, lng: 21.226816 },
+            { lat: 45.753698, lng: 21.226802 },
+        ];
+        var loc6 = [
+            { lat: 45.753776, lng: 21.226746 },
+            { lat: 45.753705, lng: 21.226732 },
+        ];
+
+        //draw lines
+        var line = new google.maps.Polyline({
+            path: planCoordinates,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        var line1 = new google.maps.Polyline({
+            path: loc1,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+
+        var line2 = new google.maps.Polyline({
+            path: loc2,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        var line3 = new google.maps.Polyline({
+            path: loc3,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        var line4 = new google.maps.Polyline({
+            path: loc4,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        var line5 = new google.maps.Polyline({
+            path: loc5,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        var line6 = new google.maps.Polyline({
+            path: loc6,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+        //draw over the map
+        line.setMap(map);
+        line1.setMap(map);
+        line2.setMap(map);
+        line3.setMap(map);
+        line4.setMap(map);
+        line5.setMap(map);
+        line6.setMap(map);
+
+        //addMarker(45.753723, 21.227056);
+        //addMarker(45.753730, 21.226986);
+        //addMarker(45.753737, 21.226916);
+        //addMarker(45.753744, 21.226836);
+        //addMarker(45.753744, 21.226766);
+
+        //addMarker(45.753672, 21.227042);
+        //addMarker(45.753679, 21.226972);
+        //addMarker(45.753687, 21.226902);
+        //addMarker(45.753694, 21.226832);
+
+        //refresh markers at 0.5s
+        setInterval(markers, 500);
+
+        function markers() {
+            //while (true) {
+            //used to perform an AJAX (asynchronous HTTP) request
+            $.ajax({
+                url: "/api/LocP", success: function (result) {
+                    $.each(result, function (i, item) {
+                        addMarker(result[i].longitudine, result[i].latitudine, result[i].State);
+                    })
+                }
+            });
+            //}
+        }
+
+        // Using the JQuery "each" selector to iterate through the JSON list and drop marker pins
+        $.each(data, function (i, item) {
+            var marker = new google.maps.Marker({
+                'position': new google.maps.LatLng(item.GeoLong, item.GeoLat),
+                'map': map,
+                'title': item.PlaceName
+            });
+
+            // Make the marker-pin blue!
+            // marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png')
+
+            // put in some information about each json object - in this case, the opening hours.
+            //var infowindow = new google.maps.InfoWindow({
+              //  content: "<div class='infoDiv'><h2>" + item.PlaceName + "</h2>" + "<div><h4>Opening hours: " + item.OpeningHours + "</h4></div></div>"
+            //});
+
+            // finally hook up an "OnClick" listener to the map so it pops up out info-window when the marker-pin is clicked!
+            google.maps.event.addListener(marker, 'click', function () {
+                infowindow.open(map, marker);
+            });
+
+        })
+        function addMarker(lng, lat, state) {
+
+            var location = new google.maps.LatLng(lat, lng);
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+            });
+            switch (state) {
+                case 0:
+                    marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png');
+                    break;
+                case 1: marker.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png');
+                    break;
+                case 2: marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png');
+                    break;
+            }
+
+        }
+
+    }
+</script>
+</section>
+}

@@ -1,0 +1,10 @@
+C:\Users\Alex\source\repos\DATC\DATC\bin\Debug\netcoreapp1.1\DATC.deps.json
+C:\Users\Alex\source\repos\DATC\DATC\bin\Debug\netcoreapp1.1\DATC.runtimeconfig.json
+C:\Users\Alex\source\repos\DATC\DATC\bin\Debug\netcoreapp1.1\DATC.runtimeconfig.dev.json
+C:\Users\Alex\source\repos\DATC\DATC\bin\Debug\netcoreapp1.1\DATC.dll
+C:\Users\Alex\source\repos\DATC\DATC\obj\Debug\netcoreapp1.1\DATC.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\DATC\DATC\obj\Debug\netcoreapp1.1\DATC.AssemblyInfo.cs
+C:\Users\Alex\source\repos\DATC\DATC\bin\Debug\netcoreapp1.1\DATC.pdb
+C:\Users\Alex\source\repos\DATC\DATC\obj\Debug\netcoreapp1.1\DATC.dll
+C:\Users\Alex\source\repos\DATC\DATC\obj\Debug\netcoreapp1.1\DATC.pdb
+C:\Users\Alex\source\repos\DATC\DATC\obj\Debug\netcoreapp1.1\DATC.csprojResolveAssemblyReference.cache

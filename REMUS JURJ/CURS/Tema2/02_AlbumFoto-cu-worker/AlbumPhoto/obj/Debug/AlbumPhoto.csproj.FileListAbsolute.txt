@@ -1,0 +1,167 @@
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll.config
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Antlr3.Runtime.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Optimization.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Providers.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\WebGrease.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.xml
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.pdb
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+F:\FACULTATE\AN IV\GitHub\DATC-2017\GRAD IOAN\CURS\TEMA 2\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll.config
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\AlbumPhoto.pdb
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Antlr3.Runtime.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Infrastructure.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Optimization.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Providers.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\WebGrease.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Azure.KeyVault.Core.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Edm.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.OData.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.Data.Services.Client.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.pdb
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Microsoft.WindowsAzure.Storage.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\Newtonsoft.Json.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Spatial.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\EntityFramework.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Net.Http.Formatting.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Http.WebHost.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Mvc.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.Razor.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Deployment.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\System.Web.WebPages.Razor.xml
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\de\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\es\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\fr\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\it\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ja\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ko\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\ru\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hans\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\bin\zh-Hant\System.Spatial.resources.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csprojResolveAssemblyReference.cache
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.csproj.CoreCompileInputs.cache
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.dll
+E:\DATC ionut\02_AlbumFoto-cu-worker\AlbumPhoto\obj\Debug\AlbumPhoto.pdb

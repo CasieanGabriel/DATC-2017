@@ -1,0 +1,26 @@
+<div [@moveIn]="state" class="container">
+  <div id="loginContainer">
+
+      <img src="../../../assets/images/lock.svg" id="lock">
+
+    <div>
+      <button class="loginButton" id="fb" (click)="facebookLogin()">Login with Facebook</button>
+    </div>
+
+    <div>
+      <button class="loginButton" id="google" (click)="googleLogin()">Login with Google</button>
+    </div>
+
+    <div>
+      <button class="loginButton" id="email" routerLink="/email-login">Email</button>
+    </div>
+
+    <div>
+      <a routerLink="/register" routerLinkActive="active" class="alc">Nu ai cont?
+        <strong>Crează unul aici</strong>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div> -->

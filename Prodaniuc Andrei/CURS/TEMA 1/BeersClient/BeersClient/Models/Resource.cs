@@ -7,27 +7,36 @@ using System.Threading.Tasks;
 
 namespace BeersClient.Models
 {
-    public class Resource
+    public class BreweryResource
     {
 
         [JsonProperty("_embedded")]
         public Embedded Embedded { get; set; }
 
         [JsonProperty("_links")]
-        public OtherLinks Links { get; set; }
+        public BreweryLinks Links { get; set; }
 
-        public static Resource FromJson(string json)
+        public static BreweryResource FromJson(string json)
         {
-            return JsonConvert.DeserializeObject<Resource>(json, Converter.Settings);
+            return JsonConvert.DeserializeObject<BreweryResource>(json, Converter.Settings);
         }
+    }
+
+    public class BeerResource : BreweryResource
+    {
+        public int TotalResults { get; set; }
+        public int TotalPages { get; set; }
+        public int Page { get; set; }
     }
     public partial class Embedded
     {
         [JsonProperty("brewery")]
         public Brewery[] Brewery { get; set; }
+        [JsonProperty("beer")]
+        public Beer[] Beer { get; set; }
     }
 
-    public class Links
+    public class BeerLinks
     {
         [JsonProperty("beers")]
         public Beers Beers { get; set; }
@@ -36,7 +45,7 @@ namespace BeersClient.Models
         public Beers Self { get; set; }
     }
 
-    public partial class OtherLinks
+    public partial class BreweryLinks
     {
         [JsonProperty("brewery")]
         public Beers[] Brewery { get; set; }

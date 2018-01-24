@@ -1,0 +1,12 @@
+c:\users\raul\documents\visual studio 2015\Projects\ConsoleAPI\ConsoleAPI\bin\Debug\ConsoleAPI.exe.config
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\obj\Debug\ConsoleAPI.csproj.CoreCompileInputs.cache
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\obj\Debug\ConsoleAPI.csprojResolveAssemblyReference.cache
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\bin\Debug\ConsoleAPI.exe.config
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\bin\Debug\ConsoleAPI.exe
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\bin\Debug\ConsoleAPI.pdb
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\obj\Debug\ConsoleAPI.exe.config
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\obj\Debug\ConsoleAPI.exe
+C:\Users\xigyenge\Desktop\ConsoleAPI\ConsoleAPI\obj\Debug\ConsoleAPI.pdb

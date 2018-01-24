@@ -1,0 +1,33 @@
+﻿@model IEnumerable<AlbumPhoto.Models.Comentariu>
+ 
+ @{
+     ViewBag.Title = "Comentarii";
+     Layout = "~/Views/Shared/_Layout.cshtml";
+     }
+ 
+ <h2>Comentarii</h2>
+ 
+ <table>
+    <tr>        
+        <th>
+              @Html.DisplayNameFor(model => model.Text)            
+        </th>        
+        <th>
+               @Html.DisplayNameFor(model => model.MadeBy)            
+        </th>        
+        <th></th>        
+    </tr>
+         
+    @foreach (var item in Model)
+    {
+      <tr>        
+        <td>
+                        @Html.DisplayFor(modelItem => item.Text)            
+        </td>        
+        <td>
+                        @Html.DisplayFor(modelItem => item.MadeBy)            
+        </td>        
+    </tr>
+    }
+
+</table>

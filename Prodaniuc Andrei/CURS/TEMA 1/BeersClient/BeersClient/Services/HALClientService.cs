@@ -20,32 +20,45 @@ namespace BeersClient.Services
             _client.DefaultRequestHeaders.Add("Accept", "application/hal+json");
 
         }
-        public List<Brewery> GetBreweries()
+        public async Task<List<Brewery>> GetBreweries()
         {
-            var response = _client.GetAsync("breweries/").Result;
+            var response = await _client.GetAsync("breweries/");
             var jsonString=response.Content.ReadAsStringAsync().Result;
-            var resource = JsonConvert.DeserializeObject<Resource>(jsonString);
+            var resource = JsonConvert.DeserializeObject<BreweryResource>(jsonString);
             return resource.Embedded.Brewery.ToList();
         }
 
-        public Brewery GetBrewery(string brewery)
+        public async Task<Brewery> GetBrewery(string brewery)
         {
-            var response = _client.GetAsync(brewery).Result;
+            var response = await _client.GetAsync(brewery);
             var jsonString = response.Content.ReadAsStringAsync().Result;
             return JsonConvert.DeserializeObject<Brewery>(jsonString);
         }
 
-        internal List<Beer> GetBeers(string beers)
+        internal async Task<BeerResource> GetBeers(string beers)
         {
-            var response = _client.GetAsync(beers).Result;
+            var response = await _client.GetAsync(beers);
             var jsonString = response.Content.ReadAsStringAsync().Result;
-            return JsonConvert.DeserializeObject<List<Beer>>(jsonString);
+            return JsonConvert.DeserializeObject<BeerResource>(jsonString);
         }
-        public Beer GetBeer(string beer)
+        public async Task<Beer> GetBeer(string beer)
         {
-            var response = _client.GetAsync(beer).Result;
+            var response = await _client.GetAsync(beer);
             var jsonString = response.Content.ReadAsStringAsync().Result;
             return JsonConvert.DeserializeObject<Beer>(jsonString);
+        }
+        public async Task<bool> AddBeer(string beerName)
+        {
+            var beer = JsonConvert.SerializeObject(new { Name = beerName});
+            List<KeyValuePair<string, string>> list = new List<KeyValuePair<string, string>>();
+            KeyValuePair<string, string> resource = new KeyValuePair<string, string>("Name",beerName);
+            list.Add(resource);
+            var content = new FormUrlEncodedContent(list);
+            var result = await _client.PostAsync("/beers", content);
+
+            if (result.IsSuccessStatusCode)
+                return true;
+            return false;
         }
     }
 }

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyDatabaseModelStoreContainer" CdmEntityContainer="MyDatabaseEntities">
+    <EntitySetMapping Name="Parcares">
+      <EntityTypeMapping TypeName="MyDatabaseModel.Parcare">
+        <MappingFragment StoreEntitySet="Parcare">
+          <ScalarProperty Name="TopLeftLng" ColumnName="TopLeftLng" />
+          <ScalarProperty Name="TopLeftLat" ColumnName="TopLeftLat" />
+          <ScalarProperty Name="TopRightLng" ColumnName="TopRightLng" />
+          <ScalarProperty Name="TopRightLat" ColumnName="TopRightLat" />
+          <ScalarProperty Name="BottomRightLng" ColumnName="BottomRightLng" />
+          <ScalarProperty Name="BottomRightLat" ColumnName="BottomRightLat" />
+          <ScalarProperty Name="BottomLeftLng" ColumnName="BottomLeftLng" />
+          <ScalarProperty Name="BottomLeftLat" ColumnName="BottomLeftLat" />
+          <ScalarProperty Name="DataModificare" ColumnName="DataModificare" />
+          <ScalarProperty Name="StareLoc_Veche" ColumnName="StareLoc_Veche" />
+          <ScalarProperty Name="LocID" ColumnName="LocID" />
+          <ScalarProperty Name="StareLoc" ColumnName="StareLoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

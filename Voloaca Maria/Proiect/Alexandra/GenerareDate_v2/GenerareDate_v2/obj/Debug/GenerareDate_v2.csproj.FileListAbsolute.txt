@@ -1,0 +1,10 @@
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\bin\Debug\GenerareDate_v2.exe.config
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\bin\Debug\GenerareDate_v2.exe
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\bin\Debug\GenerareDate_v2.pdb
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\bin\Debug\Newtonsoft.Json.dll
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\bin\Debug\Newtonsoft.Json.xml
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\obj\Debug\GenerareDate_v2.csprojResolveAssemblyReference.cache
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\obj\Debug\GenerareDate_v2.exe
+c:\users\alexandra\documents\visual studio 2015\Projects\GenerareDate_v2\GenerareDate_v2\obj\Debug\GenerareDate_v2.pdb
