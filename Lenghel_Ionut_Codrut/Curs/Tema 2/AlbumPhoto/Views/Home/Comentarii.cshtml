@@ -1,0 +1,22 @@
+﻿@model IEnumerable<AlbumPhoto.Models.Comentarii>
+
+@{
+    ViewBag.Title = "Comentarii";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Comentarii</h2>
+@foreach (var comment in Model)
+{
+    <div class="Toate comentariile">
+        @using (Html.BeginForm("ArataCometarii", "Home", FormMethod.Post, new { }))
+        {
+            <center>
+                MadeBy:
+                <input name="userName" type="text" value="@comment.UserName" />
+                Comment:
+                <input name="comentariu" type="text" value="@comment.Comment" />
+            </center>
+        }
+    </div>
+}
