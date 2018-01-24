@@ -1,0 +1,32 @@
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe.config
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.pdb
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.exe
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.pdb
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.dll
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.xml
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\tomi\documents\visual studio 2015\Projects\Tema 1 - DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.csprojResolveAssemblyReference.cache
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe.config
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.pdb
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.dll
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.dll
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.xml
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.xml
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.csprojResolveAssemblyReference.cache
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.csproj.CoreCompileInputs.cache
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.exe
+H:\Facultate\DATC-2017-master\Tyukodi Tamas\Curs\Tema1\Tema 1 - DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.pdb
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe.config
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.exe
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Tema 1 - DATC.pdb
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.dll
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.dll
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\Newtonsoft.Json.xml
+H:\Facultate\DATC\Tema 1 - DATC\bin\Debug\System.Net.Http.Formatting.xml
+H:\Facultate\DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.csprojResolveAssemblyReference.cache
+H:\Facultate\DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.csproj.CoreCompileInputs.cache
+H:\Facultate\DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.exe
+H:\Facultate\DATC\Tema 1 - DATC\obj\Debug\Tema 1 - DATC.pdb
