@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>25.11.2017 20:43:53</xs:documentation>
+    <xs:documentation>07.01.2018 19:37:50</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -18414,8 +18414,17 @@
             <xs:enumeration value="@id/btnTemp" />
             <xs:enumeration value="@id/btnUmid" />
             <xs:enumeration value="@id/gridLayout1" />
+            <xs:enumeration value="@id/gridLayout2" />
+            <xs:enumeration value="@id/listViewLogs" />
             <xs:enumeration value="@id/map" />
             <xs:enumeration value="@id/pltSenzor" />
+            <xs:enumeration value="@id/textView2" />
+            <xs:enumeration value="@id/textView3" />
+            <xs:enumeration value="@id/txtCorectat" />
+            <xs:enumeration value="@id/txtData" />
+            <xs:enumeration value="@id/txtEronat" />
+            <xs:enumeration value="@id/txtId" />
+            <xs:enumeration value="@id/txtTip" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />

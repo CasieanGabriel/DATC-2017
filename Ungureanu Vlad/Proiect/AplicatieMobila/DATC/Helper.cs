@@ -23,6 +23,8 @@ namespace DATC
         public static Vizualizare vizualizareaCurenta = Vizualizare.Temperatura;
         public static List<Senzor> listaSenzori = new List<Senzor>();
         public static List<HeatMap> listaHeatMapTemp = new List<HeatMap>();
+        public static List<HeatMap> listaHeatMapPres = new List<HeatMap>();
+        public static List<HeatMap> listaHeatMapUmid = new List<HeatMap>();
         public static bool markersVisible = false;
         public static List<DateSenzor> listaDateSenzor = new List<DateSenzor>();
         public static void AdaugareMarker(GoogleMap googleMap, LatLng latLng, string numeSenzor)

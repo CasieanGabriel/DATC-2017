@@ -14,8 +14,10 @@ namespace GenerareDateApi.Models
     [Route("api/[controller]")]
     public class InregistrareController : Controller
     {
+        private static bool incarca = true;
         private readonly InregistrareContext _context;
-
+        private static string url = "amqp://tommperz:NDpG4SUkBYPOHRiK-tAPFROCcsBF2SJX@spider.rmq.cloudamqp.com/tommperz";
+        private static ConnectionFactory connFactory = new ConnectionFactory();
         public InregistrareController(InregistrareContext context)
         {
             _context = context;
@@ -81,14 +83,17 @@ namespace GenerareDateApi.Models
 
         private void IncarcaQP(Inregistrare item)
         {
+            
             // CloudAMQP URL in format amqp://user:pass@hostName:port/vhost
-            string url = "";
+                        
+             //{ HostName = "localhost" };
+             if(incarca == true)
+            {
+                connFactory.Uri = new Uri(url.Replace("amqp://", "amqps://"));
+                incarca = false;
+            }
+            
 
-            // Create a ConnectionFactory and set the Uri to the CloudAMQP url
-            // the connectionfactory is stateless and can safetly be a static resource in your app
-            var connFactory = new ConnectionFactory() { HostName = "localhost" };
-            //ConnectionFactory connFactory = new ConnectionFactory();
-            //connFactory.Uri = new Uri(url.Replace("amqp://", "amqps://"));
             using (var conn = connFactory.CreateConnection())
 
             using (var channel = conn.CreateModel())

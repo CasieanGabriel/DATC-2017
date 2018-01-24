@@ -110,7 +110,9 @@
     <Compile Include="CuloareTemperatura.cs" />
     <Compile Include="CuloareUmiditate.cs" />
     <Compile Include="Inregistrare.cs" />
+    <Compile Include="InregistrarePresiune.cs" />
     <Compile Include="InregistrareTemperatura.cs" />
+    <Compile Include="InregistrareUmiditate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Senzor.cs" />

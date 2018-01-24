@@ -280,6 +280,9 @@ namespace DATC
 			// aapt resource value: 0x7f07000d
 			public const int gridLayout1 = 2131165197;
 			
+			// aapt resource value: 0x7f070012
+			public const int gridLayout2 = 2131165202;
+			
 			// aapt resource value: 0x7f070000
 			public const int hybrid = 2131165184;
 			
@@ -289,8 +292,11 @@ namespace DATC
 			// aapt resource value: 0x7f07000c
 			public const int light = 2131165196;
 			
-			// aapt resource value: 0x7f070012
-			public const int map = 2131165202;
+			// aapt resource value: 0x7f07001a
+			public const int listViewLogs = 2131165210;
+			
+			// aapt resource value: 0x7f07001b
+			public const int map = 2131165211;
 			
 			// aapt resource value: 0x7f070001
 			public const int none = 2131165185;
@@ -309,6 +315,27 @@ namespace DATC
 			
 			// aapt resource value: 0x7f070004
 			public const int terrain = 2131165188;
+			
+			// aapt resource value: 0x7f070014
+			public const int textView2 = 2131165204;
+			
+			// aapt resource value: 0x7f070013
+			public const int textView3 = 2131165203;
+			
+			// aapt resource value: 0x7f070017
+			public const int txtCorectat = 2131165207;
+			
+			// aapt resource value: 0x7f070019
+			public const int txtData = 2131165209;
+			
+			// aapt resource value: 0x7f070016
+			public const int txtEronat = 2131165206;
+			
+			// aapt resource value: 0x7f070015
+			public const int txtId = 2131165205;
+			
+			// aapt resource value: 0x7f070018
+			public const int txtTip = 2131165208;
 			
 			// aapt resource value: 0x7f070009
 			public const int wide = 2131165193;
@@ -346,7 +373,16 @@ namespace DATC
 			public const int DateSenzor = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int Legenda = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Logs = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int LogsView = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
 			
 			static Layout()
 			{

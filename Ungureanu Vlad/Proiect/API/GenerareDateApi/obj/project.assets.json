@@ -13642,11 +13642,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\Facultate\\An4\\DATC\\Proiect\\API\\GenerareDateApi\\GenerareDateApi.csproj",
+      "projectUniqueName": "E:\\Facultate\\An4\\DATC\\Finale\\API\\GenerareDateApi\\GenerareDateApi.csproj",
       "projectName": "GenerareDateApi",
-      "projectPath": "E:\\Facultate\\An4\\DATC\\Proiect\\API\\GenerareDateApi\\GenerareDateApi.csproj",
+      "projectPath": "E:\\Facultate\\An4\\DATC\\Finale\\API\\GenerareDateApi\\GenerareDateApi.csproj",
       "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-      "outputPath": "E:\\Facultate\\An4\\DATC\\Proiect\\API\\GenerareDateApi\\obj\\",
+      "outputPath": "E:\\Facultate\\An4\\DATC\\Finale\\API\\GenerareDateApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

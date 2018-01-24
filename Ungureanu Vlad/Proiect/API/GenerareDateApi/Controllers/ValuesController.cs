@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
+using GenerareDateApi.Models;
 
 namespace GenerareDateApi.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+
         // GET api/values
         [HttpGet]
         public IEnumerable<Senzor> Get()
@@ -40,9 +42,22 @@ namespace GenerareDateApi.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IEnumerable<DateSenzor> Get(int id)
         {
-            return "value";
+            List<DateSenzor> listaDate = new List<DateSenzor>();
+            string connectionString= "Server=tcp:silviu.database.windows.net,1433;Initial Catalog=proiect;Persist Security Info=False;User ID= silviumilu; Password = !Silviu1;MultipleActiveResultSets=False;Encrypt=False;Connection Timeout=30;";
+            SqlConnection conn = new SqlConnection(connectionString);
+            conn.Open();
+            string query = "SELECT * FROM [dbo].[TabelaInregistrari] where idsenzor=" + id.ToString();
+            SqlCommand cmd = new SqlCommand(query);
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.Connection = conn;
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                listaDate.Add(new DateSenzor(int.Parse(reader[0].ToString()),int.Parse(reader[1].ToString()),reader[2].ToString(),reader[3].ToString(),reader[4].ToString(),reader[5].ToString()));
+            }
+            return listaDate.ToArray();
         }
 
         // POST api/values
