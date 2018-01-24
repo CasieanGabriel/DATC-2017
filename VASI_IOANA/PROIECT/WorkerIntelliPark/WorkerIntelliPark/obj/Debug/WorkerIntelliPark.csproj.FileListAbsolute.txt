@@ -1,0 +1,14 @@
+C:\Users\Ioana\Documents\Visual Studio 2017\WorkerIntelliPark\WorkerIntelliPark\bin\Debug\WorkerIntelliPark.exe.config
+C:\Users\Ioana\Documents\Visual Studio 2017\WorkerIntelliPark\WorkerIntelliPark\bin\Debug\WorkerIntelliPark.exe
+C:\Users\Ioana\Documents\Visual Studio 2017\WorkerIntelliPark\WorkerIntelliPark\bin\Debug\WorkerIntelliPark.pdb
+C:\Users\Ioana\Documents\Visual Studio 2017\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.csprojResolveAssemblyReference.cache
+C:\Users\Ioana\Documents\Visual Studio 2017\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.csproj.CoreCompileInputs.cache
+C:\Users\Ioana\Documents\Visual Studio 2017\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.exe
+C:\Users\Ioana\Documents\Visual Studio 2017\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.pdb
+C:\Users\horat\Desktop\WorkerIntelliPark\WorkerIntelliPark\bin\Debug\WorkerIntelliPark.exe.config
+C:\Users\horat\Desktop\WorkerIntelliPark\WorkerIntelliPark\bin\Debug\WorkerIntelliPark.exe
+C:\Users\horat\Desktop\WorkerIntelliPark\WorkerIntelliPark\bin\Debug\WorkerIntelliPark.pdb
+C:\Users\horat\Desktop\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.csprojResolveAssemblyReference.cache
+C:\Users\horat\Desktop\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.csproj.CoreCompileInputs.cache
+C:\Users\horat\Desktop\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.exe
+C:\Users\horat\Desktop\WorkerIntelliPark\WorkerIntelliPark\obj\Debug\WorkerIntelliPark.pdb

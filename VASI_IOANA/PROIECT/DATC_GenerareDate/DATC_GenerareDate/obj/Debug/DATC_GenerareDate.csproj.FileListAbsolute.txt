@@ -1,0 +1,11 @@
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\bin\Debug\DATC_GenerareDate.exe.config
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\bin\Debug\DATC_GenerareDate.exe
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\bin\Debug\DATC_GenerareDate.pdb
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\obj\Debug\DATC_GenerareDate.csprojResolveAssemblyReference.cache
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\obj\Debug\DATC_GenerareDate.Form1.resources
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\obj\Debug\DATC_GenerareDate.Properties.Resources.resources
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\obj\Debug\DATC_GenerareDate.csproj.GenerateResource.Cache
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\obj\Debug\DATC_GenerareDate.csproj.CoreCompileInputs.cache
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\obj\Debug\DATC_GenerareDate.exe
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\obj\Debug\DATC_GenerareDate.pdb
+D:\Projects\DATC_GenerareDate\DATC_GenerareDate\bin\Debug\Newtonsoft.Json.dll
