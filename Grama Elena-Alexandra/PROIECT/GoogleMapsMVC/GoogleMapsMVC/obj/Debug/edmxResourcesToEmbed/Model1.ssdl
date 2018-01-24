@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="parcare">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="data1" Type="nchar" MaxLength="10" />
+    <Property Name="data2" Type="nchar" MaxLength="10" />
+    <Property Name="data3" Type="nchar" MaxLength="10" />
+    <Property Name="data4" Type="nchar" MaxLength="10" />
+    <Property Name="data5" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="parking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="State" Type="int" />
+    <Property Name="longitudine" Type="varchar" MaxLength="30" />
+    <Property Name="latitudine" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityContainer Name="DB1ModelStoreContainer">
+    <EntitySet Name="parcare" EntityType="Self.parcare" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="parking" EntityType="Self.parking" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
