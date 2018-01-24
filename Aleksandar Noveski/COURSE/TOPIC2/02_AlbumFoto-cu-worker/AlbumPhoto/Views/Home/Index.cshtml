@@ -1,0 +1,61 @@
+﻿@model List<AlbumPhoto.Models.Poza>
+<link href="~/Content/Site.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Album Foto";
+}
+
+
+    <h2 class="title">@ViewBag.Title</h2>
+    <div class="action-bar">
+        @using (Html.BeginForm("IncarcaPoza", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="file" name="file" />
+            <input type="submit" value="Incarc" />
+        }
+    </div>
+    @foreach (var poza in Model)
+    {
+        <div class="poza">
+            <div class="thumbnail">
+                @if (!string.IsNullOrWhiteSpace(poza.ThumbnailUrl))
+                {
+                    <img src="@poza.ThumbnailUrl" />
+                }
+                else
+                {
+                    <span>no thumbnail</span>
+                }
+            </div>
+            <div class="details">
+                <h3 class="description">@poza.Description</h3>
+
+                @if (!string.IsNullOrWhiteSpace(poza.Url))
+                {
+                    <a href="@poza.Url">Descarca</a>
+                    <p><b>Your SAS link for 2h is:</b> @poza.SasUrl</p>
+                    <p><a href="@poza.SasUrl">Download the picture using the SAS link for 2 hours</a></p>
+
+                    using (Html.BeginForm("PostComment", "Home", FormMethod.Post))
+                    {
+                        var name = poza.Description;
+
+                        @Html.HiddenFor(x => name)
+                        <span>User:</span>
+                        <input type="text" name="user"/>
+                        <span>Comment:</span>
+                        <input type="text" name="comment" />
+                        <input type="submit" value="Post a comment" />
+                    }
+
+                    using (Html.BeginForm("ReadComments", "Home", new { pictureName = poza.Description }))
+                    {
+                      <div style="margin-top:-21px"><div style="margin-left: 600px"><input type="submit" value="Read comments" /></div></div> 
+                    }
+                }
+                else
+                {
+                    <span>no download URL</span>
+                }
+            </div>
+        </div>
+    }
