@@ -1,0 +1,31 @@
+﻿@model AlbumPhoto.Models.Link
+
+@{
+    ViewBag.Title = "Link";
+    }
+
+<h2>Link Poza</h2>
+
+<fieldset>
+      <legend>Link</legend>
+    
+       <div class="display-label">
+                @Html.DisplayNameFor(model => model.Poza)
+        
+    </div>
+       <div class="display-field">
+               @Html.DisplayFor(model => model.Poza)
+        
+    </div>
+    
+        <div class="display-label">
+                 @Html.DisplayNameFor(model => model.LinkPoza)
+        
+    </div>
+        <div class="display-field">
+                @Html.DisplayFor(model => model.LinkPoza)
+        
+    </div>
+       <br /><mark>Atentie! Acest link este valabil 2 ore!</mark>
+    
+</fieldset>
