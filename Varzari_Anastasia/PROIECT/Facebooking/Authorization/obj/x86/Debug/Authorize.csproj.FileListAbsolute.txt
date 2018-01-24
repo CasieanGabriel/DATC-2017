@@ -1,0 +1,13 @@
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\bin\Debug\FaceSharp.Samples.WinForm.exe.config
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\bin\Debug\FaceSharp.Samples.WinForm.exe
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\bin\Debug\FaceSharp.Samples.WinForm.pdb
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\bin\Debug\Facebook.dll
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\bin\Debug\Facebook.xml
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\Authorize.csprojResolveAssemblyReference.cache
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\FacebookingTest.Authorize.resources
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\FaceSharp.Samples.WinForm.Properties.Resources.resources
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\Authorize.csproj.GenerateResource.Cache
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\Authorize.csproj.CoreCompileInputs.cache
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\FaceSharp.Samples.WinForm.exe
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\FaceSharp.Samples.WinForm.pdb
+C:\Users\AnastasiaV\Downloads\Facebooking\Authorization\obj\x86\Debug\FaceSharp.Samples.WinForm.UserInterface.resources
